@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:panorama_viewer/panorama_viewer.dart';
 
 void main() {
   runApp(const MyApp());
@@ -18,8 +19,7 @@ class MyApp extends StatelessWidget {
         ),
         body: Stack(
           children: [
-            const Text("HAHAHHA Hello"),
-            
+            PanoramaViewer(child: Image.asset("assets/images/360img.jpeg"),)            
           ],
         ),
       ),
