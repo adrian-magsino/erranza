@@ -16,7 +16,12 @@ class MyApp extends StatelessWidget {
           backgroundColor: Colors.green,
           title: const Text("Home Page"),
         ),
-        body: const Text("HELLO WORLD"),
+        body: Stack(
+          children: [
+            const Text("HAHAHHA Hello"),
+            
+          ],
+        ),
       ),
     );
   }
