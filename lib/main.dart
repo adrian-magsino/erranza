@@ -1,5 +1,6 @@
+import 'package:erranza/pages/home_page.dart';
 import 'package:flutter/material.dart';
-import 'package:panorama_viewer/panorama_viewer.dart';
+
 
 
 void main() {
@@ -13,17 +14,8 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: Scaffold(
-        appBar: AppBar(
-          backgroundColor: Colors.green,
-          title: const Text("Home Page Erranza"),
-        ),
-        body: Stack(
-          children: [
-            PanoramaViewer(child: Image.asset('assets/images/360img.jpeg'),)          
-          ],
-        ),
-      ),
+      theme: ThemeData(primarySwatch: Colors.green),
+      home: const HomePage(),
     );
   }
  
