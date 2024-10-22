@@ -1,4 +1,3 @@
-
 import 'package:erranza/widgets/hotspot_button.dart';
 import 'package:flutter/material.dart';
 import 'package:panorama_viewer/panorama_viewer.dart';
