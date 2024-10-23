@@ -1,4 +1,5 @@
 import 'package:erranza/pages/home_page.dart';
+import 'package:erranza/pages/navigation_bar.dart';
 import 'package:flutter/material.dart';
 
 
@@ -14,8 +15,9 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       theme: ThemeData(primarySwatch: Colors.green),
-      home: const HomePage(),
+      home: const CustomNavBar(),
     );
   }
  

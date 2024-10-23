@@ -7,10 +7,6 @@ class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: const Text("Home Page"),
-        backgroundColor: Colors.green,
-        ),
       body: Center(
         child: ElevatedButton(
             child: Text("Go to Panorama View"),
