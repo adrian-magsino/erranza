@@ -1,3 +1,5 @@
+import 'package:erranza/data/areas.dart';
+import 'package:erranza/widgets/custom_listTile.dart';
 import 'package:flutter/material.dart';
 
 class SearchPage extends StatelessWidget {
@@ -5,8 +7,14 @@ class SearchPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      child: const Text("Search Page"),
+    return ListView.separated(
+      itemCount: areas.length,
+      separatorBuilder: (context, index) => const Divider(),
+      itemBuilder: (context, index) {
+        return CustomListTile(areaIndex: index,);
+      }
     );
   }
 }
+
+
