@@ -1,4 +1,3 @@
-import 'package:erranza/pages/home_page.dart';
 import 'package:erranza/pages/navigation_bar.dart';
 import 'package:flutter/material.dart';
 
