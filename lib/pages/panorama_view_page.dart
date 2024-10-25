@@ -40,7 +40,7 @@ class _PanoramaViewState extends State<PanoramaViewPage> {
       return null;
     }
 
-    Area? getCurrentArea(List area_List, String? currentArea_Id){
+  Area? getCurrentArea(List area_List, String? currentArea_Id){
       for (Area area in area_List) {
         String newLocationId = "${area.college_id}_${area.building_id}_${area.floor_id}_${area.area_id}";
         if (newLocationId == currentArea_Id) {
@@ -57,8 +57,6 @@ class _PanoramaViewState extends State<PanoramaViewPage> {
 
     currentScene = areaViewsMap[location_id]?["AV1"]!;
     
-    
-    //scene_location_id = currentScene;
     currentArea_Id = getParentKey(areaViewsMap, currentScene);
     currentArea = getCurrentArea(areas, currentArea_Id);
     setState(() {});
@@ -69,9 +67,15 @@ class _PanoramaViewState extends State<PanoramaViewPage> {
     if (currentScene == null) {
     return const Center(child: CircularProgressIndicator());
   }
-
-    Widget panorama;
-    panorama = PanoramaViewer(
+    
+    return Scaffold(
+      appBar: AppBar(
+        title: Text(currentArea!.area_name),
+        backgroundColor: Colors.green,
+      ),
+      body: Stack(
+        children: [
+          PanoramaViewer(
           child: Image.asset(currentScene!.image), 
           hotspots: [
             for (var areaHotspot in currentScene!.areaHotspots)
@@ -89,81 +93,9 @@ class _PanoramaViewState extends State<PanoramaViewPage> {
               }),
             ),
           ],
-        );
-    
-
-    return Scaffold(
-      appBar: AppBar(
-        title: Text(currentArea!.area_name),
-        backgroundColor: Colors.green,
-      ),
-      body: Stack(
-        children: [
-          panorama,
-        ],
+        ),
+      ],
       )
     ); 
   }
 }
-
-/*
-    switch(location_id){
-      case 0:
-          panorama = PanoramaViewer(
-          child: Image.asset(areaViewsMap[location_id].image),
-          hotspots: [
-            Hotspot(
-              latitude: -15.0,
-              longitude: -129.0,
-              width: 300,
-              height: 300,
-              widget: hotspotButton(icon: Icons.open_in_browser, onPressed: () => {
-                setState(() => image_index = 1),
-              }),
-            ),
-          ],
-          );
-      case 1:
-          panorama = PanoramaViewer(
-          child: Image.asset(areaViews_list[image_index].image),
-          hotspots: [
-            Hotspot(
-              latitude: -15.0,
-              longitude: -129.0,
-              width: 300,
-              height: 300,
-              widget: hotspotButton(icon: Icons.open_in_browser, onPressed: () => {
-                setState(() => image_index = 0),
-              }),
-            ),
-          ],
-          );
-      default:
-          panorama = PanoramaViewer(
-          child: Image.asset(areaViews_list[image_index].image),
-          hotspots: [
-            Hotspot(
-              latitude: -15.0,
-              longitude: -129.0,
-              width: 300,
-              height: 300,
-              widget: hotspotButton(icon: Icons.open_in_browser, onPressed: () => {
-                setState(() => image_index = 1),
-              }),
-            ),
-          ],
-          );
-    }
-    */
-
-    /*
-    if (areaView == null) {
-      return Scaffold(
-        appBar: AppBar(
-          title: const Text("Panorama View Page"),
-          backgroundColor: Colors.green,
-        ),
-        body: const Center(child: CircularProgressIndicator()), // Loading indicator
-      );
-    }
-    */

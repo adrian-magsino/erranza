@@ -1,4 +1,3 @@
-import 'package:erranza/pages/panorama_view_page.dart';
 import 'package:flutter/material.dart';
 
 class HomePage extends StatelessWidget {
