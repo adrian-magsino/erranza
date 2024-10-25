@@ -1,3 +1,4 @@
+import 'package:erranza/data/area_views.dart';
 import 'package:erranza/pages/navigation_bar.dart';
 import 'package:flutter/material.dart';
 
@@ -5,6 +6,7 @@ import 'package:flutter/material.dart';
 
 void main() {
   runApp(const MyApp());
+
 }
 
 class MyApp extends StatelessWidget {

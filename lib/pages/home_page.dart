@@ -8,12 +8,7 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Center(
-        child: ElevatedButton(
-            child: Text("Go to Panorama View"),
-            onPressed: () {
-              Navigator.push(context, MaterialPageRoute(builder: (context) => PanoramaViewPage(),),);
-            },
-          ),
+        child: Text("Home Page")
         ),
     );
   }

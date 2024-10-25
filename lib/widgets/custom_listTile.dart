@@ -1,4 +1,5 @@
 import 'package:erranza/data/areas.dart';
+import 'package:erranza/pages/panorama_view_page.dart';
 import 'package:flutter/material.dart';
 
 class CustomListTile extends StatelessWidget {
@@ -13,14 +14,12 @@ class CustomListTile extends StatelessWidget {
   Widget build(BuildContext context) {
     return InkWell(
       onTap: () {
-        showDialog(context: context, builder: (context) {
-          return AlertDialog(
-            content: Text("This shit was clicked"),
-            actions: [
-              TextButton(onPressed: () {Navigator.of(context).pop();}, child: Text("OK"))
-            ],
-          );
-        });
+        Navigator.push(context, MaterialPageRoute(
+          builder: (context) => PanoramaViewPage(
+            initialArea: areas[areaIndex],
+            ),
+          ),
+        );
       },
       child:ListTile(
     leading: Image.asset(areas[areaIndex].icon, width: 64.8961067199707, height: 60),
