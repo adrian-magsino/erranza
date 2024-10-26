@@ -1,4 +1,3 @@
-import 'package:erranza/pages/panorama_view_page.dart';
 import 'package:flutter/material.dart';
 
 class HomePage extends StatelessWidget {
@@ -8,12 +7,7 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Center(
-        child: ElevatedButton(
-            child: Text("Go to Panorama View"),
-            onPressed: () {
-              Navigator.push(context, MaterialPageRoute(builder: (context) => PanoramaViewPage(),),);
-            },
-          ),
+        child: Text("Home Page")
         ),
     );
   }
