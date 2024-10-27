@@ -1,11 +1,14 @@
+import 'package:erranza/data/duplicateID_checker.dart';
 import 'package:erranza/pages/navigation_bar.dart';
 import 'package:flutter/material.dart';
 
 
 
 void main() {
-  runApp(const MyApp());
-
+  //checks if there are duplicate IDs in areas.dart
+  if (!hasDuplicateID()) {
+    runApp(const MyApp());
+  }
 }
 
 class MyApp extends StatelessWidget {
@@ -22,5 +25,7 @@ class MyApp extends StatelessWidget {
   }
  
 }
+
+
 
 
