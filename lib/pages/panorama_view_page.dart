@@ -19,11 +19,10 @@ class PanoramaViewPage extends StatefulWidget {
 class _PanoramaViewState extends State<PanoramaViewPage> {
  
   AreaView? currentScene;
-  late String location_id;
-  late String scene_location_id;
+  Area? currentArea;
 
-  String? currentArea_Id;
-  late Area? currentArea;
+  late String initialLocationId;
+  late Area initialArea;
 
   @override
   void initState() {
@@ -31,37 +30,48 @@ class _PanoramaViewState extends State<PanoramaViewPage> {
     _loadData();
   }
 
-  String? getParentKey(Map<String, Map<String, AreaView>> map, dynamic scene) {
-      for (var entry in map.entries){
-        if (entry.value.containsValue(scene)) {
-          return entry.key;
-        }
-      }
-      return null;
-    }
-
-  Area? getCurrentArea(List area_List, String? currentArea_Id){
-      for (Area area in area_List) {
-        String newLocationId = "${area.college_id}_${area.building_id}_${area.floor_id}_${area.area_id}";
-        if (newLocationId == currentArea_Id) {
-          return area;
-        }
-      }
-      return null;
-  }
-
+  //Load the data from load_areaView.dart
   Future<void> _loadData() async {
     await loadAreaViews();
-    Area initialArea = widget.initialArea;
-    location_id = "${initialArea.college_id}_${initialArea.building_id}_${initialArea.floor_id}_${initialArea.area_id}";
 
-    currentScene = areaViewsMap[location_id]?["AV1"]!;
-    
-    currentArea_Id = getParentKey(areaViewsMap, currentScene);
-    currentArea = getCurrentArea(areas, currentArea_Id);
-    setState(() {});
+    //set initial scene
+    initialArea = widget.initialArea;
+    initialLocationId = "${initialArea.college_id}_${initialArea.building_id}_${initialArea.floor_id}_${initialArea.area_id}";
+
+    setCurrentScene(areaViewsMap[initialLocationId]?["AV1"]!, initialLocationId);
+
+  }
+  
+  //Determine which Area is the Current Scene
+  Area? getCurrentArea(List area_List, String? currentLocationId){
+    for (Area area in area_List) {
+      String newLocationId = "${area.college_id}_${area.building_id}_${area.floor_id}_${area.area_id}";
+      if (newLocationId == currentLocationId) {
+        return area;
+      }
+    }
+    return null;
   }
 
+  //Set the Current Scene or Area View
+  void setCurrentScene(AreaView? scene, String locationId){
+    if (scene != null){
+      setState(() {
+        currentScene = scene;   
+        currentArea = getCurrentArea(allAreas, locationId);  
+    });
+    }
+    
+  }
+  
+  void switchNextScene(String nextScene) {
+    var getNewIDs = nextScene.split(":");
+    String newLocationId = getNewIDs[0];
+    String newSceneId = getNewIDs[1];
+
+    setCurrentScene(areaViewsMap[newLocationId]?[newSceneId], newLocationId);
+  }
+ 
   @override
   Widget build(BuildContext context) {
     if (currentScene == null) {
@@ -75,25 +85,21 @@ class _PanoramaViewState extends State<PanoramaViewPage> {
       ),
       body: Stack(
         children: [
-          PanoramaViewer(
-          child: Image.asset(currentScene!.image), 
-          hotspots: [
-            for (var areaHotspot in currentScene!.areaHotspots)
-            Hotspot(
-              latitude: areaHotspot.latitude,
-              longitude: areaHotspot.longitude,
-              width: 300,
-              height: 300,
-              widget: hotspotButton(icon: Icons.open_in_browser, onPressed: () {
-                setState(() {
-                   currentScene = areaHotspot.nextView;
-                   currentArea_Id = getParentKey(areaViewsMap, currentScene);
-                   currentArea = getCurrentArea(areas, currentArea_Id);                
-                  });
-              }),
-            ),
-          ],
-        ),
+            PanoramaViewer(
+            child: Image.asset(currentScene!.image), 
+            hotspots: [
+              for (var areaHotspot in currentScene!.areaHotspots)
+              Hotspot(
+                latitude: areaHotspot.latitude,
+                longitude: areaHotspot.longitude,
+                width: 300,
+                height: 300,
+                widget: hotspotButton(icon: Icons.arrow_circle_up, onPressed: () {
+                  switchNextScene(areaHotspot.nextView);
+                }),
+              ),
+            ],
+          ),
       ],
       )
     ); 
