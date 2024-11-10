@@ -1,3 +1,4 @@
+import 'package:erranza/data/appSettings.dart';
 import 'package:erranza/data/load_areaViews.dart';
 import 'package:erranza/data/areas.dart';
 import 'package:erranza/widgets/hotspot_button.dart';
@@ -86,6 +87,8 @@ class _PanoramaViewState extends State<PanoramaViewPage> {
       body: Stack(
         children: [
             PanoramaViewer(
+            sensitivity: panoramaSensitivityValue,
+            sensorControl: gyroSwitch ? SensorControl.orientation: SensorControl.none,
             child: Image.asset(currentScene!.image), 
             hotspots: [
               for (var areaHotspot in currentScene!.areaHotspots)

@@ -4,15 +4,15 @@ class CustomFilterTags extends StatefulWidget {
   const CustomFilterTags({
     super.key,
     required this.tagsCollection,
-    required this.filterChanged,
+    required this.filterChangedCallback,
     required this.selectedTagIndex,
-    required this.tagSelected,
+    required this.tagSelectedCallback,
     });
 
     final List<String> tagsCollection;
-    final VoidCallback filterChanged;
+    final VoidCallback filterChangedCallback;
     final int selectedTagIndex;
-    final ValueChanged<int> tagSelected;
+    final ValueChanged<int> tagSelectedCallback;
    
   @override
   State<CustomFilterTags> createState() => _CustomFilterTagsState();
@@ -34,7 +34,7 @@ class _CustomFilterTagsState extends State<CustomFilterTags> {
             selected: widget.selectedTagIndex == index,
             onSelected: (bool selected) {
               setState(() {
-                widget.tagSelected(index);
+                widget.tagSelectedCallback(index);
               });
             },
             );
