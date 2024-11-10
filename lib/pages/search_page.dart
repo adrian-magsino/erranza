@@ -1,5 +1,4 @@
 import 'package:erranza/data/areas.dart';
-import 'package:erranza/data/tags.dart';
 import 'package:erranza/widgets/custom_FilterTags.dart';
 import 'package:erranza/widgets/custom_listTile.dart';
 import 'package:flutter/material.dart';
