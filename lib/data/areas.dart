@@ -22,6 +22,10 @@ class Area {
 
 List<Area> allAreas = [...ccjAreas, ...conAreas, ...cspearAreas];
 
+List displayedAreasList = allAreas;
+
+List filteredAreas = allAreas;
+List filteredAreasbyFloor = filteredAreas;
 
 
 List<Area> ccjAreas = [

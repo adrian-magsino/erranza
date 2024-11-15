@@ -7,6 +7,8 @@ import 'package:flutter/material.dart';
 void main() {
   //checks if there are duplicate IDs in areas.dart
   if (!hasDuplicateID()) {
+    String text = "F2";
+    print("SAMPLE TEXT: ${text.substring(1, 2)}");
     runApp(const MyApp());
   }
 }
