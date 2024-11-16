@@ -1,0 +1,19 @@
+[
+    {
+        "location_id": "CCJ_B1_F1_A1",
+        "areaViews": [
+          {"sceneId": "AV1",
+          "image": "assets/images/360img.jpeg",
+          "hotspots": [
+            {"latitude": -10.0, "longitude": -129.0, "nextView": "CCJ_B1_F1_A1:AV2"},
+            {"latitude": -50.0, "longitude": -229.0, "nextView": "CON_B1_F2_A1:AV2"}
+          ]},
+    
+          {"sceneId": "AV2",
+          "image": "assets/images/360img2.jpeg",
+          "hotspots": [
+            {"latitude": -15.0, "longitude": -129.0, "nextView": "CON_B1_F2_A1:AV1"} 
+          ]}
+        ]  
+    }
+]

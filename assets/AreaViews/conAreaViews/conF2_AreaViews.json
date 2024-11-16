@@ -1,0 +1,18 @@
+[
+    {
+        "location_id": "CON_B1_F2_A1",
+        "areaViews": [
+          {"sceneId": "AV1",
+          "image": "assets/images/360img3.jpg",
+          "hotspots": [
+            {"latitude": -15.0, "longitude": -129.0, "nextView": "CON_B1_F2_A1:AV2"}
+          ]},
+    
+          {"sceneId": "AV2",
+          "image": "assets/images/360img4.jpg",
+          "hotspots": [
+            {"latitude": -15.0, "longitude": -129.0, "nextView": "CSPEAR_B1_F1_A1:AV1"} 
+          ]}
+        ]  
+    }
+]

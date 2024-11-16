@@ -1,3 +1,6 @@
+import 'dart:convert';
+import 'package:flutter/services.dart';
+
 class Area {
   final String college_id;
   final String building_id;
@@ -18,16 +21,36 @@ class Area {
     required this.building_name,
     required this.college_name
   });
+
+  factory Area.fromJson(Map<String, dynamic> json) {
+    return Area(
+      college_id: json["college_id"],
+      building_id: json["building_id"],
+      floor_id: json["floor_id"],
+      area_id: json["area_id"],
+      icon: json["icon"],
+      area_name: json["area_name"],
+      building_name: json["building_name"],
+      college_name: json["college_name"],
+    );
+  }
 }
 
 List<Area> allAreas = [...ccjAreas, ...conAreas, ...cspearAreas];
 
-List displayedAreasList = allAreas;
+List<Area> ccjAreas = [...ccjF1_areas];
+List<Area> conAreas = [...conF1_areas, ...conF2_areas];
+List<Area> cspearAreas = [...cspearF1_areas];
 
-List filteredAreas = allAreas;
-List filteredAreasbyFloor = filteredAreas;
+List<Area> conF1_areas = [];
+List<Area> conF2_areas = [];
+
+List<Area> ccjF1_areas = [];
+
+List<Area> cspearF1_areas = [];
 
 
+/*
 List<Area> ccjAreas = [
   Area(
   college_id: "CCJ", building_id: "B1", floor_id: "F1", area_id: "A1",
@@ -36,6 +59,7 @@ List<Area> ccjAreas = [
   building_name: "CCJ Building", 
   college_name: "College of Criminal Justice"),
 ];
+
 
 List<Area> conAreas = [
   //First Floor
@@ -69,6 +93,7 @@ List<Area> conAreas = [
   college_name: "College of Nursing"),
 ];
 
+
 List<Area> cspearAreas = [
   Area(
   college_id: "CSPEAR", building_id: "B1", floor_id: "F1", area_id: "A1",
@@ -85,7 +110,7 @@ List<Area> cspearAreas = [
   college_name: "College of Sports, Physical Education and Recreation"),
 ];
 
-/*
+
 Area("CON", "B1", "F2", "A1", "assets/images/roomicons/hallway.png", "2nd Floor Hallway", "CON Building", "College of Nursing"),
 Area(2, "assets/images/roomicons/laboratory.png", "2nd Floor Laboratory Room", "CON Building", "College of Nursing"),
   Area(3, "assets/images/roomicons/dean_office.png", "2nd Floor Dean's Office", "CON Building", "College of Nursing"),

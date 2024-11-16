@@ -62,7 +62,13 @@ flutter:
     - assets/images/
     - assets/images/hotspots/
     - assets/images/roomicons/
-    - assets/area_views.json
+    - assets/AreaViews/ccjAreaViews/
+    - assets/AreaViews/conAreaViews/
+    - assets/Areas/ccjAreas/
+    - assets/Areas/conAreas/
+    - assets/Areas/cspearAreas/
+
+    - assets/images/buildings/cspearAreas/firstFloor/CSPEAR_B1_F1_A1/
 
 
   # To add assets to your application, add an assets section, like this:
