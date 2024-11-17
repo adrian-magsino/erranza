@@ -29,6 +29,7 @@ Map<String, Map<String, AreaView>> areaViewsMap = {};
 List<String> jsonFiles = [
   "assets/AreaViews/ccjAreaViews/ccjF1_AreaViews.json",
   "assets/AreaViews/conAreaViews/conF2_AreaViews.json",
+  "assets/AreaViews/cspearAreaViews/cspearF1_AreaViews.json",
 ];
 
 Future<Map<String, Map<String, AreaView>>> loadAreaViews() async {
