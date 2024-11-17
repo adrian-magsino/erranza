@@ -9,7 +9,7 @@ class hotspotButton extends StatelessWidget {
   });
 
   final String? text;
-  final IconData? icon;
+  final String icon;
   final VoidCallback? onPressed;
 
   @override
@@ -23,7 +23,7 @@ class hotspotButton extends StatelessWidget {
             backgroundColor: WidgetStateProperty.all(Colors.black38),
             foregroundColor: WidgetStateProperty.all(Colors.white),
           ),
-          child: Icon(icon, size: 200),
+          child: Image.asset(icon, width: 100, height: 100),
           onPressed: onPressed,
         ),
         text != null ? Container(

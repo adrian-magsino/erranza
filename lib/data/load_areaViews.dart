@@ -14,11 +14,13 @@ class AreaView {
 }
 
 class AreaHotspot {
+  final String type;
   final double latitude;
   final double longitude;
   final String nextView;
 
   AreaHotspot(
+    this.type,
     this.latitude,
     this.longitude,
     this.nextView
@@ -55,6 +57,7 @@ Future<Map<String, Map<String, AreaView>>> loadAreaViews() async {
         List<AreaHotspot> areaHotspots = (view["hotspots"] as List).map((hotspotProperties) {
 
           return AreaHotspot(
+            hotspotProperties["type"],
             hotspotProperties["latitude"], 
             hotspotProperties["longitude"], 
             hotspotProperties["nextView"]
