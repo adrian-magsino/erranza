@@ -60,6 +60,7 @@ flutter:
   uses-material-design: true
   assets:
     - assets/images/
+    - assets/images/hotspots/
     - assets/images/roomicons/
     - assets/area_views.json
     - assets/images/cardPics/bldg1.jpg
@@ -68,6 +69,7 @@ flutter:
     - assets/images/cardPics/bldg4.jpg
     - assets/images/cardPics/bldg5.jpg
     - assets/images/cardPics/bldg6.jpg
+
 
   # To add assets to your application, add an assets section, like this:
   # assets:
