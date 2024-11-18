@@ -1,14 +1,124 @@
 import 'package:flutter/material.dart';
+import 'building_detail_page.dart'; // Import your detail page
 
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
 
   @override
   Widget build(BuildContext context) {
+    // Define the buildings list as a local variable
+    final List<Map<String, String>> buildings = [
+      {
+        'image': 'assets/images/cardPics/bldg1.jpg',
+        'title': 'CCJ Building',
+        'subtitle': 'College of Criminal Justice',
+      },
+      {
+        'image': 'assets/images/cardPics/bldg2.jpg',
+        'title': 'Engineering Building',
+        'subtitle': 'College of Engineering',
+      },
+      {
+        'image': 'assets/images/cardPics/bldg3.jpg',
+        'title': 'Main Library',
+        'subtitle': 'University Library',
+      },
+      {
+        'image': 'assets/images/cardPics/bldg4.jpg',
+        'title': 'Science Building',
+        'subtitle': 'College of Science',
+      },
+      {
+        'image': 'assets/images/cardPics/bldg5.jpg',
+        'title': 'Arts and Communication',
+        'subtitle': 'College of Arts and Communication',
+      },
+      {
+        'image': 'assets/images/cardPics/bldg6.jpg',
+        'title': 'Student Center',
+        'subtitle': 'Campus Hub for Students',
+      },
+    ];
+
     return Scaffold(
-      body: Center(
-        child: Text("Home Page")
+      body: Padding(
+        padding: const EdgeInsets.all(8.0), // Add padding around the entire GridView
+        child: GridView.builder(
+          gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
+            crossAxisCount: 2,
+            childAspectRatio: 0.75,
+          ),
+          itemCount: buildings.length,
+          itemBuilder: (context, index) {
+            final building = buildings[index];
+            return Padding(
+              padding: const EdgeInsets.all(4.0), // Add edge insets around each card
+              child: GestureDetector(
+                onTap: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (context) => BuildingDetailPage(
+                        title: building['title']!,
+                        subtitle: building['subtitle']!,
+                        image: building['image']!,
+                      ),
+                    ),
+                  );
+                },
+                child: Card(
+                  shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(12.0), // Set the radius for all corners
+                  ),
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start, // Left align the content
+                    children: [
+                      ClipRRect(
+                        borderRadius: BorderRadius.vertical(top: Radius.circular(12.0)), // Round only the top corners
+                        child: Container(
+                          height: 120, // Set a uniform height for the image
+                          width: double.infinity,
+                          child: Image.asset(
+                            building['image']!,
+                            fit: BoxFit.cover,
+                          ),
+                        ),
+                      ),
+                      Padding(
+                        padding: const EdgeInsets.all(8.0),
+                        child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.start, // Ensure text is left-aligned
+                          children: [
+                            Text(
+                              building['title']!,
+                              style: const TextStyle(
+                                fontWeight: FontWeight.bold,
+                                fontSize: 16, // Optional: Adjust font size as needed
+                              ),
+                              overflow: TextOverflow.ellipsis, // Add this line
+                              maxLines: 1, // Limit to 1 line
+                            ),
+                            const SizedBox(height: 4),
+                            Text(
+                              building['subtitle']!,
+                              style: const TextStyle(
+                                color: Colors.grey,
+                                fontSize: 14, // Optional: Adjust font size as needed
+                              ),
+                              overflow: TextOverflow.ellipsis, // Add this line
+                              maxLines: 2, // Limit to 1 line
+                            ),
+                          ],
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
+              ),
+            );
+          },
         ),
+      ),
     );
   }
 }
