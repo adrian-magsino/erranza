@@ -1,0 +1,25 @@
+[
+    {
+        "college_id": "CON", "building_id": "B1", "floor_id": "F2", "area_id": "A1",
+        "icon": "assets/images/roomicons/hallway.png", 
+        "area_name": "2nd Floor Hallway", 
+        "building_name": "CON Building", 
+        "college_name": "College of Nursing"
+    },
+
+    {
+        "college_id": "CON", "building_id": "B1", "floor_id": "F2", "area_id": "A2",
+        "icon": "assets/images/roomicons/laboratory.png", 
+        "area_name": "2nd Floor Laboratory Room", 
+        "building_name": "CON Building", 
+        "college_name": "College of Nursing"
+    },
+
+    {
+        "college_id": "CON", "building_id": "B1", "floor_id": "F2", "area_id": "A3",
+        "icon": "assets/images/roomicons/dean_office.png", 
+        "area_name": "2nd Floor Dean's Office", 
+        "building_name": "CON Building", 
+        "college_name": "College of Nursing"
+    }
+]

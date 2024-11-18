@@ -13,6 +13,10 @@ class SearchPage extends StatefulWidget {
 class _SearchPageState extends State<SearchPage> {
   final _controller = TextEditingController();
 
+  List displayedAreasList = allAreas;
+  List filteredAreas = allAreas;
+  late List filteredAreasbyFloor = filteredAreas;
+
   List<String> collegeTags = ["All", "CCJ", "CON", "CSPEAR"];
   List<String> buildingTags = ["All", "CCJ Building", "CON Building", "University Gym"];
   List<String> floorTags = ["All", "1st Floor", "2nd Floor", "3rd Floor", "4th Floor", "5th Floor"];

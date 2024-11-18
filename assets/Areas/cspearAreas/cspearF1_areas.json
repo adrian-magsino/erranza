@@ -1,0 +1,17 @@
+[
+    {
+        "college_id": "CSPEAR", "building_id": "B1", "floor_id": "F1", "area_id": "A1",
+        "icon": "assets/images/roomicons/hallway.png", 
+        "area_name": "Front Hallway", 
+        "building_name": "University Gym", 
+        "college_name": "College of Sports, Physical Education and Recreation"
+    },
+
+    {
+        "college_id": "CSPEAR", "building_id": "B1", "floor_id": "F1", "area_id": "A2",
+        "icon": "assets/images/roomicons/work_area.png", 
+        "area_name": "Stage Area", 
+        "building_name": "University Gym", 
+        "college_name": "College of Sports, Physical Education and Recreation"
+    }
+]

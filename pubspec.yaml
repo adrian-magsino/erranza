@@ -59,9 +59,24 @@ flutter:
   # the material Icons class.
   uses-material-design: true
   assets:
+    #Other Assets
     - assets/images/
     - assets/images/hotspots/
     - assets/images/roomicons/
+
+    #Area Views JSON Files
+    - assets/AreaViews/ccjAreaViews/
+    - assets/AreaViews/conAreaViews/
+    - assets/AreaViews/cspearAreaViews/
+    #Area IDs and Details JSON Files
+    - assets/Areas/ccjAreas/
+    - assets/Areas/conAreas/
+    - assets/Areas/cspearAreas/
+    #360 Images
+    - assets/images/buildings/cspearAreas/firstFloor/CSPEAR_B1_F1_A1/
+    - assets/images/buildings/ccjAreas/firstFloor/CCJ_B1_F1_A1/
+    - assets/images/buildings/conAreas/secondFloor/CON_B1_F2_A1/
+
     - assets/area_views.json
     - assets/images/cardPics/bldg1.jpg
     - assets/images/cardPics/bldg2.jpg
@@ -69,6 +84,7 @@ flutter:
     - assets/images/cardPics/bldg4.jpg
     - assets/images/cardPics/bldg5.jpg
     - assets/images/cardPics/bldg6.jpg
+
 
 
   # To add assets to your application, add an assets section, like this:

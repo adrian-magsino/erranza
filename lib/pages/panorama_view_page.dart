@@ -25,6 +25,11 @@ class _PanoramaViewState extends State<PanoramaViewPage> {
   late String initialLocationId;
   late Area initialArea;
 
+  Map<String, String> hotspotIcons = {
+    "move": "assets/images/hotspots/MoveHotspot.png",
+    "stairs": "assets/images/hotspots/arrow_hotspot.png"
+  };
+
   @override
   void initState() {
     super.initState();
@@ -65,12 +70,18 @@ class _PanoramaViewState extends State<PanoramaViewPage> {
     
   }
   
-  void switchNextScene(String nextScene) {
+  void switchNextScene(String nextScene) async {
     var getNewIDs = nextScene.split(":");
     String newLocationId = getNewIDs[0];
     String newSceneId = getNewIDs[1];
 
-    setCurrentScene(areaViewsMap[newLocationId]?[newSceneId], newLocationId);
+    AreaView? nextAreaView = areaViewsMap[newLocationId]?[newSceneId];
+
+    if (nextAreaView != null) {
+      await precacheImage(AssetImage(nextAreaView.image), context);     
+       
+      setCurrentScene(nextAreaView, newLocationId);
+    }
   }
  
   @override
@@ -97,7 +108,7 @@ class _PanoramaViewState extends State<PanoramaViewPage> {
                 longitude: areaHotspot.longitude,
                 width: 300,
                 height: 300,
-                widget: hotspotButton(icon: Icons.arrow_circle_up, onPressed: () {
+                widget: hotspotButton(icon: hotspotIcons[areaHotspot.type]!, onPressed: () {
                   switchNextScene(areaHotspot.nextView);
                 }),
               ),
