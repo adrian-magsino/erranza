@@ -9,8 +9,24 @@
 
     {
         "college_id": "CSPEAR", "building_id": "B1", "floor_id": "F1", "area_id": "A2",
-        "icon": "assets/images/roomicons/work_area.png", 
-        "area_name": "Stage Area", 
+        "icon": "assets/images/roomicons/hallway.png", 
+        "area_name": "Right Side Hallway", 
+        "building_name": "University Gym", 
+        "college_name": "College of Sports, Physical Education and Recreation"
+    },
+
+    {
+        "college_id": "CSPEAR", "building_id": "B1", "floor_id": "F1", "area_id": "A3",
+        "icon": "assets/images/roomicons/hallway.png", 
+        "area_name": "Back Hallway", 
+        "building_name": "University Gym", 
+        "college_name": "College of Sports, Physical Education and Recreation"
+    },
+
+    {
+        "college_id": "CSPEAR", "building_id": "B1", "floor_id": "F1", "area_id": "A4",
+        "icon": "assets/images/roomicons/hallway.png", 
+        "area_name": "Left Side Hallway", 
         "building_name": "University Gym", 
         "college_name": "College of Sports, Physical Education and Recreation"
     }
