@@ -20,7 +20,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: ThemeData(primarySwatch: Colors.green),
-      home: const PanoramaTests(),
+      home: const CustomNavBar(), //switch to PanoramaTests() for testing images and hotspots
     );
   }
  

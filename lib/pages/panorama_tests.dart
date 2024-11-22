@@ -57,8 +57,8 @@ class _PanoramaTestsState extends State<PanoramaTests> {
       ),
       body: PanoramaViewer(
         child: Image.asset(currentScene!.image),
-        longitude: 0,
         latitude: 0,
+        longitude: -80,
         hotspots: [
           for (var areaHotspot in currentScene!.areaHotspots)
           Hotspot(

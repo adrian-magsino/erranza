@@ -18,19 +18,21 @@ class AreaHotspot {
   final double latitude;
   final double longitude;
   final String nextView;
+  final List<double> nextViewAngle;
 
   AreaHotspot(
     this.type,
     this.latitude,
     this.longitude,
-    this.nextView
+    this.nextView,
+    this.nextViewAngle
   );
 }
 
 Map<String, Map<String, AreaView>> areaViewsMap = {};
 List<String> jsonFiles = [
-  "assets/AreaViews/ccjAreaViews/ccjF1_AreaViews.json",
-  "assets/AreaViews/conAreaViews/conF2_AreaViews.json",
+  //"assets/AreaViews/ccjAreaViews/ccjF1_AreaViews.json",
+  //"assets/AreaViews/conAreaViews/conF2_AreaViews.json",
   "assets/AreaViews/cspearAreaViews/cspearF1_AreaViews.json",
 ];
 
@@ -60,7 +62,8 @@ Future<Map<String, Map<String, AreaView>>> loadAreaViews() async {
             hotspotProperties["type"],
             hotspotProperties["latitude"], 
             hotspotProperties["longitude"], 
-            hotspotProperties["nextView"]
+            hotspotProperties["nextView"],
+            List<double>.from(hotspotProperties["nextViewAngle"])
             );
 
       }).toList();

@@ -1,3 +1,5 @@
+import 'dart:ffi';
+
 import 'package:erranza/data/appSettings.dart';
 import 'package:erranza/data/load_areaViews.dart';
 import 'package:erranza/data/areas.dart';
@@ -21,9 +23,12 @@ class _PanoramaViewState extends State<PanoramaViewPage> {
  
   AreaView? currentScene;
   Area? currentArea;
-
+  
   late String initialLocationId;
   late Area initialArea;
+
+  late double sceneLatitude;
+  late double sceneLongitude;
 
   Map<String, String> hotspotIcons = {
     "move": "assets/images/hotspots/MoveHotspot.png",
@@ -43,8 +48,8 @@ class _PanoramaViewState extends State<PanoramaViewPage> {
     //set initial scene
     initialArea = widget.initialArea;
     initialLocationId = "${initialArea.college_id}_${initialArea.building_id}_${initialArea.floor_id}_${initialArea.area_id}";
-
-    setCurrentScene(areaViewsMap[initialLocationId]?["AV1"]!, initialLocationId);
+  
+    setCurrentScene(areaViewsMap[initialLocationId]?["AV1"]!, initialLocationId, [0, 0]);
 
   }
   
@@ -60,17 +65,20 @@ class _PanoramaViewState extends State<PanoramaViewPage> {
   }
 
   //Set the Current Scene or Area View
-  void setCurrentScene(AreaView? scene, String locationId){
+  void setCurrentScene(AreaView? scene, String locationId, List<double> viewingAngles){
     if (scene != null){
       setState(() {
+        sceneLatitude = viewingAngles[0];
+        sceneLongitude = viewingAngles[1]; 
         currentScene = scene;   
         currentArea = getCurrentArea(allAreas, locationId);  
+ 
     });
     }
     
   }
   
-  void switchNextScene(String nextScene) async {
+  void switchNextScene(String nextScene, List<double> nextSceneAngle) async {
     var getNewIDs = nextScene.split(":");
     String newLocationId = getNewIDs[0];
     String newSceneId = getNewIDs[1];
@@ -80,7 +88,9 @@ class _PanoramaViewState extends State<PanoramaViewPage> {
     if (nextAreaView != null) {
       await precacheImage(AssetImage(nextAreaView.image), context);     
        
-      setCurrentScene(nextAreaView, newLocationId);
+      setCurrentScene(nextAreaView, newLocationId, nextSceneAngle);
+      print("Current Scene Latitude $sceneLatitude");
+      print("Current Scene Longitude $sceneLongitude");
     }
   }
  
@@ -98,8 +108,11 @@ class _PanoramaViewState extends State<PanoramaViewPage> {
       body: Stack(
         children: [
             PanoramaViewer(
+              key: ValueKey(currentScene!.image),
             sensitivity: panoramaSensitivityValue,
             sensorControl: gyroSwitch ? SensorControl.orientation: SensorControl.none,
+            latitude: sceneLatitude,
+            longitude: sceneLongitude,
             child: Image.asset(currentScene!.image), 
             hotspots: [
               for (var areaHotspot in currentScene!.areaHotspots)
@@ -109,7 +122,7 @@ class _PanoramaViewState extends State<PanoramaViewPage> {
                 width: 300,
                 height: 300,
                 widget: hotspotButton(icon: hotspotIcons[areaHotspot.type]!, onPressed: () {
-                  switchNextScene(areaHotspot.nextView);
+                  switchNextScene(areaHotspot.nextView, areaHotspot.nextViewAngle);
                 }),
               ),
             ],
