@@ -1,6 +1,7 @@
 import 'package:erranza/data/duplicateID_checker.dart';
 import 'package:erranza/data/loadAreas.dart';
 import 'package:erranza/pages/navigation_bar.dart';
+import 'package:erranza/pages/panorama_tests.dart';
 import 'package:flutter/material.dart';
 
 
@@ -19,7 +20,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: ThemeData(primarySwatch: Colors.green),
-      home: const CustomNavBar(),
+      home: const PanoramaTests(),
     );
   }
  
