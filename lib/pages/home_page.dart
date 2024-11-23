@@ -1,3 +1,4 @@
+import 'package:erranza/data/areas.dart';
 import 'package:flutter/material.dart';
 import 'building_detail_page.dart'; // Import your detail page
 
@@ -7,36 +8,48 @@ class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     // Define the buildings list as a local variable
-    final List<Map<String, String>> buildings = [
+    final List<Map<String, dynamic>> buildings = [
       {
         'image': 'assets/images/cardPics/bldg1.jpg',
         'title': 'CCJ Building',
         'subtitle': 'College of Criminal Justice',
+        'areaList': ccjAreas,
+        'floors': ["1st Floor", "2nd Floor", "3rd Floor", "4th Floor"],
       },
       {
         'image': 'assets/images/cardPics/bldg2.jpg',
-        'title': 'Engineering Building',
-        'subtitle': 'College of Engineering',
+        'title': 'CON Building',
+        'subtitle': 'College of Nursing',
+        'areaList': conAreas,
+        'floors': ["1st Floor", "2nd Floor", "3rd Floor", "4th Floor", "5th Floor"],
       },
       {
         'image': 'assets/images/cardPics/bldg3.jpg',
         'title': 'Main Library',
         'subtitle': 'University Library',
+        'areaList': emptyArea,
+        'floors': ["1st Floor", "2nd Floor", "3rd Floor", "4th Floor"],
       },
       {
         'image': 'assets/images/cardPics/bldg4.jpg',
-        'title': 'Science Building',
-        'subtitle': 'College of Science',
+        'title': 'University Gym',
+        'subtitle': 'College of Sports, Physical Education and Recreation',
+        'areaList': cspearAreas,
+        'floors': ["1st Floor", "2nd Floor", "3rd Floor"],
       },
       {
         'image': 'assets/images/cardPics/bldg5.jpg',
         'title': 'Arts and Communication',
         'subtitle': 'College of Arts and Communication',
+        'areaList': emptyArea,
+        'floors': ["1st Floor", "2nd Floor", "3rd Floor", "4th Floor"],
       },
       {
         'image': 'assets/images/cardPics/bldg6.jpg',
         'title': 'Student Center',
         'subtitle': 'Campus Hub for Students',
+        'areaList': emptyArea,
+        'floors': ["1st Floor", "2nd Floor", "3rd Floor", "4th Floor"],
       },
     ];
 
@@ -62,6 +75,8 @@ class HomePage extends StatelessWidget {
                         title: building['title']!,
                         subtitle: building['subtitle']!,
                         image: building['image']!,
+                        areaList: building['areaList'],
+                        floors: building['floors'],
                       ),
                     ),
                   );
