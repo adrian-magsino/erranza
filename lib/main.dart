@@ -1,6 +1,8 @@
+import 'package:erranza/data/appSettings.dart';
 import 'package:erranza/data/duplicateID_checker.dart';
 import 'package:erranza/data/loadAreas.dart';
 import 'package:erranza/pages/navigation_bar.dart';
+import 'package:erranza/pages/panorama_tests.dart';
 import 'package:flutter/material.dart';
 
 
@@ -8,6 +10,7 @@ import 'package:flutter/material.dart';
 void main() {
   runApp(const MyApp());
   load_areas_data();
+  getSettings();
 }
 
 class MyApp extends StatelessWidget {
@@ -19,7 +22,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: ThemeData(primarySwatch: Colors.green),
-      home: const CustomNavBar(),
+      home: const CustomNavBar(), //switch to PanoramaTests() for testing images and hotspots
     );
   }
  

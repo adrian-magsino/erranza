@@ -18,12 +18,14 @@ class AreaHotspot {
   final double latitude;
   final double longitude;
   final String nextView;
+  final List<double> nextViewAngle;
 
   AreaHotspot(
     this.type,
     this.latitude,
     this.longitude,
-    this.nextView
+    this.nextView,
+    this.nextViewAngle
   );
 }
 
@@ -60,7 +62,8 @@ Future<Map<String, Map<String, AreaView>>> loadAreaViews() async {
             hotspotProperties["type"],
             hotspotProperties["latitude"], 
             hotspotProperties["longitude"], 
-            hotspotProperties["nextView"]
+            hotspotProperties["nextView"],
+            List<double>.from(hotspotProperties["nextViewAngle"])
             );
 
       }).toList();

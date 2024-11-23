@@ -5,36 +5,36 @@
           {"sceneId": "AV1",
           "image": "assets/images/buildings/cspearAreas/firstFloor/CSPEAR_B1_F1_A1/CSPEAR_B1_F1_A1_AV1.webp",
           "hotspots": [
-            {"type": "move", "latitude": -20.0, "longitude": 85.0, "nextView": "CSPEAR_B1_F1_A1:AV2"},
-            {"type": "move", "latitude": -20.0, "longitude": -85.0, "nextView": "CSPEAR_B1_F1_A1:AV5"}
+            {"type": "move", "latitude": -20.0, "longitude": 85.0, "nextView": "CSPEAR_B1_F1_A1:AV2", "nextViewAngle": [0.0, 45.0]},
+            {"type": "move", "latitude": -20.0, "longitude": -85.0, "nextView": "CSPEAR_B1_F1_A1:AV5", "nextViewAngle": [0.0, 10.0]}
           ]},
     
           {"sceneId": "AV2",
           "image": "assets/images/buildings/cspearAreas/firstFloor/CSPEAR_B1_F1_A1/CSPEAR_B1_F1_A1_AV2.webp",
           "hotspots": [
-            {"type": "move", "latitude": -25.0, "longitude": 0.0, "nextView": "CSPEAR_B1_F1_A1:AV3"}, 
-            {"type": "move", "latitude": -25.0, "longitude": -90.0, "nextView": "CSPEAR_B1_F1_A1:AV1"} 
+            {"type": "move", "latitude": -25.0, "longitude": 0.0, "nextView": "CSPEAR_B1_F1_A1:AV3", "nextViewAngle": [0.0, 0.0]}, 
+            {"type": "move", "latitude": -25.0, "longitude": -90.0, "nextView": "CSPEAR_B1_F1_A1:AV1", "nextViewAngle": [0.0, -80.0]} 
           ]},
 
           {"sceneId": "AV3",
           "image": "assets/images/buildings/cspearAreas/firstFloor/CSPEAR_B1_F1_A1/CSPEAR_B1_F1_A1_AV3.webp",
           "hotspots": [
-            {"type": "move", "latitude": -25.0, "longitude": 39.0, "nextView": "CSPEAR_B1_F1_A2:AV1"}, 
-            {"type": "move", "latitude": -25.0, "longitude": 139.0, "nextView": "CSPEAR_B1_F1_A1:AV2"} 
+            {"type": "move", "latitude": -25.0, "longitude": 39.0, "nextView": "CSPEAR_B1_F1_A2:AV1", "nextViewAngle": [0.0, 40.0]}, 
+            {"type": "move", "latitude": -25.0, "longitude": 139.0, "nextView": "CSPEAR_B1_F1_A1:AV2", "nextViewAngle": [0.0, 180.0]} 
           ]},
 
           {"sceneId": "AV4",
           "image": "assets/images/buildings/cspearAreas/firstFloor/CSPEAR_B1_F1_A1/CSPEAR_B1_F1_A1_AV4.webp",
           "hotspots": [
-            {"type": "move", "latitude": -25.0, "longitude": 100.0, "nextView": "CSPEAR_B1_F1_A1:AV5"},
-            {"type": "move", "latitude": -25.0, "longitude": 190.0, "nextView": "CSPEAR_B1_F1_A4:AV4"}
+            {"type": "move", "latitude": -25.0, "longitude": 100.0, "nextView": "CSPEAR_B1_F1_A1:AV5", "nextViewAngle": [0.0, -150.0]},
+            {"type": "move", "latitude": -25.0, "longitude": 190.0, "nextView": "CSPEAR_B1_F1_A4:AV4", "nextViewAngle": [0.0, 0.0]}
           ]},
 
           {"sceneId": "AV5",
           "image": "assets/images/buildings/cspearAreas/firstFloor/CSPEAR_B1_F1_A1/CSPEAR_B1_F1_A1_AV5.webp",
           "hotspots": [
-            {"type": "move", "latitude": -20.0, "longitude": -170.0, "nextView": "CSPEAR_B1_F1_A1:AV1"}, 
-            {"type": "move", "latitude": -20.0, "longitude": 80.0, "nextView": "CSPEAR_B1_F1_A1:AV4"} 
+            {"type": "move", "latitude": -20.0, "longitude": -170.0, "nextView": "CSPEAR_B1_F1_A1:AV1", "nextViewAngle": [0.0, 80.0]}, 
+            {"type": "move", "latitude": -20.0, "longitude": 80.0, "nextView": "CSPEAR_B1_F1_A1:AV4", "nextViewAngle": [0.0, -90.0]} 
           ]}
           
         ]  
@@ -46,43 +46,43 @@
           {"sceneId": "AV1",
           "image": "assets/images/buildings/cspearAreas/firstFloor/CSPEAR_B1_F1_A2/CSPEAR_B1_F1_A2_AV1.jpg",
           "hotspots": [
-            {"type": "move", "latitude": -20.0, "longitude": -12.0, "nextView": "CSPEAR_B1_F1_A2:AV2"},
-            {"type": "move", "latitude": -20.0, "longitude": -90.0, "nextView": "CSPEAR_B1_F1_A1:AV3"}
+            {"type": "move", "latitude": -20.0, "longitude": -12.0, "nextView": "CSPEAR_B1_F1_A2:AV2", "nextViewAngle": [0.0, -100.0]},
+            {"type": "move", "latitude": -20.0, "longitude": -90.0, "nextView": "CSPEAR_B1_F1_A1:AV3", "nextViewAngle": [0.0, -150.0]}
           ]},
 
           {"sceneId": "AV2",
           "image": "assets/images/buildings/cspearAreas/firstFloor/CSPEAR_B1_F1_A2/CSPEAR_B1_F1_A2_AV2.jpg",
           "hotspots": [
-            {"type": "move", "latitude": -20.0, "longitude": -95.0, "nextView": "CSPEAR_B1_F1_A2:AV3"},
-            {"type": "move", "latitude": -20.0, "longitude": 85.0, "nextView": "CSPEAR_B1_F1_A2:AV1"}
+            {"type": "move", "latitude": -20.0, "longitude": -95.0, "nextView": "CSPEAR_B1_F1_A2:AV3", "nextViewAngle": [0.0, -116.0]},
+            {"type": "move", "latitude": -20.0, "longitude": 85.0, "nextView": "CSPEAR_B1_F1_A2:AV1", "nextViewAngle": [0.0, -120.0]}
           ]},
 
           {"sceneId": "AV3",
           "image": "assets/images/buildings/cspearAreas/firstFloor/CSPEAR_B1_F1_A2/CSPEAR_B1_F1_A2_AV3.jpg",
           "hotspots": [
-            {"type": "move", "latitude": -20.0, "longitude": -120.0, "nextView": "CSPEAR_B1_F1_A2:AV4"},
-            {"type": "move", "latitude": -20.0, "longitude": 65.0, "nextView": "CSPEAR_B1_F1_A2:AV2"}
+            {"type": "move", "latitude": -20.0, "longitude": -120.0, "nextView": "CSPEAR_B1_F1_A2:AV4", "nextViewAngle": [0.0, -70.0]},
+            {"type": "move", "latitude": -20.0, "longitude": 65.0, "nextView": "CSPEAR_B1_F1_A2:AV2", "nextViewAngle": [0.0, 80.0]}
           ]},
 
           {"sceneId": "AV4",
           "image": "assets/images/buildings/cspearAreas/firstFloor/CSPEAR_B1_F1_A2/CSPEAR_B1_F1_A2_AV4.jpg",
           "hotspots": [
-            {"type": "move", "latitude": -20.0, "longitude": -75.0, "nextView": "CSPEAR_B1_F1_A2:AV5"},
-            {"type": "move", "latitude": -20.0, "longitude": 110.0, "nextView": "CSPEAR_B1_F1_A2:AV3"}
+            {"type": "move", "latitude": -20.0, "longitude": -75.0, "nextView": "CSPEAR_B1_F1_A2:AV5", "nextViewAngle": [0.0, -90.0]},
+            {"type": "move", "latitude": -20.0, "longitude": 110.0, "nextView": "CSPEAR_B1_F1_A2:AV3", "nextViewAngle": [0.0, 62.0]}
           ]},
 
           {"sceneId": "AV5",
           "image": "assets/images/buildings/cspearAreas/firstFloor/CSPEAR_B1_F1_A2/CSPEAR_B1_F1_A2_AV5.jpg",
           "hotspots": [
-            {"type": "move", "latitude": -20.0, "longitude": -85.0, "nextView": "CSPEAR_B1_F1_A2:AV6"},
-            {"type": "move", "latitude": -20.0, "longitude": 95.0, "nextView": "CSPEAR_B1_F1_A2:AV4"}
+            {"type": "move", "latitude": -20.0, "longitude": -85.0, "nextView": "CSPEAR_B1_F1_A2:AV6", "nextViewAngle": [0.0, 117.0]},
+            {"type": "move", "latitude": -20.0, "longitude": 95.0, "nextView": "CSPEAR_B1_F1_A2:AV4", "nextViewAngle": [0.0, 113.0]}
           ]},
 
           {"sceneId": "AV6",
           "image": "assets/images/buildings/cspearAreas/firstFloor/CSPEAR_B1_F1_A2/CSPEAR_B1_F1_A2_AV6.jpg",
           "hotspots": [
-            {"type": "move", "latitude": -20.0, "longitude": 100.0, "nextView": "CSPEAR_B1_F1_A3:AV1"},
-            {"type": "move", "latitude": -20.0, "longitude": 10.0, "nextView": "CSPEAR_B1_F1_A2:AV5"}
+            {"type": "move", "latitude": -20.0, "longitude": 100.0, "nextView": "CSPEAR_B1_F1_A3:AV1", "nextViewAngle": [0.0, 112.0]},
+            {"type": "move", "latitude": -20.0, "longitude": 10.0, "nextView": "CSPEAR_B1_F1_A2:AV5", "nextViewAngle": [0.0, 95.0]}
           ]}
         ]
     },
@@ -93,29 +93,29 @@
           {"sceneId": "AV1",
           "image": "assets/images/buildings/cspearAreas/firstFloor/CSPEAR_B1_F1_A3/CSPEAR_B1_F1_A3_AV1.jpg",
           "hotspots": [
-            {"type": "move", "latitude": -20.0, "longitude": 110.0, "nextView": "CSPEAR_B1_F1_A3:AV2"},
-            {"type": "move", "latitude": -20.0, "longitude": -75.0, "nextView": "CSPEAR_B1_F1_A2:AV6"}
+            {"type": "move", "latitude": -20.0, "longitude": 110.0, "nextView": "CSPEAR_B1_F1_A3:AV2", "nextViewAngle": [0.0, -155.0]},
+            {"type": "move", "latitude": -20.0, "longitude": -75.0, "nextView": "CSPEAR_B1_F1_A2:AV6", "nextViewAngle": [0.0, -10.0]}
           ]},
 
           {"sceneId": "AV2",
           "image": "assets/images/buildings/cspearAreas/firstFloor/CSPEAR_B1_F1_A3/CSPEAR_B1_F1_A3_AV2.jpg",
           "hotspots": [
-            {"type": "move", "latitude": -20.0, "longitude": 200.0, "nextView": "CSPEAR_B1_F1_A3:AV3"},
-            {"type": "move", "latitude": -20.0, "longitude": 25.0, "nextView": "CSPEAR_B1_F1_A3:AV1"}
+            {"type": "move", "latitude": -20.0, "longitude": 200.0, "nextView": "CSPEAR_B1_F1_A3:AV3", "nextViewAngle": [0.0, 100.0]},
+            {"type": "move", "latitude": -20.0, "longitude": 25.0, "nextView": "CSPEAR_B1_F1_A3:AV1", "nextViewAngle": [0.0, -70.0]}
           ]},
 
           {"sceneId": "AV3",
           "image": "assets/images/buildings/cspearAreas/firstFloor/CSPEAR_B1_F1_A3/CSPEAR_B1_F1_A3_AV3.jpg",
           "hotspots": [
-            {"type": "move", "latitude": -20.0, "longitude": 100.0, "nextView": "CSPEAR_B1_F1_A3:AV4"},
-            {"type": "move", "latitude": -20.0, "longitude": -85.0, "nextView": "CSPEAR_B1_F1_A3:AV2"}
+            {"type": "move", "latitude": -20.0, "longitude": 100.0, "nextView": "CSPEAR_B1_F1_A3:AV4", "nextViewAngle": [0.0, 32.0]},
+            {"type": "move", "latitude": -20.0, "longitude": -85.0, "nextView": "CSPEAR_B1_F1_A3:AV2", "nextViewAngle": [0.0, 20.0]}
           ]},
 
           {"sceneId": "AV4",
           "image": "assets/images/buildings/cspearAreas/firstFloor/CSPEAR_B1_F1_A3/CSPEAR_B1_F1_A3_AV4.jpg",
           "hotspots": [
-            {"type": "move", "latitude": -20.0, "longitude": 35.0, "nextView": "CSPEAR_B1_F1_A4:AV1"},
-            {"type": "move", "latitude": -20.0, "longitude": 215.0, "nextView": "CSPEAR_B1_F1_A3:AV3"}
+            {"type": "move", "latitude": -20.0, "longitude": 35.0, "nextView": "CSPEAR_B1_F1_A4:AV1", "nextViewAngle": [0.0, 120.0]},
+            {"type": "move", "latitude": -20.0, "longitude": 215.0, "nextView": "CSPEAR_B1_F1_A3:AV3", "nextViewAngle": [0.0, -85.0]}
           ]}
         ]
     },
@@ -126,29 +126,29 @@
           {"sceneId": "AV1",
           "image": "assets/images/buildings/cspearAreas/firstFloor/CSPEAR_B1_F1_A4/CSPEAR_B1_F1_A4_AV1.jpg",
           "hotspots": [
-            {"type": "move", "latitude": -20.0, "longitude": 100.0, "nextView": "CSPEAR_B1_F1_A4:AV2"},
-            {"type": "move", "latitude": -20.0, "longitude": -10.0, "nextView": "CSPEAR_B1_F1_A3:AV4"}
+            {"type": "move", "latitude": -20.0, "longitude": 100.0, "nextView": "CSPEAR_B1_F1_A4:AV2", "nextViewAngle": [0.0, 100.0]},
+            {"type": "move", "latitude": -20.0, "longitude": -10.0, "nextView": "CSPEAR_B1_F1_A3:AV4", "nextViewAngle": [0.0, -145.0]}
           ]},
 
           {"sceneId": "AV2",
           "image": "assets/images/buildings/cspearAreas/firstFloor/CSPEAR_B1_F1_A4/CSPEAR_B1_F1_A4_AV2.jpg",
           "hotspots": [
-            {"type": "move", "latitude": -20.0, "longitude": 100.0, "nextView": "CSPEAR_B1_F1_A4:AV3"},
-            {"type": "move", "latitude": -20.0, "longitude": -85.0, "nextView": "CSPEAR_B1_F1_A4:AV1"}
+            {"type": "move", "latitude": -20.0, "longitude": 100.0, "nextView": "CSPEAR_B1_F1_A4:AV3", "nextViewAngle": [0.0, 90.0]},
+            {"type": "move", "latitude": -20.0, "longitude": -85.0, "nextView": "CSPEAR_B1_F1_A4:AV1", "nextViewAngle": [0.0, -29.0]}
           ]},
 
           {"sceneId": "AV3",
           "image": "assets/images/buildings/cspearAreas/firstFloor/CSPEAR_B1_F1_A4/CSPEAR_B1_F1_A4_AV3.jpg",
           "hotspots": [
-            {"type": "move", "latitude": -20.0, "longitude": 90.0, "nextView": "CSPEAR_B1_F1_A4:AV4"},
-            {"type": "move", "latitude": -20.0, "longitude": -85.0, "nextView": "CSPEAR_B1_F1_A4:AV2"}
+            {"type": "move", "latitude": -20.0, "longitude": 90.0, "nextView": "CSPEAR_B1_F1_A4:AV4", "nextViewAngle": [0.0, -22.0]},
+            {"type": "move", "latitude": -20.0, "longitude": -85.0, "nextView": "CSPEAR_B1_F1_A4:AV2", "nextViewAngle": [0.0, -85.0]}
           ]},
 
           {"sceneId": "AV4",
           "image": "assets/images/buildings/cspearAreas/firstFloor/CSPEAR_B1_F1_A4/CSPEAR_B1_F1_A4_AV4.jpg",
           "hotspots": [
-            {"type": "move", "latitude": -20.0, "longitude": -40.0, "nextView": "CSPEAR_B1_F1_A1:AV4"},
-            {"type": "move", "latitude": -20.0, "longitude": 225.0, "nextView": "CSPEAR_B1_F1_A4:AV3"}
+            {"type": "move", "latitude": -20.0, "longitude": -40.0, "nextView": "CSPEAR_B1_F1_A1:AV4", "nextViewAngle": [0.0, 0.0]},
+            {"type": "move", "latitude": -20.0, "longitude": 225.0, "nextView": "CSPEAR_B1_F1_A4:AV3", "nextViewAngle": [0.0, -90.0]}
           ]}
         ]
     }

@@ -9,6 +9,13 @@ class SettingsPage extends StatefulWidget {
 }
 
 class _SettingsPageState extends State<SettingsPage> {
+
+  @override 
+  void dispose() {
+    super.dispose();
+    saveSettings(); //App Settings will change when the user switches from settings page to another page
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -156,16 +163,16 @@ class _SettingsPageState extends State<SettingsPage> {
                     child: SizedBox(
                       width: 300,
                       child: Slider(
-                        value: panoramaSensitivityValue, 
-                        min: 1,
-                        max: 10,
+                        value: appSettings["panoramaSensitivityValue"], 
+                        min: 1.1,
+                        max: 10.1,
                         divisions: 10,
                         activeColor: Color(0xff378B8A),
                         thumbColor: Colors.white,
-                        label: panoramaSensitivityValue.round().toString(),
+                        label: appSettings["panoramaSensitivityValue"].round().toString(),
                         onChanged: (double value) {
                           setState(() {
-                            panoramaSensitivityValue = value;
+                            appSettings["panoramaSensitivityValue"] = value;
                           });
                         }
                       ),
@@ -181,13 +188,13 @@ class _SettingsPageState extends State<SettingsPage> {
                         Padding(
                           padding: const EdgeInsets.only(left: 15.0),
                           child: Switch(
-                            value: gyroSwitch, 
+                            value: appSettings["gyroSwitch"], 
                             activeColor: Color(0xff378B8A),
                             inactiveTrackColor: const Color.fromARGB(255, 129, 129, 129),   
                             inactiveThumbColor: Colors.white,                    
                             onChanged: (value) {
                               setState(() {
-                                gyroSwitch = value;
+                                appSettings["gyroSwitch"] = value;
                             });
                           }),
                         )
