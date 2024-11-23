@@ -1,3 +1,4 @@
+import 'package:erranza/data/appSettings.dart';
 import 'package:erranza/data/duplicateID_checker.dart';
 import 'package:erranza/data/loadAreas.dart';
 import 'package:erranza/pages/navigation_bar.dart';
@@ -9,6 +10,7 @@ import 'package:flutter/material.dart';
 void main() {
   runApp(const MyApp());
   load_areas_data();
+  getSettings();
 }
 
 class MyApp extends StatelessWidget {
