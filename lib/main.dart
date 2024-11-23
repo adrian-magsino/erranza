@@ -9,24 +9,50 @@ import 'package:flutter/material.dart';
 
 void main() {
   runApp(const MyApp());
-  load_areas_data();
   getSettings();
 }
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
-  
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: ThemeData(primarySwatch: Colors.green),
-      home: const CustomNavBar(), //switch to PanoramaTests() for testing images and hotspots
+      home: const AppInitializer(), //switch to PanoramaTests() for testing images and hotspots
     );
   }
  
 }
+
+class AppInitializer extends StatelessWidget {
+  const AppInitializer({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return FutureBuilder(
+      future: load_areas_data(), 
+      builder: (context, snapshot) {
+        if (snapshot.connectionState == ConnectionState.waiting) {
+          return const Scaffold(
+            body: Center(
+              child: CircularProgressIndicator(),)
+            );
+        } else if (snapshot.hasError) {
+          return Scaffold(
+            body: Center(
+              child: Text("Error loading data: ${snapshot.error}"),
+            ),
+          );
+        }
+        return const CustomNavBar();
+      }
+    );
+  }
+}
+
+
 
 
 
