@@ -5,7 +5,7 @@ import 'package:flutter/services.dart';
 import 'package:path_provider/path_provider.dart';
 
 Map<String, dynamic> defaultAppSettings = {
-  "panoramaSensitivityValue" : 1.0,
+  "panoramaSensitivityValue" : 1.1,
   "gyroSwitch": false
 };
 

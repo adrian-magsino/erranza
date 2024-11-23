@@ -9,6 +9,13 @@ class SettingsPage extends StatefulWidget {
 }
 
 class _SettingsPageState extends State<SettingsPage> {
+
+  @override 
+  void dispose() {
+    super.dispose();
+    saveSettings(); //App Settings will change when the user switches from settings page to another page
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -157,8 +164,8 @@ class _SettingsPageState extends State<SettingsPage> {
                       width: 300,
                       child: Slider(
                         value: appSettings["panoramaSensitivityValue"], 
-                        min: 1,
-                        max: 10,
+                        min: 1.1,
+                        max: 10.1,
                         divisions: 10,
                         activeColor: Color(0xff378B8A),
                         thumbColor: Colors.white,
@@ -166,7 +173,6 @@ class _SettingsPageState extends State<SettingsPage> {
                         onChanged: (double value) {
                           setState(() {
                             appSettings["panoramaSensitivityValue"] = value;
-                            saveSettings();
                           });
                         }
                       ),
@@ -189,7 +195,6 @@ class _SettingsPageState extends State<SettingsPage> {
                             onChanged: (value) {
                               setState(() {
                                 appSettings["gyroSwitch"] = value;
-                                saveSettings();
                             });
                           }),
                         )

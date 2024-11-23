@@ -23,8 +23,8 @@ class _PanoramaTestsState extends State<PanoramaTests> {
   }
   Future<void> _loadData() async {
     await loadAreaViews();
-    String location_id = "CSPEAR_B1_F1_A1";
-    setScene(areaViewsMap[location_id]?["AV1"], location_id);
+    String location_id = "CSPEAR_B1_F1_A1"; 
+    setScene(areaViewsMap[location_id]?["AV4"], location_id);
   }
 
   void setScene(AreaView? scene, String location_id){
@@ -38,7 +38,6 @@ class _PanoramaTestsState extends State<PanoramaTests> {
     }    
   }
   
-
   Map<String, String> hotspotIcons = {
     "move": "assets/images/hotspots/MoveHotspot.png",
     "stairs": "assets/images/hotspots/arrow_hotspot.png"
@@ -58,7 +57,11 @@ class _PanoramaTestsState extends State<PanoramaTests> {
       body: PanoramaViewer(
         child: Image.asset(currentScene!.image),
         latitude: 0,
-        longitude: -80,
+        longitude: 0,
+        onViewChanged: (longitude, latitude, tilt) {
+          print("Longitude: $longitude");
+          print("Latitude: $latitude");
+        },
         hotspots: [
           for (var areaHotspot in currentScene!.areaHotspots)
           Hotspot(
