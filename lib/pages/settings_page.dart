@@ -1,4 +1,5 @@
 import 'package:erranza/data/appSettings.dart';
+import 'package:erranza/pages/tutorial_page.dart';
 import 'package:flutter/material.dart';
 
 class SettingsPage extends StatefulWidget {
@@ -47,7 +48,9 @@ class _SettingsPageState extends State<SettingsPage> {
                   Padding(
                     padding: const EdgeInsets.only(bottom: 10.0),
                     child: ElevatedButton(
-                      onPressed: () {}, 
+                      onPressed: () {
+                        Navigator.push(context, MaterialPageRoute(builder: (context) => TutorialPage()));
+                      }, 
                       style: ElevatedButton.styleFrom(
                         shape: RoundedRectangleBorder(
                           borderRadius: BorderRadius.circular(10)
@@ -79,7 +82,24 @@ class _SettingsPageState extends State<SettingsPage> {
                       ), 
                     ),
                   ),
-        
+                  Padding(
+                    padding: const EdgeInsets.only(bottom: 10.0),
+                    child: ElevatedButton(
+                      onPressed: () {}, 
+                      style: ElevatedButton.styleFrom(
+                        shape: RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(10)
+                        ),
+                        backgroundColor: Color(0xff378B8A),
+                        minimumSize: Size(200, 40)
+                      ),
+                      child: Text("Send Feedback Online", style: TextStyle(
+                        color: Colors.white,
+                        ),
+                      ), 
+                    ),
+                  ),
+                  /*
                   Align(
                     alignment: Alignment.centerLeft,
                     child: Padding(
@@ -87,6 +107,7 @@ class _SettingsPageState extends State<SettingsPage> {
                       child: Text("Feedback and Suggestions"),
                     ),
                   ),
+                  
                   Padding(
                     padding: const EdgeInsets.only(bottom: 10.0),
                     child: SizedBox(
@@ -121,6 +142,7 @@ class _SettingsPageState extends State<SettingsPage> {
                       ),
                     ),
                   ),
+                  */
                 ],
               ),
             ),
