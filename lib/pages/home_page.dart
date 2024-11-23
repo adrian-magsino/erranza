@@ -7,7 +7,6 @@ class HomePage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    print("LIST $ccjAreas");
     // Define the buildings list as a local variable
     final List<Map<String, dynamic>> buildings = [
       {
@@ -19,37 +18,37 @@ class HomePage extends StatelessWidget {
       },
       {
         'image': 'assets/images/cardPics/bldg2.jpg',
-        'title': 'Engineering Building',
-        'subtitle': 'College of Engineering',
-        'areaList': ccjAreas,
-        'floors': ["1st Floor", "2nd Floor", "3rd Floor", "4th Floor"],
+        'title': 'CON Building',
+        'subtitle': 'College of Nursing',
+        'areaList': conAreas,
+        'floors': ["1st Floor", "2nd Floor", "3rd Floor", "4th Floor", "5th Floor"],
       },
       {
         'image': 'assets/images/cardPics/bldg3.jpg',
         'title': 'Main Library',
         'subtitle': 'University Library',
-        'areaList': ccjAreas,
+        'areaList': emptyArea,
         'floors': ["1st Floor", "2nd Floor", "3rd Floor", "4th Floor"],
       },
       {
         'image': 'assets/images/cardPics/bldg4.jpg',
-        'title': 'Science Building',
-        'subtitle': 'College of Science',
+        'title': 'University Gym',
+        'subtitle': 'College of Sports, Physical Education and Recreation',
         'areaList': cspearAreas,
-        'floors': ["1st Floor", "2nd Floor", "3rd Floor", "4th Floor"],
+        'floors': ["1st Floor", "2nd Floor", "3rd Floor"],
       },
       {
         'image': 'assets/images/cardPics/bldg5.jpg',
         'title': 'Arts and Communication',
         'subtitle': 'College of Arts and Communication',
-        'areaList': ccjAreas,
+        'areaList': emptyArea,
         'floors': ["1st Floor", "2nd Floor", "3rd Floor", "4th Floor"],
       },
       {
         'image': 'assets/images/cardPics/bldg6.jpg',
         'title': 'Student Center',
         'subtitle': 'Campus Hub for Students',
-        'areaList': ccjAreas,
+        'areaList': emptyArea,
         'floors': ["1st Floor", "2nd Floor", "3rd Floor", "4th Floor"],
       },
     ];
