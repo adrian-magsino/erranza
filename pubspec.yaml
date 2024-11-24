@@ -83,6 +83,10 @@ flutter:
     - assets/images/buildings/conAreas/secondFloor/CON_B1_F2_A1/
 
     - assets/images/cardPics/
+  fonts:
+    - family: Righteous
+      fonts:
+        - asset: assets/fonts/Righteous-Regular.ttf
 
 
 

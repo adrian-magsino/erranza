@@ -149,7 +149,7 @@ class _PanoramaViewState extends State<PanoramaViewPage> {
     return Scaffold(
       appBar: AppBar(
         title: Text(currentArea!.area_name),
-        backgroundColor: Colors.green,
+        backgroundColor: Colors.green[800],
       ),
       body: Stack(
         children: [

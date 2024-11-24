@@ -3,7 +3,9 @@ import 'package:erranza/data/duplicateID_checker.dart';
 import 'package:erranza/data/loadAreas.dart';
 import 'package:erranza/pages/navigation_bar.dart';
 import 'package:erranza/pages/panorama_tests.dart';
+import 'package:erranza/splashScreen.dart';
 import 'package:flutter/material.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 
 
@@ -46,12 +48,11 @@ class AppInitializer extends StatelessWidget {
             ),
           );
         }
-        return const CustomNavBar();
+        return const SplashScreen();
       }
     );
   }
 }
-
 
 
 
