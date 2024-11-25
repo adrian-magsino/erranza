@@ -23,14 +23,14 @@ class _PanoramaTestsState extends State<PanoramaTests> {
   }
   Future<void> _loadData() async {
     await loadAreaViews();
-    String location_id = "CSPEAR_B1_F1_A1"; 
-    setScene(areaViewsMap[location_id]?["AV4"], location_id);
+    String location_id = "CSPEAR_B1_F1_A3"; 
+    setScene(areaViewsMap[location_id]?["AV2"], location_id);
   }
 
   void setScene(AreaView? scene, String location_id){
     if (scene != null){
       setState(() {
-      print("LOCATION ID: $location_id");
+      print("LOCATION ID: $location_id"); 
       currentScene = scene;
     });
     } else {

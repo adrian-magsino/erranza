@@ -2,7 +2,7 @@
     {
         "college_id": "CSPEAR", "building_id": "B1", "floor_id": "F1", "area_id": "A1",
         "icon": "assets/images/roomicons/hallway.png", 
-        "area_name": "Front Hallway", 
+        "area_name": "Main Entrance", 
         "building_name": "University Gym", 
         "college_name": "College of Sports, Physical Education and Recreation"
     },
@@ -10,7 +10,7 @@
     {
         "college_id": "CSPEAR", "building_id": "B1", "floor_id": "F1", "area_id": "A2",
         "icon": "assets/images/roomicons/hallway.png", 
-        "area_name": "Right Side Hallway", 
+        "area_name": "Right Corner Pathway", 
         "building_name": "University Gym", 
         "college_name": "College of Sports, Physical Education and Recreation"
     },
@@ -18,7 +18,7 @@
     {
         "college_id": "CSPEAR", "building_id": "B1", "floor_id": "F1", "area_id": "A3",
         "icon": "assets/images/roomicons/hallway.png", 
-        "area_name": "Back Hallway", 
+        "area_name": "Right Pathway", 
         "building_name": "University Gym", 
         "college_name": "College of Sports, Physical Education and Recreation"
     },
@@ -26,7 +26,63 @@
     {
         "college_id": "CSPEAR", "building_id": "B1", "floor_id": "F1", "area_id": "A4",
         "icon": "assets/images/roomicons/hallway.png", 
-        "area_name": "Left Side Hallway", 
+        "area_name": "Back Pathway", 
+        "building_name": "University Gym", 
+        "college_name": "College of Sports, Physical Education and Recreation"
+    },
+
+    {
+        "college_id": "CSPEAR", "building_id": "B1", "floor_id": "F1", "area_id": "A5",
+        "icon": "assets/images/roomicons/hallway.png", 
+        "area_name": "Left Pathway", 
+        "building_name": "University Gym", 
+        "college_name": "College of Sports, Physical Education and Recreation"
+    },
+
+    {
+        "college_id": "CSPEAR", "building_id": "B1", "floor_id": "F1", "area_id": "A6",
+        "icon": "assets/images/roomicons/hallway.png", 
+        "area_name": "Left Corner Pathway", 
+        "building_name": "University Gym", 
+        "college_name": "College of Sports, Physical Education and Recreation"
+    },
+
+    {
+        "college_id": "CSPEAR", "building_id": "B1", "floor_id": "F1", "area_id": "A7",
+        "icon": "assets/images/roomicons/hallway.png", 
+        "area_name": "Front Left Entrance", 
+        "building_name": "University Gym", 
+        "college_name": "College of Sports, Physical Education and Recreation"
+    },
+
+    {
+        "college_id": "CSPEAR", "building_id": "B1", "floor_id": "F1", "area_id": "A8",
+        "icon": "assets/images/roomicons/hallway.png", 
+        "area_name": "Front Right Entrance", 
+        "building_name": "University Gym", 
+        "college_name": "College of Sports, Physical Education and Recreation"
+    },
+
+    {
+        "college_id": "CSPEAR", "building_id": "B1", "floor_id": "F1", "area_id": "A9",
+        "icon": "assets/images/roomicons/hallway.png", 
+        "area_name": "Back Right Entrance", 
+        "building_name": "University Gym", 
+        "college_name": "College of Sports, Physical Education and Recreation"
+    },
+
+    {
+        "college_id": "CSPEAR", "building_id": "B1", "floor_id": "F1", "area_id": "A10",
+        "icon": "assets/images/roomicons/hallway.png", 
+        "area_name": "Back Left Entrance", 
+        "building_name": "University Gym", 
+        "college_name": "College of Sports, Physical Education and Recreation"
+    },
+
+    {
+        "college_id": "CSPEAR", "building_id": "B1", "floor_id": "F1", "area_id": "A11",
+        "icon": "assets/images/roomicons/classroom.png", 
+        "area_name": "Room 1", 
         "building_name": "University Gym", 
         "college_name": "College of Sports, Physical Education and Recreation"
     }

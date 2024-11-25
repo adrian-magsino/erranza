@@ -63,7 +63,7 @@ class _PanoramaViewState extends State<PanoramaViewPage> {
       String newLocationId = "${area.college_id}_${area.building_id}_${area.floor_id}_${area.area_id}";
       if (newLocationId == currentLocationId) {
         return area;
-      }
+      }    
     }
     return null;
   }

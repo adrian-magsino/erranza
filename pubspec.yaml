@@ -64,12 +64,13 @@ flutter:
     #Other Assets
     - assets/images/
     - assets/images/hotspots/
-    - assets/images/roomicons/
+    - assets/images/roomicons/ 
 
     #Area Views JSON Files
     - assets/AreaViews/ccjAreaViews/
     - assets/AreaViews/conAreaViews/
     - assets/AreaViews/cspearAreaViews/
+
     #Area IDs and Details JSON Files
     - assets/Areas/ccjAreas/
     - assets/Areas/conAreas/
@@ -82,6 +83,19 @@ flutter:
     - assets/images/buildings/cspearAreas/firstFloor/CSPEAR_B1_F1_A4/
     - assets/images/buildings/ccjAreas/firstFloor/CCJ_B1_F1_A1/
     - assets/images/buildings/conAreas/secondFloor/CON_B1_F2_A1/
+
+    #360 Images CSPEAR AREAS First Floor
+    - assets/images/buildings/cspearAreas/firstFloor/Main_Entrance_CSPEAR_B1_F1_A1/
+    - assets/images/buildings/cspearAreas/firstFloor/Right_Corner_Pathway_CSPEAR_B1_F1_A2/
+    - assets/images/buildings/cspearAreas/firstFloor/Right_Pathway_CSPEAR_B1_F1_A3/
+    - assets/images/buildings/cspearAreas/firstFloor/Back_Pathway_CSPEAR_B1_F1_A4/
+    - assets/images/buildings/cspearAreas/firstFloor/Left_Pathway_CSPEAR_B1_F1_A5/
+    - assets/images/buildings/cspearAreas/firstFloor/Left_Corner_Pathway_CSPEAR_B1_F1_A6/
+    - assets/images/buildings/cspearAreas/firstFloor/Front_Left_Entrance_CSPEAR_B1_F1_A7/
+    - assets/images/buildings/cspearAreas/firstFloor/Front_Right_Entrance_CSPEAR_B1_F1_A8/
+    - assets/images/buildings/cspearAreas/firstFloor/Back_Right_Entrance_CSPEAR_B1_F1_A9/
+    - assets/images/buildings/cspearAreas/firstFloor/Back_Left_Entrance_CSPEAR_B1_F1_A10/
+    - assets/images/buildings/cspearAreas/firstFloor/Room1_CSPEAR_B1_F1_A11/
 
     - assets/images/cardPics/
   fonts:
