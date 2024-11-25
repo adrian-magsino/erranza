@@ -32,10 +32,7 @@ class _SettingsPageState extends State<SettingsPage> {
                 child: Image.asset('assets/images/erranzaLogo.png', width: 100, height: 100,)
               ),
             ),
-            Divider(
-              color: Colors.grey,
-              thickness: 1,
-            ),
+            Divider( color: Colors.grey, thickness: 1,),
             Padding(
               padding: const EdgeInsets.symmetric(vertical: 10),
               child: Align(
@@ -99,10 +96,7 @@ class _SettingsPageState extends State<SettingsPage> {
                     }),
             ),
             
-            Divider(
-              color: Colors.grey,
-              thickness: 1,
-            ), 
+            Divider(color: Colors.grey, thickness: 1,), 
             Padding(
               padding: const EdgeInsets.symmetric(vertical: 10),
               child: Align(
