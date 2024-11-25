@@ -25,10 +25,10 @@ class _SplashScreenState extends State<SplashScreen>
     "Initializing..."
   ];
 
-  
   @override  
   void initState() {
     super.initState();
+    //controller for loading progress bas
     controller = AnimationController(
       vsync: this,
       duration: const Duration(seconds: 3),
@@ -38,6 +38,7 @@ class _SplashScreenState extends State<SplashScreen>
 
     controller.forward();
 
+    //timer for loading texts
     _loadingTimer = Timer.periodic(const Duration(seconds: 1), (timer) {
       if (_loadingTextIndex < _loadingTexts.length - 1) {
         setState(() {
@@ -46,6 +47,7 @@ class _SplashScreenState extends State<SplashScreen>
       }
     });
 
+    //duration of loading progress bar
     SystemChrome.setEnabledSystemUIMode(SystemUiMode.immersive);
     Future.delayed(const Duration(seconds: 4), () {
       Navigator.of(context).pushReplacement(
@@ -88,7 +90,6 @@ class _SplashScreenState extends State<SplashScreen>
                   color: Colors.green[900],         
                 ),  
               ),
-              //SizedBox(height: 20),
               Text(
                 _loadingTexts[_loadingTextIndex],
                 style: TextStyle(
