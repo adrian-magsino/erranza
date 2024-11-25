@@ -63,7 +63,7 @@ class _PanoramaViewState extends State<PanoramaViewPage> {
       String newLocationId = "${area.college_id}_${area.building_id}_${area.floor_id}_${area.area_id}";
       if (newLocationId == currentLocationId) {
         return area;
-      }
+      }    
     }
     return null;
   }
@@ -149,7 +149,7 @@ class _PanoramaViewState extends State<PanoramaViewPage> {
     return Scaffold(
       appBar: AppBar(
         title: Text(currentArea!.area_name),
-        backgroundColor: Colors.green,
+        backgroundColor: Colors.green[800],
       ),
       body: Stack(
         children: [

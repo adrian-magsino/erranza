@@ -1,6 +1,7 @@
 import 'package:erranza/data/appSettings.dart';
-import 'package:erranza/pages/tutorial_page.dart';
+import 'package:erranza/pages/pages.dart';
 import 'package:flutter/material.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 class SettingsPage extends StatefulWidget {
   const SettingsPage({super.key});
@@ -21,213 +22,133 @@ class _SettingsPageState extends State<SettingsPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       resizeToAvoidBottomInset: false,
-      body: SingleChildScrollView(
+      body: ListView(
         padding: EdgeInsets.only(bottom: MediaQuery.of(context).viewInsets.bottom),
-        child: Column(
-          children: [
+        children: [
             Padding(
-              padding: const EdgeInsets.symmetric(vertical: 10.0),
-              child: Column(
-                children: [
-                  Padding(
-                    padding: const EdgeInsets.symmetric(vertical: 10),
-                    child: Align(
-                      alignment: Alignment.centerLeft,
-                      child: Padding(
-                        padding: const EdgeInsets.only(left: 30.0),
-                        child: Text("User Support", style: TextStyle(
-                            color: Colors.black,
-                            fontWeight: FontWeight.w700,
-                            fontSize: 20
-                          ),
-                        ),
-                      ),
-                    ),
-                  ),
-        
-                  Padding(
-                    padding: const EdgeInsets.only(bottom: 10.0),
-                    child: ElevatedButton(
-                      onPressed: () {
-                        Navigator.push(context, MaterialPageRoute(builder: (context) => TutorialPage()));
-                      }, 
-                      style: ElevatedButton.styleFrom(
-                        shape: RoundedRectangleBorder(
-                          borderRadius: BorderRadius.circular(10)
-                        ),
-                        backgroundColor: Color(0xff378B8A),
-                        minimumSize: Size(200, 40)
-                      ),
-                      child: Text("Quick Tutorial", style: TextStyle(
-                        color: Colors.white,
-                        ),
-                      ), 
-                    ),
-                  ),
-        
-                  Padding(
-                    padding: const EdgeInsets.only(bottom: 10.0),
-                    child: ElevatedButton(
-                      onPressed: () {}, 
-                      style: ElevatedButton.styleFrom(
-                        shape: RoundedRectangleBorder(
-                          borderRadius: BorderRadius.circular(10)
-                        ),
-                        backgroundColor: Color(0xff378B8A),
-                        minimumSize: Size(200, 40)
-                      ),
-                      child: Text("Check for Updates", style: TextStyle(
-                        color: Colors.white,
-                        ),
-                      ), 
-                    ),
-                  ),
-                  Padding(
-                    padding: const EdgeInsets.only(bottom: 10.0),
-                    child: ElevatedButton(
-                      onPressed: () {}, 
-                      style: ElevatedButton.styleFrom(
-                        shape: RoundedRectangleBorder(
-                          borderRadius: BorderRadius.circular(10)
-                        ),
-                        backgroundColor: Color(0xff378B8A),
-                        minimumSize: Size(200, 40)
-                      ),
-                      child: Text("Send Feedback Online", style: TextStyle(
-                        color: Colors.white,
-                        ),
-                      ), 
-                    ),
-                  ),
-                  /*
-                  Align(
-                    alignment: Alignment.centerLeft,
-                    child: Padding(
-                      padding: const EdgeInsets.only(left: 45.0),
-                      child: Text("Feedback and Suggestions"),
-                    ),
-                  ),
-                  
-                  Padding(
-                    padding: const EdgeInsets.only(bottom: 10.0),
-                    child: SizedBox(
-                      width: 300,
-                      height: 60,
-                      child: TextField(
-                        decoration: InputDecoration(
-                          hintText: "Write Here",
-                          border: OutlineInputBorder(
-                            borderRadius: BorderRadius.circular(5),
-                          )
-                        ),
-                      ),
-                    ),
-                  ),
-                  Align(
-                    alignment: Alignment.centerRight,
-                    child: Padding(
-                      padding: const EdgeInsets.only(right: 40.0),
-                      child: ElevatedButton(
-                        onPressed: () {}, 
-                        style: ElevatedButton.styleFrom(
-                          shape: RoundedRectangleBorder(
-                            borderRadius: BorderRadius.circular(10)
-                          ),
-                          backgroundColor: Color(0xff378B8A)
-                        ),
-                        child: Text("Send", style: TextStyle(
-                          color: Colors.white,
-                          ),
-                        ), 
-                      ),
-                    ),
-                  ),
-                  */
-                ],
+              padding: const EdgeInsets.symmetric(vertical: 30.0),
+              child: Align(
+                alignment: Alignment.center,
+                child: Image.asset('assets/images/erranzaLogo.png', width: 100, height: 100,)
               ),
             ),
-            Divider(
-                    color: Colors.grey,
-                    thickness: 1,
-                    indent: 20,
-                    endIndent: 20,
-                  ),
+            Divider( color: Colors.grey, thickness: 1,),
             Padding(
-              padding: EdgeInsets.only(top: 20.0),
-              child: Column(
-                children: [
-                  Padding(
-                    padding: const EdgeInsets.only(bottom: 30.0),
-                    child: Align(
-                      alignment: Alignment.centerLeft,
-                      child: Padding(
-                        padding: const EdgeInsets.only(left: 30.0),
-                        child: Text("360-Image View Settings", style: TextStyle(
-                            color: Colors.black,
-                            fontWeight: FontWeight.w700,
-                            fontSize: 20
-                          ),
-                        ),
-                      ),
+              padding: const EdgeInsets.symmetric(vertical: 10),
+              child: Align(
+                alignment: Alignment.centerLeft,
+                child: Padding(
+                  padding: const EdgeInsets.only(left: 15.0),
+                  child: Text("360 View Settings", style: TextStyle(
+                      color: Colors.black,
+                      fontWeight: FontWeight.w700,
+                      fontSize: 20
                     ),
                   ),
-        
-                  Align(
-                    alignment: Alignment.centerLeft,
-                    child: Padding(
-                      padding: const EdgeInsets.only(left: 45.0),
-                      child: Text("View Sensitivity"),
-                    ),
-                  ),  
-        
-                  Padding(
-                    padding: const EdgeInsets.only(bottom: 20.0),
-                    child: SizedBox(
-                      width: 300,
-                      child: Slider(
-                        value: appSettings["panoramaSensitivityValue"], 
-                        min: 1.1,
-                        max: 10.1,
-                        divisions: 10,
-                        activeColor: Color(0xff378B8A),
-                        thumbColor: Colors.white,
-                        label: appSettings["panoramaSensitivityValue"].round().toString(),
-                        onChanged: (double value) {
-                          setState(() {
-                            appSettings["panoramaSensitivityValue"] = value;
-                          });
-                        }
-                      ),
-                    ),
-                  ),
-        
-                  
-                  Padding(
-                    padding: const EdgeInsets.only(left: 50.0),
-                    child: Row(
-                      children: [
-                        Text("Gyro Switch"),
-                        Padding(
-                          padding: const EdgeInsets.only(left: 15.0),
-                          child: Switch(
-                            value: appSettings["gyroSwitch"], 
-                            activeColor: Color(0xff378B8A),
-                            inactiveTrackColor: const Color.fromARGB(255, 129, 129, 129),   
-                            inactiveThumbColor: Colors.white,                    
-                            onChanged: (value) {
-                              setState(() {
-                                appSettings["gyroSwitch"] = value;
-                            });
-                          }),
-                        )
-                      ],
-                    ),
-                  )      
-                ],
+                ),
               ),
             ),
+            ListTile(
+              leading: Icon(Icons.panorama_photosphere, size: 30),
+              title: const Text("View Sensitivity", style: TextStyle(
+                  color: Colors.black,
+                  fontWeight: FontWeight.bold,
+                ),),
+              subtitle: const Text("Adjust the sensitivity of the gesture"),
+            ),
+
+            Padding(
+              padding: const EdgeInsets.only(bottom: 10.0),
+              child: SizedBox(
+                width: 300,
+                child: Slider(
+                  value: appSettings["panoramaSensitivityValue"], 
+                  min: 1.1,
+                  max: 10.1,
+                  divisions: 10,
+                  activeColor: Color(0xff378B8A),
+                  thumbColor: Colors.white,
+                  label: appSettings["panoramaSensitivityValue"].round().toString(),
+                  onChanged: (double value) {
+                    setState(() {
+                      appSettings["panoramaSensitivityValue"] = value;
+                    });
+                  }
+                ),
+              ),
+            ),
+            ListTile(
+              leading: Icon(Icons.sensors, size: 30,),
+              title: const Text("Gyro Switch", style: TextStyle(
+                      color: Colors.black,
+                      fontWeight: FontWeight.bold,
+                    ),),
+              subtitle: const Text("Control the Panorama with motion sensors",),
+              trailing: Switch(
+                      value: appSettings["gyroSwitch"], 
+                      activeColor: Color(0xff378B8A),
+                      inactiveTrackColor: const Color.fromARGB(255, 129, 129, 129),   
+                      inactiveThumbColor: Colors.white,                    
+                      onChanged: (value) {
+                        setState(() {
+                          appSettings["gyroSwitch"] = value;
+                      });
+                    }),
+            ),
+            
+            Divider(color: Colors.grey, thickness: 1,), 
+            Padding(
+              padding: const EdgeInsets.symmetric(vertical: 10),
+              child: Align(
+                alignment: Alignment.centerLeft,
+                child: Padding(
+                  padding: const EdgeInsets.only(left: 15.0),
+                  child: Text("Other", style: TextStyle(
+                      color: Colors.black,
+                      fontWeight: FontWeight.w700,
+                      fontSize: 20
+                    ),
+                  ),
+                ),
+              ),
+            ), 
+            ListTile(
+              leading: Icon(Icons.lightbulb),
+              title: const Text("Quick Tutorial"),
+              trailing: Icon(Icons.arrow_forward_ios),
+              onTap: () {
+                Navigator.push(context, MaterialPageRoute(builder: (context) => TutorialPage()));
+              },
+            ),
+
+            ListTile(
+              leading: Icon(Icons.feedback),
+              title: const Text("Send Feedback Online"),
+              trailing: Icon(Icons.arrow_forward_ios),
+              onTap: () {
+                Navigator.push(context, MaterialPageRoute(builder: (context) => FeedbackPage()));
+              }
+            ),
+
+            ListTile(
+              leading: Icon(Icons.update),
+              title: const Text("Check for Updates"),
+              trailing: Icon(Icons.arrow_forward_ios),
+              onTap: () {
+                Navigator.push(context, MaterialPageRoute(builder: (context) => UpdatesPage()));
+              },
+            ),
+
+            ListTile(
+              leading: Icon(Icons.info),
+              title: const Text("About"),
+              trailing: Icon(Icons.arrow_forward_ios),
+              onTap: () {
+                Navigator.push(context, MaterialPageRoute(builder: (context) => AboutAppPage()));
+              },
+            ),
+
           ],
-        ),
       ),
     );
   }

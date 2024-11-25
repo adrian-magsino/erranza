@@ -8,6 +8,7 @@ class TutorialPage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text("Quick Tutorial"),
+        backgroundColor: Colors.green[800],
       ),
       body: Center(
         child: Text("Quick Tutorial"),
