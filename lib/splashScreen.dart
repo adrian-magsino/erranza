@@ -82,7 +82,9 @@ class _SplashScreenState extends State<SplashScreen>
                 color: Colors.black, 
                 fontSize: 32, 
                 fontWeight: FontWeight.w400, 
-                fontFamily: 'Righteous'),),
+                fontFamily: "Righteous",
+                letterSpacing: 10,
+                ),),
               Padding(
                 padding: const EdgeInsets.all(40.0),
                 child: LinearProgressIndicator(

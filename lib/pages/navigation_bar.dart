@@ -22,9 +22,11 @@ class _CustomNavBarState extends State<CustomNavBar> {
       appBar: AppBar(
         title: const Text("Erranza", 
         style: TextStyle(
-          color: Color(0xffFFCC00),
+          color: Color.fromARGB(157, 255, 255, 255),
           fontSize: 32, 
-          fontWeight: FontWeight.w400
+          fontWeight: FontWeight.w400,
+          fontFamily: "Righteous",
+          letterSpacing: 10,
           ),
         ),
 
