@@ -5,6 +5,10 @@ import 'package:panorama_viewer/panorama_viewer.dart';
 
 import '../data/areas.dart';
 
+//THIS FILE IS FOR TESTING AND EDITING FEATURES RELATED TO PANORAMA VIEWS
+//GO TO main.dart -> class "MyApp" -> build function
+//REPLACE THE WIDGET IN "home" property to PanoramaTests()
+
 class PanoramaTests extends StatefulWidget {
   const PanoramaTests({super.key});
 

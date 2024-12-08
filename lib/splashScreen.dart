@@ -1,7 +1,7 @@
 import 'dart:async';
 
 import 'package:erranza/main.dart';
-import 'package:erranza/pages/navigation_bar.dart';
+import 'package:erranza/widgets/navigation_bar.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
