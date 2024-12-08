@@ -166,11 +166,22 @@ class _PanoramaViewState extends State<PanoramaViewPage> {
               Hotspot(
                 latitude: areaHotspot.latitude,
                 longitude: areaHotspot.longitude,
-                width: 300,
-                height: 300,
-                widget: hotspotButton(icon: hotspotIcons[areaHotspot.type]!, onPressed: () {
-                  switchNextScene(areaHotspot.nextView, areaHotspot.nextViewAngle);
-                }),
+                width: areaHotspot.width,
+                height: areaHotspot.height,
+                widget: FittedBox(
+                  fit: BoxFit.contain,
+                  child: hotspotButton(
+                    label: areaHotspot.labelText != null ? Container(
+                      padding: EdgeInsets.all(6.0),
+                      decoration: BoxDecoration(color: Colors.black38, borderRadius: BorderRadius.all(Radius.circular(4))),
+                      child: Center(child: Text(areaHotspot.labelText!, style: TextStyle(fontSize: 26, color: Colors.white),)),
+                    ):Container(),
+                    
+                    iconImage: hotspotIcons[areaHotspot.type]!, 
+                    onPressed: () {
+                    switchNextScene(areaHotspot.nextView, areaHotspot.nextViewAngle);
+                  }),
+                ),
               ),
             ],
           ),

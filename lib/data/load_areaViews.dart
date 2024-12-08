@@ -15,6 +15,9 @@ class AreaView {
 
 class AreaHotspot {
   final String type;
+  final String? labelText;
+  final double width;
+  final double height;
   final double latitude;
   final double longitude;
   final String nextView;
@@ -22,6 +25,9 @@ class AreaHotspot {
 
   AreaHotspot(
     this.type,
+    this.labelText,
+    this.width,
+    this.height,
     this.latitude,
     this.longitude,
     this.nextView,
@@ -31,8 +37,8 @@ class AreaHotspot {
 
 Map<String, Map<String, AreaView>> areaViewsMap = {};
 List<String> jsonFiles = [
-  "assets/AreaViews/ccjAreaViews/ccjF1_AreaViews.json",
-  "assets/AreaViews/conAreaViews/conF2_AreaViews.json",
+  //"assets/AreaViews/ccjAreaViews/ccjF1_AreaViews.json",
+  //"assets/AreaViews/conAreaViews/conF2_AreaViews.json",
   "assets/AreaViews/cspearAreaViews/cspearF1_AreaViews.json",
 ];
 
@@ -60,6 +66,9 @@ Future<Map<String, Map<String, AreaView>>> loadAreaViews() async {
 
           return AreaHotspot(
             hotspotProperties["type"],
+            hotspotProperties["labelText"],
+            hotspotProperties["width"],
+            hotspotProperties["height"],
             hotspotProperties["latitude"], 
             hotspotProperties["longitude"], 
             hotspotProperties["nextView"],
