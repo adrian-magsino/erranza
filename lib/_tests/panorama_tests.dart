@@ -27,8 +27,8 @@ class _PanoramaTestsState extends State<PanoramaTests> {
   }
   Future<void> _loadData() async {
     await loadAreaViews();
-    String location_id = "CSPEAR_B1_F1_A11"; 
-    setScene(areaViewsMap[location_id]?["AV1"], location_id);
+    String location_id = "CSPEAR_B1_F2_A2"; 
+    setScene(areaViewsMap[location_id]?["AV4"], location_id);
   }
 
   void setScene(AreaView? scene, String location_id){
@@ -63,8 +63,8 @@ class _PanoramaTestsState extends State<PanoramaTests> {
         latitude: 0,
         longitude: 0,
         onViewChanged: (longitude, latitude, tilt) {
-          print("Longitude: $longitude");
           print("Latitude: $latitude");
+          print("Longitude: $longitude");
         },
         hotspots: [
                  
@@ -77,11 +77,11 @@ class _PanoramaTestsState extends State<PanoramaTests> {
             widget: FittedBox(
               fit: BoxFit.contain,
               child: hotspotButton(
-                label: Container(
-                    padding: EdgeInsets.all(6.0),
-                    decoration: BoxDecoration(color: Colors.black38, borderRadius: BorderRadius.all(Radius.circular(4))),
-                    child: Center(child: Text("LABEL", style: TextStyle(fontSize: 26, color: Colors.white),)),
-                  ),
+                label: areaHotspot.labelText != null ? Container(
+                      padding: EdgeInsets.all(6.0),
+                      decoration: BoxDecoration(color: Colors.black38, borderRadius: BorderRadius.all(Radius.circular(4))),
+                      child: Center(child: Text(areaHotspot.labelText!, style: TextStyle(fontSize: 26, color: Colors.white),)),
+                    ):Container(),
                 iconImage: hotspotIcons[areaHotspot.type]!, onPressed: () {}),
             )
           ),

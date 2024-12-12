@@ -77,27 +77,34 @@ flutter:
     - assets/Areas/cspearAreas/
     #360 Images
     - assets/images/buildings/testImages/
-    - assets/images/buildings/cspearAreas/firstFloor/CSPEAR_B1_F1_A1/
-    - assets/images/buildings/cspearAreas/firstFloor/CSPEAR_B1_F1_A2/
-    - assets/images/buildings/cspearAreas/firstFloor/CSPEAR_B1_F1_A3/
-    - assets/images/buildings/cspearAreas/firstFloor/CSPEAR_B1_F1_A4/
-    - assets/images/buildings/ccjAreas/firstFloor/CCJ_B1_F1_A1/
-    - assets/images/buildings/conAreas/secondFloor/CON_B1_F2_A1/
+    #- assets/images/buildings/cspearAreas/CSPEAR_firstFloor/CSPEAR_B1_F1_A1/
+    #- assets/images/buildings/cspearAreas/CSPEAR_firstFloor/CSPEAR_B1_F1_A2/
+    #- assets/images/buildings/cspearAreas/CSPEAR_firstFloor/CSPEAR_B1_F1_A3/
+    #- assets/images/buildings/cspearAreas/CSPEAR_firstFloor/CSPEAR_B1_F1_A4/
+    - assets/images/buildings/ccjAreas/CCJ_firstFloor/CCJ_B1_F1_A1/
+    - assets/images/buildings/conAreas/CON_secondFloor/CON_B1_F2_A1/
 
     #360 Images CSPEAR AREAS First Floor
-    - assets/images/buildings/cspearAreas/firstFloor/Main_Entrance_CSPEAR_B1_F1_A1/
-    - assets/images/buildings/cspearAreas/firstFloor/Right_Corner_Pathway_CSPEAR_B1_F1_A2/
-    - assets/images/buildings/cspearAreas/firstFloor/Right_Pathway_CSPEAR_B1_F1_A3/
-    - assets/images/buildings/cspearAreas/firstFloor/Back_Pathway_CSPEAR_B1_F1_A4/
-    - assets/images/buildings/cspearAreas/firstFloor/Left_Pathway_CSPEAR_B1_F1_A5/
-    - assets/images/buildings/cspearAreas/firstFloor/Left_Corner_Pathway_CSPEAR_B1_F1_A6/
-    - assets/images/buildings/cspearAreas/firstFloor/Front_Left_Entrance_CSPEAR_B1_F1_A7/
-    - assets/images/buildings/cspearAreas/firstFloor/Front_Right_Entrance_CSPEAR_B1_F1_A8/
-    - assets/images/buildings/cspearAreas/firstFloor/Back_Right_Entrance_CSPEAR_B1_F1_A9/
-    - assets/images/buildings/cspearAreas/firstFloor/Back_Left_Entrance_CSPEAR_B1_F1_A10/
-    - assets/images/buildings/cspearAreas/firstFloor/Room1_CSPEAR_B1_F1_A11/
+    - assets/images/buildings/cspearAreas/CSPEAR_firstFloor/Main_Entrance_CSPEAR_B1_F1_A1/
+    - assets/images/buildings/cspearAreas/CSPEAR_firstFloor/Right_Corner_Pathway_CSPEAR_B1_F1_A2/
+    - assets/images/buildings/cspearAreas/CSPEAR_firstFloor/Right_Pathway_CSPEAR_B1_F1_A3/
+    - assets/images/buildings/cspearAreas/CSPEAR_firstFloor/Back_Pathway_CSPEAR_B1_F1_A4/
+    - assets/images/buildings/cspearAreas/CSPEAR_firstFloor/Left_Pathway_CSPEAR_B1_F1_A5/
+    - assets/images/buildings/cspearAreas/CSPEAR_firstFloor/Left_Corner_Pathway_CSPEAR_B1_F1_A6/
+    - assets/images/buildings/cspearAreas/CSPEAR_firstFloor/Front_Left_Entrance_CSPEAR_B1_F1_A7/
+    - assets/images/buildings/cspearAreas/CSPEAR_firstFloor/Front_Right_Entrance_CSPEAR_B1_F1_A8/
+    - assets/images/buildings/cspearAreas/CSPEAR_firstFloor/Back_Right_Entrance_CSPEAR_B1_F1_A9/
+    - assets/images/buildings/cspearAreas/CSPEAR_firstFloor/Back_Left_Entrance_CSPEAR_B1_F1_A10/
+    - assets/images/buildings/cspearAreas/CSPEAR_firstFloor/Room1_CSPEAR_B1_F1_A11/
+
+    #360 Images CSPEAR AREAS Second Floor
+    - assets/images/buildings/cspearAreas/CSPEAR_secondFloor/Left_Staircase_CSPEAR_B1_F2_A1/
+    - assets/images/buildings/cspearAreas/CSPEAR_secondFloor/Main_Lobby_CSPEAR_B1_F2_A2/
+    - assets/images/buildings/cspearAreas/CSPEAR_secondFloor/Right_Staircase_CSPEAR_B1_F2_A3/
+    - assets/images/buildings/cspearAreas/CSPEAR_secondFloor/Gym_Court_CSPEAR_B1_F2_A4/
 
     - assets/images/cardPics/
+    
   fonts:
     - family: Righteous
       fonts:

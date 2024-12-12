@@ -40,7 +40,7 @@ List<Area> allAreas = [...ccjAreas, ...conAreas, ...cspearAreas];
 
 List<Area> get ccjAreas => [...ccjF1_areas];
 List<Area> get conAreas => [...conF1_areas, ...conF2_areas];
-List<Area> get cspearAreas => [...cspearF1_areas];
+List<Area> get cspearAreas => [...cspearF1_areas, ...cspearF2_areas, ];
 List<Area> emptyArea = [];
 
 List<Area> conF1_areas = [];
@@ -49,6 +49,7 @@ List<Area> conF2_areas = [];
 List<Area> ccjF1_areas = [];
 
 List<Area> cspearF1_areas = [];
+List<Area> cspearF2_areas = [];
 
 Map<String, List<Area>> collegeAreas = {
   "CCJ": ccjAreas,

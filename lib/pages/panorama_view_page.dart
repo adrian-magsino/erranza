@@ -158,16 +158,16 @@ class _PanoramaViewState extends State<PanoramaViewPage> {
             key: ValueKey(currentScene!.image),
             sensitivity: appSettings["panoramaSensitivityValue"],
             sensorControl: appSettings["gyroSwitch"] ? SensorControl.orientation: SensorControl.none,
-            latitude: sceneLatitude,
-            longitude: sceneLongitude,
+            latitude: sceneLatitude, //Initial Viewing Angle (Latitude)
+            longitude: sceneLongitude, //Initial Viewing Angle (Longitude)
             child: Image.asset(currentScene!.image), 
             hotspots: [
               for (var areaHotspot in currentScene!.areaHotspots)
               Hotspot(
-                latitude: areaHotspot.latitude,
-                longitude: areaHotspot.longitude,
-                width: areaHotspot.width,
-                height: areaHotspot.height,
+                latitude: areaHotspot.latitude, //Hotspot Position (Latitude)
+                longitude: areaHotspot.longitude, //Hotspot Position (Longitude)
+                width: areaHotspot.width, //Hotspot Size 
+                height: areaHotspot.height, //Hotspot Size
                 widget: FittedBox(
                   fit: BoxFit.contain,
                   child: hotspotButton(
@@ -175,9 +175,9 @@ class _PanoramaViewState extends State<PanoramaViewPage> {
                       padding: EdgeInsets.all(6.0),
                       decoration: BoxDecoration(color: Colors.black38, borderRadius: BorderRadius.all(Radius.circular(4))),
                       child: Center(child: Text(areaHotspot.labelText!, style: TextStyle(fontSize: 26, color: Colors.white),)),
-                    ):Container(),
+                    ):Container(), //Hotspot Label Text
                     
-                    iconImage: hotspotIcons[areaHotspot.type]!, 
+                    iconImage: hotspotIcons[areaHotspot.type]!, //Hotspot Icon/Image
                     onPressed: () {
                     switchNextScene(areaHotspot.nextView, areaHotspot.nextViewAngle);
                   }),
