@@ -75,13 +75,15 @@ flutter:
     - assets/Areas/ccjAreas/
     - assets/Areas/conAreas/
     - assets/Areas/cspearAreas/
+
+    - assets/images/temporaryCardPics/
     #360 Images
     - assets/images/buildings/testImages/
     #- assets/images/buildings/cspearAreas/CSPEAR_firstFloor/CSPEAR_B1_F1_A1/
     #- assets/images/buildings/cspearAreas/CSPEAR_firstFloor/CSPEAR_B1_F1_A2/
     #- assets/images/buildings/cspearAreas/CSPEAR_firstFloor/CSPEAR_B1_F1_A3/
     #- assets/images/buildings/cspearAreas/CSPEAR_firstFloor/CSPEAR_B1_F1_A4/
-    - assets/images/buildings/ccjAreas/CCJ_firstFloor/CCJ_B1_F1_A1/
+    #- assets/images/buildings/ccjAreas/CCJ_firstFloor/CCJ_B1_F1_A1/
     - assets/images/buildings/conAreas/CON_secondFloor/CON_B1_F2_A1/
 
     #360 Images CSPEAR AREAS First Floor
@@ -103,8 +105,32 @@ flutter:
     - assets/images/buildings/cspearAreas/CSPEAR_secondFloor/Right_Staircase_CSPEAR_B1_F2_A3/
     - assets/images/buildings/cspearAreas/CSPEAR_secondFloor/Gym_Court_CSPEAR_B1_F2_A4/
 
-    - assets/images/cardPics/
-    
+    #360 Images CCJ AREAS First Floor
+    - assets/images/buildings/ccjAreas/CCJ_firstFloor/Left_Entrance_CCJ_B1_F1_A1/ 
+    - assets/images/buildings/ccjAreas/CCJ_firstFloor/Hallway_CCJ_B1_F1_A2/
+    - assets/images/buildings/ccjAreas/CCJ_firstFloor/Front_Entrance_CCJ_B1_F1_A3/
+    - assets/images/buildings/ccjAreas/CCJ_firstFloor/Exit_CCJ_B1_F1_A4/
+    - assets/images/buildings/ccjAreas/CCJ_firstFloor/Jusctice_Hall_CCJ_B1_F1_A5/
+
+    #360 Images CCJ AREAS Second Floor   
+    - assets/images/buildings/ccjAreas/CCJ_secondFloor/Hallway_CCJ_B1_F2_A1/
+    - assets/images/buildings/ccjAreas/CCJ_secondFloor/Questioned_Document_Room__CCJ_B1_F2_A2/
+    - assets/images/buildings/ccjAreas/CCJ_secondFloor/Forensic_Ballistics_Room__CCJ_B1_F2_A3/
+    - assets/images/buildings/ccjAreas/CCJ_secondFloor/Personal_Identification_Room__CCJ_B1_F2_A4/
+    - assets/images/buildings/ccjAreas/CCJ_secondFloor/Lie_Detection_Room__CCJ_B1_F2_A5/
+    - assets/images/buildings/ccjAreas/CCJ_secondFloor/Police_Photography_Room__CCJ_B1_F2_A6/
+
+    #360 Images CCJ AREAS Third Floor
+    - assets/images/buildings/ccjAreas/CCJ_thirdFloor/Hallway_CCJ_B1_F3_A1/
+    - assets/images/buildings/ccjAreas/CCJ_thirdFloor/LEA_Room__CCJ_B1_F3_A2/
+    - assets/images/buildings/ccjAreas/CCJ_thirdFloor/CORAD_Room__CCJ_B1_F3_A3/
+    - assets/images/buildings/ccjAreas/CCJ_thirdFloor/SocSci_Room_CCJ_B1_F3_A4/
+    - assets/images/buildings/ccjAreas/CCJ_thirdFloor/ISM_Room__CCJ_B1_F3_A5/
+    - assets/images/buildings/ccjAreas/CCJ_thirdFloor/CDIN_Room_CCJ_B1_F3_A6/
+    - assets/images/buildings/ccjAreas/CCJ_thirdFloor/DRRM_Room__CCJ_B1_F3_A7/
+      
+    #360 Images CCJ AREAS Fourth Floor
+    - assets/images/buildings/ccjAreas/CCJ_fourthFloor/Contact_Sports_Area_CCJ_B1_F4_A1/
   fonts:
     - family: Righteous
       fonts:
