@@ -76,7 +76,7 @@ flutter:
     - assets/Areas/conAreas/
     - assets/Areas/cspearAreas/
 
-    - assets/images/temporaryCardPics/
+    - assets/images/temporaryCardpics/
     #360 Images
     - assets/images/buildings/testImages/
     #- assets/images/buildings/cspearAreas/CSPEAR_firstFloor/CSPEAR_B1_F1_A1/

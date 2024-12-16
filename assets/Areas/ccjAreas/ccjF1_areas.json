@@ -26,7 +26,7 @@
     {
     "college_id": "CCJ", "building_id": "B1", "floor_id": "F1", "area_id": "A4",
     "icon": "assets/images/roomicons/hallway.png", 
-    "area_name": "Exit", 
+    "area_name": "Right Exit", 
     "building_name": "CCJ Building", 
     "college_name": "College of Criminal Justice"
     },

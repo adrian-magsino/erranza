@@ -36,7 +36,8 @@ class _PanoramaViewState extends State<PanoramaViewPage> {
 
   Map<String, String> hotspotIcons = {
     "move": "assets/images/hotspots/MoveHotspot.png",
-    "stairs": "assets/images/hotspots/arrow_hotspot.png"
+    "stairs": "assets/images/hotspots/StairsHotspot.png",
+    "room": "assets/images/hotspots/RoomHotspot.png"
   };
 
   @override

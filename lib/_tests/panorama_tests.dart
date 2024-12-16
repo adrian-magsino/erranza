@@ -27,8 +27,8 @@ class _PanoramaTestsState extends State<PanoramaTests> {
   }
   Future<void> _loadData() async {
     await loadAreaViews();
-    String location_id = "CSPEAR_B1_F2_A2"; 
-    setScene(areaViewsMap[location_id]?["AV4"], location_id);
+    String location_id = "CCJ_B1_F1_A2"; 
+    setScene(areaViewsMap[location_id]?["AV2"], location_id);
   }
 
   void setScene(AreaView? scene, String location_id){
@@ -44,7 +44,8 @@ class _PanoramaTestsState extends State<PanoramaTests> {
   
   Map<String, String> hotspotIcons = {
     "move": "assets/images/hotspots/MoveHotspot.png",
-    "stairs": "assets/images/hotspots/arrow_hotspot.png"
+    "stairs": "assets/images/hotspots/StairsHotspot.png",
+    "room": "assets/images/hotspots/RoomHotspot.png"
   };
   
   @override

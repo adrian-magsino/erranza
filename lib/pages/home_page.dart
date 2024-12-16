@@ -10,42 +10,42 @@ class HomePage extends StatelessWidget {
     // Define the buildings list as a local variable
     final List<Map<String, dynamic>> buildings = [
       {
-        'image': 'assets/images/temporarycardpics/bldg1.jpg',
+        'image': 'assets/images/temporaryCardpics/bldg1.jpg',
         'title': 'CCJ Building',
         'subtitle': 'College of Criminal Justice',
         'areaList': ccjAreas,
         'floors': ["1st Floor", "2nd Floor", "3rd Floor", "4th Floor"],
       },
       {
-        'image': 'assets/images/temporarycardpics/bldg2.jpg',
+        'image': 'assets/images/temporaryCardpics/bldg2.jpg',
         'title': 'CON Building',
         'subtitle': 'College of Nursing',
         'areaList': conAreas,
         'floors': ["1st Floor", "2nd Floor", "3rd Floor", "4th Floor", "5th Floor"],
       },
       {
-        'image': 'assets/images/temporarycardpics/bldg3.jpg',
+        'image': 'assets/images/temporaryCardpics/bldg3.jpg',
         'title': 'Main Library',
         'subtitle': 'University Library',
         'areaList': emptyArea,
         'floors': ["1st Floor", "2nd Floor", "3rd Floor", "4th Floor"],
       },
       {
-        'image': 'assets/images/temporarycardpics/bldg4.jpg',
+        'image': 'assets/images/temporaryCardpics/bldg4.jpg',
         'title': 'University Gym',
         'subtitle': 'College of Sports, Physical Education and Recreation',
         'areaList': cspearAreas,
         'floors': ["1st Floor", "2nd Floor", "3rd Floor"],
       },
       {
-        'image': 'assets/images/temporarycardpics/bldg5.jpg',
+        'image': 'assets/images/temporaryCardpics/bldg5.jpg',
         'title': 'Arts and Communication',
         'subtitle': 'College of Arts and Communication',
         'areaList': emptyArea,
         'floors': ["1st Floor", "2nd Floor", "3rd Floor", "4th Floor"],
       },
       {
-        'image': 'assets/images/temporarycardpics/bldg6.jpg',
+        'image': 'assets/images/temporaryCardpics/bldg6.jpg',
         'title': 'Student Center',
         'subtitle': 'Campus Hub for Students',
         'areaList': emptyArea,
