@@ -1,0 +1,177 @@
+[
+    {
+      "location_id": "CCJ_B1_F3_A1",
+      "areaViews": [  
+        {"sceneId": "AV1",
+        "image": "assets/images/buildings/ccjAreas/CCJ_thirdFloor/Hallway_CCJ_B1_F3_A1/CCJ_B1_F3_A1_AV1.webp",
+        "hotspots": [
+          {"type": "move", "labelText":null, "width":120.0, "height":120.0, "latitude": -22.0, "longitude": 90.0, "nextView": "CCJ_B1_F3_A1:AV2", "nextViewAngle": [-13.0, 179.0]},
+
+          {"type": "room", "labelText":"LEA Room", "width":150.0, "height":150.0, "latitude": -6.0, "longitude": 53.0, "nextView": "CCJ_B1_F3_A2:AV1", "nextViewAngle": [0.0, 0.0]},
+
+          {"type": "stairs", "labelText":"2nd Floor", "width":120.0, "height":120.0, "latitude": -22.0, "longitude": 9.0, "nextView": "CCJ_B1_F2_A1:AV1", "nextViewAngle": [-6.0, 115.0]},
+          {"type": "stairs", "labelText":"4th Floor", "width":120.0, "height":120.0, "latitude": 0.0, "longitude": -28.0, "nextView": "CCJ_B1_F3_A1:AV1", "nextViewAngle": [-5.0, 82.0]}
+        ]},
+
+        {"sceneId": "AV2",
+        "image": "assets/images/buildings/ccjAreas/CCJ_thirdFloor/Hallway_CCJ_B1_F3_A1/CCJ_B1_F3_A1_AV2.webp",   
+        "hotspots": [
+          {"type": "move", "labelText":null, "width":120.0, "height":120.0, "latitude": -22.0, "longitude": 0.0, "nextView": "CCJ_B1_F3_A1:AV1", "nextViewAngle": [-13.0, 0.0]},
+          {"type": "move", "labelText":null, "width":120.0, "height":120.0, "latitude": -22.0, "longitude": 180.0, "nextView": "CCJ_B1_F3_A1:AV3", "nextViewAngle": [-13.0, 180.0]},
+
+          {"type": "room", "labelText":"LEA Room", "width":200.0, "height":200.0, "latitude": -6.0, "longitude": 90.0, "nextView": "CCJ_B1_F3_A2:AV1", "nextViewAngle": [0.0, 0.0]}
+        ]},
+
+        {"sceneId": "AV3",
+        "image": "assets/images/buildings/ccjAreas/CCJ_thirdFloor/Hallway_CCJ_B1_F3_A1/CCJ_B1_F3_A1_AV3.webp",
+        "hotspots": [
+          {"type": "move", "labelText":null, "width":120.0, "height":120.0, "latitude": -22.0, "longitude": 0.0, "nextView": "CCJ_B1_F3_A1:AV2", "nextViewAngle": [-13.0, 0.0]},
+          {"type": "move", "labelText":null, "width":120.0, "height":120.0, "latitude": -22.0, "longitude": 180.0, "nextView": "CCJ_B1_F3_A1:AV4", "nextViewAngle": [-13.0, 180.0]},
+
+          {"type": "room", "labelText":"LEA Room", "width":200.0, "height":200.0, "latitude": -6.0, "longitude": 57.0, "nextView": "CCJ_B1_F3_A2:AV1", "nextViewAngle": [0.0, 0.0]},
+          {"type": "room", "labelText":"CORAD Room", "width":200.0, "height":200.0, "latitude": 0.0, "longitude": 111.0, "nextView": "CCJ_B1_F3_A3:AV1", "nextViewAngle": [0.0, 0.0]}
+          
+        ]},
+
+        {"sceneId": "AV4",
+        "image": "assets/images/buildings/ccjAreas/CCJ_thirdFloor/Hallway_CCJ_B1_F3_A1/CCJ_B1_F3_A1_AV4.webp",
+        "hotspots": [
+          {"type": "move", "labelText":null, "width":120.0, "height":120.0, "latitude": -22.0, "longitude": 0.0, "nextView": "CCJ_B1_F3_A1:AV3", "nextViewAngle": [-13.0, 0.0]},
+          {"type": "move", "labelText":null, "width":120.0, "height":120.0, "latitude": -22.0, "longitude": 180.0, "nextView": "CCJ_B1_F3_A1:AV5", "nextViewAngle": [-13.0, 0.0]},
+
+          {"type": "room", "labelText":"CORAD Room", "width":200.0, "height":200.0, "latitude": 0.0, "longitude": 61.0, "nextView": "CCJ_B1_F3_A3:AV1", "nextViewAngle": [0.0, 0.0]},
+          {"type": "room", "labelText":"SocSci Room", "width":200.0, "height":200.0, "latitude": 0.0, "longitude": 115.0, "nextView": "CCJ_B1_F3_A4:AV1", "nextViewAngle": [0.0, 0.0]}
+        ]},
+
+        {"sceneId": "AV5",
+        "image": "assets/images/buildings/ccjAreas/CCJ_thirdFloor/Hallway_CCJ_B1_F3_A1/CCJ_B1_F3_A1_AV5.webp",
+        "hotspots": [
+          {"type": "move", "labelText":null, "width":120.0, "height":120.0, "latitude": -22.0, "longitude": 180.0, "nextView": "CCJ_B1_F3_A1:AV4", "nextViewAngle": [-13.0, 0.0]},
+          {"type": "move", "labelText":null, "width":120.0, "height":120.0, "latitude": -22.0, "longitude": 0.0, "nextView": "CCJ_B1_F3_A1:AV6", "nextViewAngle": [-13.0, 180.0]},
+
+          {"type": "room", "labelText":"SocSci Room", "width":200.0, "height":200.0, "latitude": 0.0, "longitude": -87.0, "nextView": "CCJ_B1_F3_A4:AV1", "nextViewAngle": [0.0, 0.0]}
+         
+        ]},
+
+        {"sceneId": "AV6",
+        "image": "assets/images/buildings/ccjAreas/CCJ_thirdFloor/Hallway_CCJ_B1_F3_A1/CCJ_B1_F3_A1_AV6.webp",
+        "hotspots": [
+          {"type": "move", "labelText":null, "width":120.0, "height":120.0, "latitude": -22.0, "longitude": 0.0, "nextView": "CCJ_B1_F3_A1:AV5", "nextViewAngle": [-13.0, 180.0]},
+          {"type": "move", "labelText":null, "width":120.0, "height":120.0, "latitude": -22.0, "longitude": 180.0, "nextView": "CCJ_B1_F3_A1:AV7", "nextViewAngle": [-13.0, 180.0]},
+
+          {"type": "N/A", "labelText":"Criminal Justice Student Council Office \nStudent Organzation Office", "width":250.0, "height":250.0, "latitude": -5.0, "longitude": 66.0, "nextView": "CCJ_B1_F3_A1:AV6", "nextViewAngle": [0.0, 0.0]},
+          {"type": "room", "labelText":"ISM Room", "width":200.0, "height":200.0, "latitude": 0.0, "longitude": 118.0, "nextView": "CCJ_B1_F3_A5:AV1", "nextViewAngle": [0.0, 0.0]}
+        ]},
+
+        {"sceneId": "AV7", 
+        "image": "assets/images/buildings/ccjAreas/CCJ_thirdFloor/Hallway_CCJ_B1_F3_A1/CCJ_B1_F3_A1_AV7.webp",
+        "hotspots": [
+          {"type": "move", "labelText":null, "width":120.0, "height":120.0, "latitude": -22.0, "longitude": 0.0, "nextView": "CCJ_B1_F3_A1:AV6", "nextViewAngle": [-13.0, 0.0]},
+          {"type": "move", "labelText":null, "width":120.0, "height":120.0, "latitude": -22.0, "longitude": 180.0, "nextView": "CCJ_B1_F3_A1:AV8", "nextViewAngle": [-13.0, 180.0]},
+
+          {"type": "room", "labelText":"ISM Room", "width":200.0, "height":200.0, "latitude": 0.0, "longitude": 67.0, "nextView": "CCJ_B1_F3_A5:AV1", "nextViewAngle": [0.0, 0.0]},
+          {"type": "room", "labelText":"CDIN Room", "width":200.0, "height":200.0, "latitude": -5.0, "longitude": 115.0, "nextView": "CCJ_B1_F3_A6:AV1", "nextViewAngle": [0.0, 0.0]}
+        ]},
+
+        {"sceneId": "AV8",
+        "image": "assets/images/buildings/ccjAreas/CCJ_thirdFloor/Hallway_CCJ_B1_F3_A1/CCJ_B1_F3_A1_AV8.webp",
+        "hotspots": [
+          {"type": "move", "labelText":null, "width":120.0, "height":120.0, "latitude": -22.0, "longitude": 0.0, "nextView": "CCJ_B1_F3_A1:AV7", "nextViewAngle": [-13.0, 0.0]},
+          {"type": "move", "labelText":null, "width":120.0, "height":120.0, "latitude": -22.0, "longitude": 180.0, "nextView": "CCJ_B1_F3_A1:AV9", "nextViewAngle": [-13.0, 180.0]},
+
+          {"type": "room", "labelText":"CDIN Room", "width":200.0, "height":200.0, "latitude": -5.0, "longitude": 60.0, "nextView": "CCJ_B1_F3_A6:AV1", "nextViewAngle": [0.0, 0.0]},
+          {"type": "room", "labelText":"DRRM Room", "width":200.0, "height":200.0, "latitude": -5.0, "longitude": 115.0, "nextView": "CCJ_B1_F3_A7:AV1", "nextViewAngle": [0.0, 0.0]}
+        ]},
+
+        {"sceneId": "AV9",
+        "image": "assets/images/buildings/ccjAreas/CCJ_thirdFloor/Hallway_CCJ_B1_F3_A1/CCJ_B1_F3_A1_AV9.webp",
+        "hotspots": [
+          {"type": "move", "labelText":null, "width":120.0, "height":120.0, "latitude": -22.0, "longitude": 0.0, "nextView": "CCJ_B1_F3_A1:AV8", "nextViewAngle": [-13.0, 0.0]},
+          {"type": "move", "labelText":null, "width":120.0, "height":120.0, "latitude": -22.0, "longitude": 180.0, "nextView": "CCJ_B1_F3_A1:AV10", "nextViewAngle": [-13.0, 180.0]},
+
+          {"type": "room", "labelText":"DRRM Room", "width":200.0, "height":200.0, "latitude": -5.0, "longitude": 84.0, "nextView": "CCJ_B1_F3_A7:AV1", "nextViewAngle": [0.0, 0.0]}
+        ]},
+
+        {"sceneId": "AV10",
+        "image": "assets/images/buildings/ccjAreas/CCJ_thirdFloor/Hallway_CCJ_B1_F3_A1/CCJ_B1_F3_A1_AV10.webp",
+        "hotspots": [
+          {"type": "move", "labelText":null, "width":120.0, "height":120.0, "latitude": -22.0, "longitude": 0.0, "nextView": "CCJ_B1_F3_A1:AV9", "nextViewAngle": [-13.0, 0.0]},
+
+          {"type": "stairs", "labelText":"2nd Floor", "width":150.0, "height":150.0, "latitude": -22.0, "longitude": 71.0, "nextView": "CCJ_B1_F2_A1:AV10", "nextViewAngle": [-13.0, 22.0]},
+          {"type": "stairs", "labelText":"4th Floor", "width":150.0, "height":150.0, "latitude": 0.0, "longitude": 106.0, "nextView": "CCJ_B1_F3_A1:AV1", "nextViewAngle": [-5.0, 106.0]}
+        ]}
+      ]
+    },
+
+    {
+      "location_id": "CCJ_B1_F3_A2",
+      "areaViews": [  
+        {"sceneId": "AV1",
+        "image": "assets/images/buildings/ccjAreas/CCJ_thirdFloor/LEA_Room__CCJ_B1_F3_A2/CCJ_B1_F3_A2_AV1.webp",
+        "hotspots": [
+          {"type": "room", "labelText":null, "width":100.0, "height":100.0, "latitude": -6.0, "longitude": -48.0, "nextView": "CCJ_B1_F3_A1:AV1", "nextViewAngle": [-8.0, 61.0]},
+          {"type": "room", "labelText":null, "width":100.0, "height":100.0, "latitude": -6.0, "longitude": -114.0, "nextView": "CCJ_B1_F3_A1:AV3", "nextViewAngle": [-8.0, 59.0]}
+        ]}         
+      ]
+    },
+
+    {
+      "location_id": "CCJ_B1_F3_A3",
+      "areaViews": [  
+        {"sceneId": "AV1",
+        "image": "assets/images/buildings/ccjAreas/CCJ_thirdFloor/CORAD_Room__CCJ_B1_F3_A3/CCJ_B1_F3_A3_AV1.webp",
+        "hotspots": [
+          {"type": "room", "labelText":null, "width":100.0, "height":100.0, "latitude": -6.0, "longitude": 125.0, "nextView": "CCJ_B1_F3_A1:AV3", "nextViewAngle": [-8.0, 113.0]},
+          {"type": "room", "labelText":null, "width":100.0, "height":100.0, "latitude": -6.0, "longitude": 63.0, "nextView": "CCJ_B1_F3_A1:AV4", "nextViewAngle": [-8.0, 64.0]}
+        ]}         
+      ]
+    },
+
+    {
+      "location_id": "CCJ_B1_F3_A4",
+      "areaViews": [  
+        {"sceneId": "AV1",
+        "image": "assets/images/buildings/ccjAreas/CCJ_thirdFloor/SocSci_Room_CCJ_B1_F3_A4/CCJ_B1_F3_A4_AV1.webp",
+        "hotspots": [
+          {"type": "room", "labelText":null, "width":100.0, "height":100.0, "latitude": -6.0, "longitude": 120.0, "nextView": "CCJ_B1_F3_A1:AV4", "nextViewAngle": [-8.0, 113.0]},
+          {"type": "room", "labelText":null, "width":100.0, "height":100.0, "latitude": -6.0, "longitude": 58.0, "nextView": "CCJ_B1_F3_A1:AV5", "nextViewAngle": [-8.0, -88.0]}
+        ]}         
+      ]
+    },
+
+    {
+      "location_id": "CCJ_B1_F3_A5",
+      "areaViews": [  
+        {"sceneId": "AV1",
+        "image": "assets/images/buildings/ccjAreas/CCJ_thirdFloor/ISM_Room__CCJ_B1_F3_A5/CCJ_B1_F3_A5_AV1.webp",
+        "hotspots": [
+          {"type": "room", "labelText":null, "width":100.0, "height":100.0, "latitude": -6.0, "longitude": -51.0, "nextView": "CCJ_B1_F3_A1:AV6", "nextViewAngle": [-8.0, 119.0]},
+          {"type": "room", "labelText":null, "width":100.0, "height":100.0, "latitude": -6.0, "longitude": -116.0, "nextView": "CCJ_B1_F3_A1:AV7", "nextViewAngle": [-8.0, 64.0]}
+        ]}         
+      ]
+    },
+
+    {
+      "location_id": "CCJ_B1_F3_A6",
+      "areaViews": [  
+        {"sceneId": "AV1",
+        "image": "assets/images/buildings/ccjAreas/CCJ_thirdFloor/CDIN_Room_CCJ_B1_F3_A6/CCJ_B1_F3_A6_AV1.webp",
+        "hotspots": [
+          {"type": "room", "labelText":null, "width":100.0, "height":100.0, "latitude": -6.0, "longitude": 120.0, "nextView": "CCJ_B1_F3_A1:AV7", "nextViewAngle": [-8.0, 120.0]},
+          {"type": "room", "labelText":null, "width":100.0, "height":100.0, "latitude": -6.0, "longitude": 58.0, "nextView": "CCJ_B1_F3_A1:AV8", "nextViewAngle": [-8.0, 66.0]}
+        ]}         
+      ]
+    },
+
+    {
+      "location_id": "CCJ_B1_F3_A7",
+      "areaViews": [  
+        {"sceneId": "AV1",
+        "image": "assets/images/buildings/ccjAreas/CCJ_thirdFloor/DRRM_Room__CCJ_B1_F3_A7/CCJ_B1_F3_A7_AV1.webp",
+        "hotspots": [
+          {"type": "room", "labelText":null, "width":100.0, "height":100.0, "latitude": -6.0, "longitude": -60.0, "nextView": "CCJ_B1_F3_A1:AV8", "nextViewAngle": [-8.0, 116.0]},
+          {"type": "room", "labelText":null, "width":100.0, "height":100.0, "latitude": -6.0, "longitude": -123.0, "nextView": "CCJ_B1_F3_A1:AV9", "nextViewAngle": [-8.0, 85.0]}
+        ]}         
+      ]
+    }
+]

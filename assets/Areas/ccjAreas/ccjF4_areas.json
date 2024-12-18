@@ -1,0 +1,9 @@
+[
+    {
+    "college_id": "CCJ", "building_id": "B1", "floor_id": "F4", "area_id": "A1",
+    "icon": "assets/images/roomicons/work_area.png", 
+    "area_name": "Contact Sports Area", 
+    "building_name": "CCJ Building", 
+    "college_name": "College of Criminal Justice"
+    }
+]

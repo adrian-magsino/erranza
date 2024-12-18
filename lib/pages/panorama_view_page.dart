@@ -37,7 +37,8 @@ class _PanoramaViewState extends State<PanoramaViewPage> {
   Map<String, String> hotspotIcons = {
     "move": "assets/images/hotspots/MoveHotspot.png",
     "stairs": "assets/images/hotspots/StairsHotspot.png",
-    "room": "assets/images/hotspots/RoomHotspot.png"
+    "room": "assets/images/hotspots/RoomHotspot.png",
+    "N/A": "assets/images/hotspots/arrow_hotspot.png"
   };
 
   @override
@@ -162,6 +163,10 @@ class _PanoramaViewState extends State<PanoramaViewPage> {
             latitude: sceneLatitude, //Initial Viewing Angle (Latitude)
             longitude: sceneLongitude, //Initial Viewing Angle (Longitude)
             child: Image.asset(currentScene!.image), 
+            onViewChanged: (longitude, latitude, tilt) {
+              print("Latitude: $latitude");
+              print("Longitude: $longitude");
+            },
             hotspots: [
               for (var areaHotspot in currentScene!.areaHotspots)
               Hotspot(

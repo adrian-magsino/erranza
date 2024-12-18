@@ -1,0 +1,50 @@
+[
+    {
+    "college_id": "CCJ", "building_id": "B1", "floor_id": "F2", "area_id": "A1",
+    "icon": "assets/images/roomicons/hallway.png", 
+    "area_name": "Hallway (2nd Floor)", 
+    "building_name": "CCJ Building", 
+    "college_name": "College of Criminal Justice"
+    },
+
+    {
+    "college_id": "CCJ", "building_id": "B1", "floor_id": "F2", "area_id": "A2",
+    "icon": "assets/images/roomicons/classroom.png", 
+    "area_name": "Questioned Document Room", 
+    "building_name": "CCJ Building", 
+    "college_name": "College of Criminal Justice"
+    },
+
+    {
+    "college_id": "CCJ", "building_id": "B1", "floor_id": "F2", "area_id": "A3",
+    "icon": "assets/images/roomicons/classroom.png", 
+    "area_name": "Forensic Ballistics Room", 
+    "building_name": "CCJ Building", 
+    "college_name": "College of Criminal Justice"
+    },
+
+    {
+    "college_id": "CCJ", "building_id": "B1", "floor_id": "F2", "area_id": "A4",
+    "icon": "assets/images/roomicons/classroom.png", 
+    "area_name": "Personal Identification Room", 
+    "building_name": "CCJ Building", 
+    "college_name": "College of Criminal Justice"
+    },
+
+    {
+    "college_id": "CCJ", "building_id": "B1", "floor_id": "F2", "area_id": "A5",
+    "icon": "assets/images/roomicons/classroom.png", 
+    "area_name": "Lie Detection Room", 
+    "building_name": "CCJ Building", 
+    "college_name": "College of Criminal Justice"
+    },
+
+    {
+    "college_id": "CCJ", "building_id": "B1", "floor_id": "F2", "area_id": "A6",
+    "icon": "assets/images/roomicons/classroom.png", 
+    "area_name": "Police Photography Room", 
+    "building_name": "CCJ Building", 
+    "college_name": "College of Criminal Justice"
+    }
+    
+]

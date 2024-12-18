@@ -1,0 +1,57 @@
+[
+    {
+    "college_id": "CCJ", "building_id": "B1", "floor_id": "F3", "area_id": "A1",
+    "icon": "assets/images/roomicons/hallway.png", 
+    "area_name": "Hallway (3rd Floor)", 
+    "building_name": "CCJ Building", 
+    "college_name": "College of Criminal Justice"
+    },
+
+    {
+    "college_id": "CCJ", "building_id": "B1", "floor_id": "F3", "area_id": "A2",
+    "icon": "assets/images/roomicons/classroom.png", 
+    "area_name": "LEA Room", 
+    "building_name": "CCJ Building", 
+    "college_name": "College of Criminal Justice"
+    },
+
+    {
+    "college_id": "CCJ", "building_id": "B1", "floor_id": "F3", "area_id": "A3",
+    "icon": "assets/images/roomicons/classroom.png", 
+    "area_name": "CORAD Room", 
+    "building_name": "CCJ Building", 
+    "college_name": "College of Criminal Justice"
+    },
+
+    {
+    "college_id": "CCJ", "building_id": "B1", "floor_id": "F3", "area_id": "A4",
+    "icon": "assets/images/roomicons/classroom.png", 
+    "area_name": "SocSci Room", 
+    "building_name": "CCJ Building", 
+    "college_name": "College of Criminal Justice"
+    },
+
+    {
+    "college_id": "CCJ", "building_id": "B1", "floor_id": "F3", "area_id": "A5",
+    "icon": "assets/images/roomicons/classroom.png", 
+    "area_name": "ISM Room", 
+    "building_name": "CCJ Building", 
+    "college_name": "College of Criminal Justice"
+    },
+
+    {
+    "college_id": "CCJ", "building_id": "B1", "floor_id": "F3", "area_id": "A6",
+    "icon": "assets/images/roomicons/classroom.png", 
+    "area_name": "CDIN Room", 
+    "building_name": "CCJ Building", 
+    "college_name": "College of Criminal Justice"
+    },
+
+    {
+    "college_id": "CCJ", "building_id": "B1", "floor_id": "F3", "area_id": "A7",
+    "icon": "assets/images/roomicons/classroom.png", 
+    "area_name": "DRRM Room", 
+    "building_name": "CCJ Building", 
+    "college_name": "College of Criminal Justice"
+    }
+]
