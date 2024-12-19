@@ -78,7 +78,7 @@
           {"type": "move", "labelText":null, "width":120.0, "height":120.0, "latitude": -22.0, "longitude": 90.0, "nextView": "CCJ_B1_F2_A1:AV9", "nextViewAngle": [-13.0, 0.0]},
 
           {"type": "room", "labelText":"Police Photography Room", "width":250.0, "height":250.0, "latitude": -5.0, "longitude": -24.0, "nextView": "CCJ_B1_F2_A6:AV1", "nextViewAngle": [0.0, 0.0]},
-          {"type": "N/A", "labelText":"Crime Scene Room", "width":250.0, "height":250.0, "latitude": -5.0, "longitude": 24.0, "nextView": "CCJ_B1_F2_A1:AV8", "nextViewAngle": [0.0, 0.0]}
+          {"type": "N/A", "labelText":"Crime Scene Room", "width":250.0, "height":250.0, "latitude": -5.0, "longitude": 24.0, "nextView": null, "nextViewAngle": [0.0, 0.0]}
         ]},
 
         {"sceneId": "AV9",
@@ -87,7 +87,7 @@
           {"type": "move", "labelText":null, "width":120.0, "height":120.0, "latitude": -22.0, "longitude": 179.0, "nextView": "CCJ_B1_F2_A1:AV8", "nextViewAngle": [-13.0, -90.0]},
           {"type": "move", "labelText":null, "width":120.0, "height":120.0, "latitude": -22.0, "longitude": 0.0, "nextView": "CCJ_B1_F2_A1:AV10", "nextViewAngle": [-13.0, -152.0]},
 
-          {"type": "N/A", "labelText":"Investigation Room", "width":250.0, "height":250.0, "latitude": -5.0, "longitude": -90.0, "nextView": "CCJ_B1_F2_A1:AV9", "nextViewAngle": [0.0, 0.0]}
+          {"type": "N/A", "labelText":"Investigation Room", "width":250.0, "height":250.0, "latitude": -5.0, "longitude": -90.0, "nextView": null, "nextViewAngle": [0.0, 0.0]}
         ]},
 
         {"sceneId": "AV10",

@@ -20,7 +20,7 @@ class AreaHotspot {
   final double height;
   final double latitude;
   final double longitude;
-  final String nextView;
+  final String? nextView;
   final List<double> nextViewAngle;
 
   AreaHotspot(

@@ -50,7 +50,7 @@
           {"type": "move", "labelText":null, "width":120.0, "height":120.0, "latitude": -22.0, "longitude": -177.0, "nextView": "CCJ_B1_F1_A2:AV3", "nextViewAngle": [-8.0, -176.0]},
           {"type": "move", "labelText":null, "width":120.0, "height":120.0, "latitude": -22.0, "longitude": 0.0, "nextView": "CCJ_B1_F1_A2:AV5", "nextViewAngle": [-8.0, 3.0]},
 
-          {"type": "N/A", "labelText":"Deans Office \nConference Room", "width":200.0, "height":200.0, "latitude": -6.0, "longitude": -87.0, "nextView": "CCJ_B1_F1_A2:AV4", "nextViewAngle": [-8.0, -87.0]}
+          {"type": "N/A", "labelText":"Deans Office \nConference Room", "width":200.0, "height":200.0, "latitude": -6.0, "longitude": -87.0, "nextView": null, "nextViewAngle": [-8.0, -87.0]}
         ]},
 
         {"sceneId": "AV5",
@@ -59,8 +59,8 @@
           {"type": "move", "labelText":null, "width":120.0, "height":120.0, "latitude": -22.0, "longitude": -172.0, "nextView": "CCJ_B1_F1_A2:AV4", "nextViewAngle": [-8.0, -177.0]},
           {"type": "move", "labelText":null, "width":120.0, "height":120.0, "latitude": -22.0, "longitude": 3.0, "nextView": "CCJ_B1_F1_A2:AV6", "nextViewAngle": [-8.0, 0.0]},
 
-          {"type": "N/A", "labelText":"Research Office \nExtension Office", "width":200.0, "height":200.0, "latitude": -6.0, "longitude": -104.0, "nextView": "CCJ_B1_F1_A2:AV5", "nextViewAngle": [-8.0, -104.0]},
-          {"type": "N/A", "labelText":"Registrar's Office \nconsultation Room \nPantry Room", "width":200.0, "height":200.0, "latitude": -6.0, "longitude": -60.0, "nextView": "CCJ_B1_F1_A2:AV5", "nextViewAngle": [-8.0, -60.0]}
+          {"type": "N/A", "labelText":"Research Office \nExtension Office", "width":200.0, "height":200.0, "latitude": -6.0, "longitude": -104.0, "nextView": null, "nextViewAngle": [-8.0, -104.0]},
+          {"type": "N/A", "labelText":"Registrar's Office \nconsultation Room \nPantry Room", "width":200.0, "height":200.0, "latitude": -6.0, "longitude": -60.0, "nextView": null, "nextViewAngle": [-8.0, -60.0]}
         ]},
 
         {"sceneId": "AV6",
@@ -69,8 +69,8 @@
           {"type": "move", "labelText":null, "width":120.0, "height":120.0, "latitude": -22.0, "longitude": 180.0, "nextView": "CCJ_B1_F1_A2:AV5", "nextViewAngle": [-8.0, -172.0]},
           {"type": "move", "labelText":null, "width":120.0, "height":120.0, "latitude": -22.0, "longitude": -1.0, "nextView": "CCJ_B1_F1_A2:AV7", "nextViewAngle": [-8.0, 0.0]},
 
-          {"type": "N/A", "labelText":"Faculty Room", "width":200.0, "height":200.0, "latitude": -6.0, "longitude": -132.0, "nextView": "CCJ_B1_F1_A2:AV6", "nextViewAngle": [-8.0, -132.0]},
-          {"type": "N/A", "labelText":"CCTV Room", "width":200.0, "height":200.0, "latitude": -6.0, "longitude": -85.0, "nextView": "CCJ_B1_F1_A2:AV6", "nextViewAngle": [-8.0, -85.0]}
+          {"type": "N/A", "labelText":"Faculty Room", "width":200.0, "height":200.0, "latitude": -6.0, "longitude": -132.0, "nextView": null, "nextViewAngle": [-8.0, -132.0]},
+          {"type": "N/A", "labelText":"CCTV Room", "width":200.0, "height":200.0, "latitude": -6.0, "longitude": -85.0, "nextView": null, "nextViewAngle": [-8.0, -85.0]}
         ]},
 
         {"sceneId": "AV7",

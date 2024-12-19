@@ -18,7 +18,9 @@
             "image": "assets/images/buildings/cspearAreas/CSPEAR_secondFloor/Main_Lobby_CSPEAR_B1_F2_A2/CSPEAR_B1_F2_A2_AV1.webp",
             "hotspots": [
             {"type": "move", "labelText":"Left Staircase", "width":150.0, "height":150.0, "latitude": 0.0, "longitude": 0.0, "nextView": "CSPEAR_B1_F2_A1:AV1", "nextViewAngle": [-15.0, -10.0]},
-            {"type": "move", "labelText":null, "width":120.0, "height":120.0, "latitude": -20.0, "longitude": -92.0, "nextView": "CSPEAR_B1_F2_A2:AV2", "nextViewAngle": [-7.0, 89.0]}
+            {"type": "move", "labelText":null, "width":120.0, "height":120.0, "latitude": -20.0, "longitude": -92.0, "nextView": "CSPEAR_B1_F2_A2:AV2", "nextViewAngle": [-7.0, 89.0]},
+
+            {"type": "stairs", "labelText":null, "width":120.0, "height":120.0, "latitude": -22.0, "longitude": 92.0, "nextView": "CSPEAR_B1_F1_A6:AV1", "nextViewAngle": [-21.0, -169.0]}
             ]},   
             
             {"sceneId": "AV2",
@@ -26,13 +28,17 @@
             "hotspots": [
             {"type": "move", "labelText":null, "width":120.0, "height":120.0, "latitude": -22.0, "longitude": -87.0, "nextView": "CSPEAR_B1_F2_A2:AV1", "nextViewAngle": [-18.0, 90.0]},
             {"type": "move", "labelText":null, "width":120.0, "height":120.0, "latitude": -22.0, "longitude": 90.0, "nextView": "CSPEAR_B1_F2_A2:AV3", "nextViewAngle": [-18.0, -7.0]},
-            {"type": "move", "labelText":null, "width":120.0, "height":120.0, "latitude": -22.0, "longitude": 0.0, "nextView": "CSPEAR_B1_F2_A2:AV4", "nextViewAngle": [-0.0, -87.0]}
+            {"type": "move", "labelText":null, "width":120.0, "height":120.0, "latitude": -22.0, "longitude": 0.0, "nextView": "CSPEAR_B1_F2_A2:AV4", "nextViewAngle": [-0.0, -87.0]},
+
+            {"type": "room", "labelText":null, "width":120.0, "height":120.0, "latitude": -17.0, "longitude": -176.0, "nextView": "CSPEAR_B1_F1_A1:AV1", "nextViewAngle": [-9.0, 180.0]}
             ]},
 
             {"sceneId": "AV3",
             "image": "assets/images/buildings/cspearAreas/CSPEAR_secondFloor/Main_Lobby_CSPEAR_B1_F2_A2/CSPEAR_B1_F2_A2_AV3.webp",
             "hotspots": [
-            {"type": "move", "labelText":null, "width":120.0, "height":120.0, "latitude": -22.0, "longitude": 176.0, "nextView": "CSPEAR_B1_F2_A2:AV2", "nextViewAngle": [-14.0, -86.0]}
+            {"type": "move", "labelText":null, "width":120.0, "height":120.0, "latitude": -22.0, "longitude": 176.0, "nextView": "CSPEAR_B1_F2_A2:AV2", "nextViewAngle": [-14.0, -86.0]},
+
+            {"type": "stairs", "labelText":null, "width":120.0, "height":120.0, "latitude": -22.0, "longitude": -3.0, "nextView": "CSPEAR_B1_F1_A2:AV2", "nextViewAngle": [-13.0, 49.0]}
            
             ]},
 

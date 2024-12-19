@@ -2,7 +2,9 @@
 import 'package:erranza/data/appSettings.dart';
 import 'package:erranza/data/load_areaViews.dart';
 import 'package:erranza/data/areas.dart';
+import 'package:erranza/widgets/customPopUpDialog.dart';
 import 'package:erranza/widgets/hotspot_button.dart';
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:panorama_viewer/panorama_viewer.dart';
 
@@ -121,14 +123,17 @@ class _PanoramaViewState extends State<PanoramaViewPage> {
   void getNextImages(AreaView? currentScene) {
     List<String> imageList = [];
     for (var hotspot in currentScene!.areaHotspots){
-      var getNewIDs = hotspot.nextView.split(":");
-      String newLocationId = getNewIDs[0];
-      String newSceneId = getNewIDs[1];
+      if (hotspot.nextView != null) {
+         var getNewIDs = hotspot.nextView!.split(":");
+        String newLocationId = getNewIDs[0];
+        String newSceneId = getNewIDs[1];
 
-      AreaView? nextAreaView = areaViewsMap[newLocationId]?[newSceneId];
-      if (nextAreaView != null){
-        imageList.add(nextAreaView.image);    
+        AreaView? nextAreaView = areaViewsMap[newLocationId]?[newSceneId];
+        if (nextAreaView != null){
+          imageList.add(nextAreaView.image);    
+        }
       }
+      
     }
     setState(() {
       preLoadImageList = imageList;
@@ -185,7 +190,24 @@ class _PanoramaViewState extends State<PanoramaViewPage> {
                     
                     iconImage: hotspotIcons[areaHotspot.type]!, //Hotspot Icon/Image
                     onPressed: () {
-                    switchNextScene(areaHotspot.nextView, areaHotspot.nextViewAngle);
+                      if (areaHotspot.nextView != null) {switchNextScene(areaHotspot.nextView!, areaHotspot.nextViewAngle);}
+                      else {
+                        showCupertinoDialog(
+                          context: context, 
+                          builder: (BuildContext context) => CupertinoAlertDialog(
+                            title: const Text("Area View not available for this area"),
+                            actions: [
+                              CupertinoDialogAction(
+                                child: const Text("close"),
+                                onPressed: () {
+                                  Navigator.pop(context);
+                                },
+                              )
+                            ],
+                          )
+                        );
+                      }
+                    
                   }),
                 ),
               ),

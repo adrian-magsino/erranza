@@ -20,8 +20,8 @@ class _PanoramaTestsState extends State<PanoramaTests> {
 
   Area? currentArea;
   AreaView? currentScene;
-  String location_id = "CCJ_B1_F3_A1"; 
-  String areaView_id = "AV10";
+  String location_id = "CSPEAR_B1_F1_A6"; 
+  String areaView_id = "AV1";
 
   void initState() {
     super.initState();
