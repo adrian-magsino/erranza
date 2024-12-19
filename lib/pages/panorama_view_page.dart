@@ -2,7 +2,6 @@
 import 'package:erranza/data/appSettings.dart';
 import 'package:erranza/data/load_areaViews.dart';
 import 'package:erranza/data/areas.dart';
-import 'package:erranza/widgets/customPopUpDialog.dart';
 import 'package:erranza/widgets/hotspot_button.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
