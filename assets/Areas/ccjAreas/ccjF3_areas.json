@@ -53,5 +53,13 @@
     "area_name": "DRRM Room", 
     "building_name": "CCJ Building", 
     "college_name": "College of Criminal Justice"
+    },
+
+    {
+    "college_id": "CCJ", "building_id": "B1", "floor_id": "F3", "area_id": "A91",
+    "icon": "assets/images/roomicons/classroom.png", 
+    "area_name": "Criminal Justice Student Council Office / Student Organization Office", 
+    "building_name": "CCJ Building", 
+    "college_name": "College of Criminal Justice"
     }
 ]

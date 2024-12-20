@@ -45,6 +45,22 @@
     "area_name": "Police Photography Room", 
     "building_name": "CCJ Building", 
     "college_name": "College of Criminal Justice"
+    },
+
+    {
+    "college_id": "CCJ", "building_id": "B1", "floor_id": "F2", "area_id": "A91",
+    "icon": "assets/images/roomicons/classroom.png", 
+    "area_name": "Crime Scene Room", 
+    "building_name": "CCJ Building", 
+    "college_name": "College of Criminal Justice"
+    },
+
+    {
+    "college_id": "CCJ", "building_id": "B1", "floor_id": "F2", "area_id": "A92",
+    "icon": "assets/images/roomicons/dean_office.png", 
+    "area_name": "Investigation Room", 
+    "building_name": "CCJ Building", 
+    "college_name": "College of Criminal Justice"
     }
     
 ]

@@ -37,5 +37,53 @@
     "area_name": "Justice Hall", 
     "building_name": "CCJ Building", 
     "college_name": "College of Criminal Justice"
+    },
+
+    {
+    "college_id": "CCJ", "building_id": "B1", "floor_id": "F1", "area_id": "A6",
+    "icon": "assets/images/roomicons/classroom.png", 
+    "area_name": "Audio Visual Room", 
+    "building_name": "CCJ Building", 
+    "college_name": "College of Criminal Justice"
+    },
+
+    {
+    "college_id": "CCJ", "building_id": "B1", "floor_id": "F1", "area_id": "A91",
+    "icon": "assets/images/roomicons/dean_office.png", 
+    "area_name": "Deans Office / Conference Room", 
+    "building_name": "CCJ Building", 
+    "college_name": "College of Criminal Justice"
+    },
+
+    {
+    "college_id": "CCJ", "building_id": "B1", "floor_id": "F1", "area_id": "A92",
+    "icon": "assets/images/roomicons/dean_office.png", 
+    "area_name": "Research Office / Extension Office", 
+    "building_name": "CCJ Building", 
+    "college_name": "College of Criminal Justice"
+    },
+
+    {
+    "college_id": "CCJ", "building_id": "B1", "floor_id": "F1", "area_id": "A93",
+    "icon": "assets/images/roomicons/dean_office.png", 
+    "area_name": "Registrar's Office / Consultation Room / Pantry Room", 
+    "building_name": "CCJ Building", 
+    "college_name": "College of Criminal Justice"
+    },
+
+    {
+    "college_id": "CCJ", "building_id": "B1", "floor_id": "F1", "area_id": "A94",
+    "icon": "assets/images/roomicons/dean_office.png", 
+    "area_name": "Faculty Room", 
+    "building_name": "CCJ Building", 
+    "college_name": "College of Criminal Justice"
+    },
+
+    {
+    "college_id": "CCJ", "building_id": "B1", "floor_id": "F1", "area_id": "A95",
+    "icon": "assets/images/roomicons/classroom.png", 
+    "area_name": "CCTV Room", 
+    "building_name": "CCJ Building", 
+    "college_name": "College of Criminal Justice"
     }
 ]

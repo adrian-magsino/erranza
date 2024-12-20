@@ -26,6 +26,7 @@ class _PanoramaViewState extends State<PanoramaViewPage> {
   
   late String initialLocationId;
   late Area initialArea;
+  late AreaView? initialScene;
 
   late double sceneLatitude;
   late double sceneLongitude;
@@ -48,15 +49,24 @@ class _PanoramaViewState extends State<PanoramaViewPage> {
     _loadData();
   }
 
+
   //Load the data from load_areaView.dart
   Future<void> _loadData() async {
     await loadAreaViews();
-
+    
     //set initial scene
     initialArea = widget.initialArea;
     initialLocationId = "${initialArea.college_id}_${initialArea.building_id}_${initialArea.floor_id}_${initialArea.area_id}";
-  
-    setCurrentScene(areaViewsMap[initialLocationId]?["AV1"]!, initialLocationId, [0, 0]);
+    List<String> sceneList = getSceneIds(initialLocationId);
+
+    initialScene = areaViewsMap[initialLocationId]?[sceneList[0]]!;
+    
+    setCurrentScene(initialScene, initialLocationId, initialScene!.initialAngle);
+
+    print("Initial Scene: $initialScene");
+    print("Initial Scene Angle: ${initialScene!.initialAngle}");
+    print("Scene IDs: $sceneList");
+    print("Initial area view: ${sceneList[0]}");
 
   }
   
@@ -85,7 +95,23 @@ class _PanoramaViewState extends State<PanoramaViewPage> {
     });
 
     _preLoadNextImage(scene.image);
+    }else{
+      showCupertinoDialog(
+        context: context, 
+        builder: (BuildContext context) => CupertinoAlertDialog(
+          title: const Text("Area View not available for this area"),
+          actions: [
+            CupertinoDialogAction(
+              child: const Text("close"),
+              onPressed: () {
+                Navigator.pop(context);
+              },
+            )
+          ],
+        )
+      );
     }
+    
   }
 
   void _preLoadNextImage(String imagePath) async {
@@ -114,8 +140,8 @@ class _PanoramaViewState extends State<PanoramaViewPage> {
        
       setCurrentScene(nextAreaView, newLocationId, nextSceneAngle);
 
-      print("Current Scene Latitude $sceneLatitude");
-      print("Current Scene Longitude $sceneLongitude");
+      print("Current Scene Angle (Latitude) $sceneLatitude");
+      print("Current Scene Angle (Longitude) $sceneLongitude");
     }
   }
 
@@ -148,16 +174,13 @@ class _PanoramaViewState extends State<PanoramaViewPage> {
  
   @override
   Widget build(BuildContext context) {
-    if (currentScene == null) {
-    return const Center(child: CircularProgressIndicator());
-  }
-    
+
     return Scaffold(
       appBar: AppBar(
-        title: Text(currentArea!.area_name),
+        title: currentScene == null ? Text("Area View not available") : Text(currentArea!.area_name),
         backgroundColor: Colors.green[800],
       ),
-      body: Stack(
+      body: currentScene == null ? Center(child: CircularProgressIndicator()):Stack(
         children: [
           if(currentScene != null)
             PanoramaViewer(

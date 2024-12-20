@@ -3,13 +3,19 @@ import 'package:flutter/services.dart' show rootBundle;
 
 class AreaView {
 
+  final String sceneId;
   final String image;
+  final List<double> initialAngle;
   final List<AreaHotspot> areaHotspots;
+  
   
   AreaView(
 
+    this.sceneId,
     this.image,
+    this.initialAngle,
     this.areaHotspots
+    
   );
 }
 
@@ -46,6 +52,13 @@ List<String> jsonFiles = [
   "assets/AreaViews/cspearAreaViews/cspearF2_AreaViews.json",
 ];
 
+List<String> getSceneIds(String locationId) {
+  if (areaViewsMap.containsKey(locationId)) {
+    return areaViewsMap[locationId]!.keys.toList();
+  }
+  return [];
+}
+
 Future<Map<String, Map<String, AreaView>>> loadAreaViews() async {
   for (var jsonFile in jsonFiles) {
     String jsonString = await rootBundle.loadString(jsonFile);
@@ -57,7 +70,12 @@ Future<Map<String, Map<String, AreaView>>> loadAreaViews() async {
 
       for (var view in location["areaViews"]) {
         String sceneId = view["sceneId"];
-        areaViewsMap[locationId]![sceneId] = AreaView(view["image"], []);
+        //List<double> initialAngle = view["initialAngle"] ;
+        areaViewsMap[locationId]![sceneId] = AreaView(
+          sceneId,
+          view["image"], 
+          List<double>.from(view["initialAngle"]), 
+          []);
       }
     }
 
