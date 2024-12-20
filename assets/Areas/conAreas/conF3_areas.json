@@ -1,0 +1,9 @@
+[
+    {
+        "college_id": "CON", "building_id": "B1", "floor_id": "F3", "area_id": "A1",
+        "icon": "assets/images/roomicons/hallway.png", 
+        "area_name": "3st Floor Hallway", 
+        "building_name": "CON Building", 
+        "college_name": "College of Nursing"
+    }
+]

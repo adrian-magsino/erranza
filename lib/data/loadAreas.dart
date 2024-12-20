@@ -6,6 +6,8 @@ Future<void> load_areas_data() async {
   //FETCH JSON DATA
   String conF1_jsonString = await rootBundle.loadString("assets/Areas/conAreas/conF1_areas.json");
   String conF2_jsonString = await rootBundle.loadString("assets/Areas/conAreas/conF2_areas.json");
+  String conF3_jsonString = await rootBundle.loadString("assets/Areas/conAreas/conF3_areas.json");
+  String conF4_jsonString = await rootBundle.loadString("assets/Areas/conAreas/conF4_areas.json");
 
   String ccjF1_jsonString = await rootBundle.loadString("assets/Areas/ccjAreas/ccjF1_areas.json"); 
   String ccjF2_jsonString = await rootBundle.loadString("assets/Areas/ccjAreas/ccjF2_areas.json"); 
@@ -18,6 +20,8 @@ Future<void> load_areas_data() async {
   //DECODE JSON DATA
   List<dynamic> conF1_jsonList = jsonDecode(conF1_jsonString);
   List<dynamic> conF2_jsonList = jsonDecode(conF2_jsonString);
+  List<dynamic> conF3_jsonList = jsonDecode(conF3_jsonString);
+  List<dynamic> conF4_jsonList = jsonDecode(conF4_jsonString);
 
   List<dynamic> ccjF1_jsonList = jsonDecode(ccjF1_jsonString);
   List<dynamic> ccjF2_jsonList = jsonDecode(ccjF2_jsonString);
@@ -30,6 +34,8 @@ Future<void> load_areas_data() async {
   //CONVERT TO OBJECT AND ADD TO LISTS
   conF1_areas = conF1_jsonList.map((json) => Area.fromJson(json)).toList();
   conF2_areas = conF2_jsonList.map((json) => Area.fromJson(json)).toList();
+  conF3_areas = conF3_jsonList.map((json) => Area.fromJson(json)).toList();
+  conF4_areas = conF4_jsonList.map((json) => Area.fromJson(json)).toList();
 
   ccjF1_areas = ccjF1_jsonList.map((json) => Area.fromJson(json)).toList();
   ccjF2_areas = ccjF2_jsonList.map((json) => Area.fromJson(json)).toList();

@@ -45,6 +45,8 @@ List<Area> emptyArea = [];
 
 List<Area> conF1_areas = [];
 List<Area> conF2_areas = [];
+List<Area> conF3_areas = [];
+List<Area> conF4_areas = [];
 
 List<Area> ccjF1_areas = [];
 List<Area> ccjF2_areas = [];
