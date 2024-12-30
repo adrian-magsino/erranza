@@ -39,7 +39,7 @@ class Area {
 List<Area> allAreas = [...ccjAreas, ...conAreas, ...cspearAreas];
 
 List<Area> get ccjAreas => [...ccjF1_areas, ...ccjF2_areas, ...ccjF3_areas, ...ccjF4_areas];
-List<Area> get conAreas => [...conF1_areas, ...conF2_areas];
+List<Area> get conAreas => [...conF1_areas, ...conF2_areas, ...conF3_areas, ...conF4_areas];
 List<Area> get cspearAreas => [...cspearF1_areas, ...cspearF2_areas, ];
 List<Area> emptyArea = [];
 

@@ -2,7 +2,47 @@
     {
         "college_id": "CON", "building_id": "B1", "floor_id": "F3", "area_id": "A1",
         "icon": "assets/images/roomicons/hallway.png", 
-        "area_name": "3st Floor Hallway", 
+        "area_name": "3rd Floor Hallway", 
+        "building_name": "CON Building", 
+        "college_name": "College of Nursing"
+    },
+
+    {
+        "college_id": "CON", "building_id": "B1", "floor_id": "F3", "area_id": "A2",
+        "icon": "assets/images/roomicons/laboratory.png", 
+        "area_name": "Nursing Arts Laboratory 1", 
+        "building_name": "CON Building", 
+        "college_name": "College of Nursing"
+    },
+
+    {
+        "college_id": "CON", "building_id": "B1", "floor_id": "F3", "area_id": "A3",
+        "icon": "assets/images/roomicons/laboratory.png", 
+        "area_name": "Nursing Arts Laboratory 2", 
+        "building_name": "CON Building", 
+        "college_name": "College of Nursing"
+    },
+
+    {
+        "college_id": "CON", "building_id": "B1", "floor_id": "F3", "area_id": "A4",
+        "icon": "assets/images/roomicons/classroom.png", 
+        "area_name": "Room 308A", 
+        "building_name": "CON Building", 
+        "college_name": "College of Nursing"
+    },
+
+    {
+        "college_id": "CON", "building_id": "B1", "floor_id": "F3", "area_id": "A5",
+        "icon": "assets/images/roomicons/laboratory.png", 
+        "area_name": "Room 312 Nursing Arts Laboratory Extension", 
+        "building_name": "CON Building", 
+        "college_name": "College of Nursing"
+    },
+
+    {
+        "college_id": "CON", "building_id": "B1", "floor_id": "F3", "area_id": "A6",
+        "icon": "assets/images/roomicons/classroom.png", 
+        "area_name": "Accreditation Room", 
         "building_name": "CON Building", 
         "college_name": "College of Nursing"
     }

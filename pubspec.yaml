@@ -131,6 +131,55 @@ flutter:
       
     #360 Images CCJ AREAS Fourth Floor
     - assets/images/buildings/ccjAreas/CCJ_fourthFloor/Contact_Sports_Area_CCJ_B1_F4_A1/
+
+    #360 Images CON AREAS First Floor
+    - assets/images/buildings/conAreas/CON_firstFloor/Hallway_CON_B1_F1_A1/ 
+    - assets/images/buildings/conAreas/CON_firstFloor/CON104_BSM4_CON_B1_F1_A2/
+    - assets/images/buildings/conAreas/CON_firstFloor/CON106_BSM3__CON_B1_F1_A3/
+    - assets/images/buildings/conAreas/CON_firstFloor/CON105a_BSM2b-1_CON_B1_F1_A4/
+    - assets/images/buildings/conAreas/CON_firstFloor/CON105b_BSM2b-2_CON_B1_F1_A5/
+    - assets/images/buildings/conAreas/CON_firstFloor/CON108_BSM2a_CON_B1_F1_A6/
+    - assets/images/buildings/conAreas/CON_firstFloor/CON110_BSM1-2_CON_B1_F1_A7/
+    - assets/images/buildings/conAreas/CON_firstFloor/CON107_BSM1-4_CON_B1_F1_A8/
+    - assets/images/buildings/conAreas/CON_firstFloor/Audio_Visual_Room_CON_B1_F1_A9/
+    - assets/images/buildings/conAreas/CON_firstFloor/CON109_BSM1-3_CON_B1_F1_A10/    
+    
+    #360 Images CON AREAS Second Floor
+    - assets/images/buildings/conAreas/CON_secondFloor/Hallway_CON_B1_F2_A1/
+    - assets/images/buildings/conAreas/CON_secondFloor/Room_202_CON_B1_F2_A2/
+    - assets/images/buildings/conAreas/CON_secondFloor/Room_204_CON_B1_F2_A3/
+    - assets/images/buildings/conAreas/CON_secondFloor/Room_206_CON_B1_F2_A4/
+    - assets/images/buildings/conAreas/CON_secondFloor/Room_208_CON_B1_F2_A5/
+    - assets/images/buildings/conAreas/CON_secondFloor/Room_210_CON_B1_F2_A6/
+    - assets/images/buildings/conAreas/CON_secondFloor/Room_211_Laboratory_CON_B1_F2_A7/
+    - assets/images/buildings/conAreas/CON_secondFloor/Room_214_Laboratory_CON_B1_F2_A8/
+    - assets/images/buildings/conAreas/CON_secondFloor/Room_216_Laboratory_CON_B1_F2_A9/
+
+    #360 Images CON AREAS Third Floor
+    - assets/images/buildings/conAreas/CON_thirdFloor/Hallway_CON_B1_F3_A1/
+    - assets/images/buildings/conAreas/CON_thirdFloor/Nursing_Arts_Laboratory_1_CON_B1_F3_A2/
+    - assets/images/buildings/conAreas/CON_thirdFloor/Nursing_Arts_Laboratory_2_CON_B1_F3_A3/
+    - assets/images/buildings/conAreas/CON_thirdFloor/Room_308A_CON_B1_F3_A4/
+    - assets/images/buildings/conAreas/CON_thirdFloor/Room_312_Nursing_Arts_Laboratory_Extension_CON_B1_F3_A5/
+    - assets/images/buildings/conAreas/CON_thirdFloor/Accreditation_Room_CON_B1_F3_A6/
+
+    #360 Images CON AREAS Fourth Floor
+    - assets/images/buildings/conAreas/CON_fourthFloor/Hallway_CON_B1_F4_A1/
+    - assets/images/buildings/conAreas/CON_fourthFloor/Room_402_CON_B1_F4_A2/
+    - assets/images/buildings/conAreas/CON_fourthFloor/Room_404_CON_B1_F4_A3/
+    - assets/images/buildings/conAreas/CON_fourthFloor/Room_405_CON_B1_F4_A4/
+    - assets/images/buildings/conAreas/CON_fourthFloor/Room_406_CON_B1_F4_A5/
+    - assets/images/buildings/conAreas/CON_fourthFloor/Room_408_CON_B1_F4_A6/
+    - assets/images/buildings/conAreas/CON_fourthFloor/Room_409_CON_B1_F4_A7/
+    - assets/images/buildings/conAreas/CON_fourthFloor/Room_407_CON_B1_F4_A8/
+    - assets/images/buildings/conAreas/CON_fourthFloor/Room_410_CON_B1_F4_A9/
+    - assets/images/buildings/conAreas/CON_fourthFloor/Room_412_CON_B1_F4_A10/
+    - assets/images/buildings/conAreas/CON_fourthFloor/Room_411_CON_B1_F4_A11/
+    - assets/images/buildings/conAreas/CON_fourthFloor/Room_414_CON_B1_F4_A12/
+    - assets/images/buildings/conAreas/CON_fourthFloor/Room_416_CON_B1_F4_A13/
+    - assets/images/buildings/conAreas/CON_fourthFloor/Room_413_CON_B1_F4_A14/
+    - assets/images/buildings/conAreas/CON_fourthFloor/Room_415_CON_B1_F4_A15/
+
   fonts:
     - family: Righteous
       fonts:

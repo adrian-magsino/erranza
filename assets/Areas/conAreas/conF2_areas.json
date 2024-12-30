@@ -9,16 +9,64 @@
 
     {
         "college_id": "CON", "building_id": "B1", "floor_id": "F2", "area_id": "A2",
-        "icon": "assets/images/roomicons/laboratory.png", 
-        "area_name": "2nd Floor Laboratory Room", 
+        "icon": "assets/images/roomicons/classroom.png", 
+        "area_name": "Room 202", 
         "building_name": "CON Building", 
         "college_name": "College of Nursing"
     },
 
     {
         "college_id": "CON", "building_id": "B1", "floor_id": "F2", "area_id": "A3",
-        "icon": "assets/images/roomicons/dean_office.png", 
-        "area_name": "2nd Floor Dean's Office", 
+        "icon": "assets/images/roomicons/classroom.png", 
+        "area_name": "Room 204", 
+        "building_name": "CON Building", 
+        "college_name": "College of Nursing"
+    },
+    
+    {
+        "college_id": "CON", "building_id": "B1", "floor_id": "F2", "area_id": "A4",
+        "icon": "assets/images/roomicons/classroom.png", 
+        "area_name": "Room 206", 
+        "building_name": "CON Building", 
+        "college_name": "College of Nursing"
+    },
+
+    {
+        "college_id": "CON", "building_id": "B1", "floor_id": "F2", "area_id": "A5",
+        "icon": "assets/images/roomicons/classroom.png", 
+        "area_name": "Room 208", 
+        "building_name": "CON Building", 
+        "college_name": "College of Nursing"
+    },
+
+    {
+        "college_id": "CON", "building_id": "B1", "floor_id": "F2", "area_id": "A6",
+        "icon": "assets/images/roomicons/classroom.png", 
+        "area_name": "Room 210", 
+        "building_name": "CON Building", 
+        "college_name": "College of Nursing"
+    },
+
+    {
+        "college_id": "CON", "building_id": "B1", "floor_id": "F2", "area_id": "A7",
+        "icon": "assets/images/roomicons/laboratory.png", 
+        "area_name": "Room 211 Laboratory", 
+        "building_name": "CON Building", 
+        "college_name": "College of Nursing"
+    },
+
+    {
+        "college_id": "CON", "building_id": "B1", "floor_id": "F2", "area_id": "A8",
+        "icon": "assets/images/roomicons/laboratory.png", 
+        "area_name": "Room 214 Laboratory", 
+        "building_name": "CON Building", 
+        "college_name": "College of Nursing"
+    },
+
+    {
+        "college_id": "CON", "building_id": "B1", "floor_id": "F2", "area_id": "A9",
+        "icon": "assets/images/roomicons/laboratory.png", 
+        "area_name": "Room 216 Laboratory", 
         "building_name": "CON Building", 
         "college_name": "College of Nursing"
     }
