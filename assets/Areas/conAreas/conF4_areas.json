@@ -49,16 +49,16 @@
 
     {
         "college_id": "CON", "building_id": "B1", "floor_id": "F4", "area_id": "A7",
-        "icon": "assets/images/roomicons/laboratory.png", 
-        "area_name": "Room 409 Laboratory", 
+        "icon": "assets/images/roomicons/classroom.png", 
+        "area_name": "Room 409", 
         "building_name": "CON Building", 
         "college_name": "College of Nursing"
     },
 
     {
         "college_id": "CON", "building_id": "B1", "floor_id": "F4", "area_id": "A8",
-        "icon": "assets/images/roomicons/laboratory.png", 
-        "area_name": "Room 407 Laboratory", 
+        "icon": "assets/images/roomicons/classroom.png", 
+        "area_name": "Room 407", 
         "building_name": "CON Building", 
         "college_name": "College of Nursing"
     },

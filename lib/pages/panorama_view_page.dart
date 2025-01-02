@@ -63,7 +63,7 @@ class _PanoramaViewState extends State<PanoramaViewPage> {
     
     setCurrentScene(initialScene, initialLocationId, initialScene!.initialAngle);
 
-    print("Initial Scene: $initialScene");
+    print("Initial Scene: ${initialLocationId}_${sceneList[0]} ");
     print("Initial Scene Angle: ${initialScene!.initialAngle}");
     print("Scene IDs: $sceneList");
     print("Initial area view: ${sceneList[0]}");

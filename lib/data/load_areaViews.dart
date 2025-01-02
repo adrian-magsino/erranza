@@ -43,14 +43,16 @@ class AreaHotspot {
 
 Map<String, Map<String, AreaView>> areaViewsMap = {};
 List<String> jsonFiles = [
-  //"assets/AreaViews/conAreaViews/conF1_AreaViews.json",
-  //"assets/AreaViews/conAreaViews/conF2_AreaViews.json",
-  //"assets/AreaViews/conAreaViews/conF3_AreaViews.json",
-  //"assets/AreaViews/conAreaViews/conF4_AreaViews.json",
+  "assets/AreaViews/conAreaViews/conF1_AreaViews.json",
+  "assets/AreaViews/conAreaViews/conF2_AreaViews.json",
+  "assets/AreaViews/conAreaViews/conF3_AreaViews.json",
+  "assets/AreaViews/conAreaViews/conF4_AreaViews.json",
+
   "assets/AreaViews/ccjAreaViews/ccjF1_AreaViews.json",
   "assets/AreaViews/ccjAreaViews/ccjF2_AreaViews.json",
   "assets/AreaViews/ccjAreaViews/ccjF3_AreaViews.json",
   "assets/AreaViews/ccjAreaViews/ccjF4_AreaViews.json",
+  
   "assets/AreaViews/cspearAreaViews/cspearF1_AreaViews.json",
   "assets/AreaViews/cspearAreaViews/cspearF2_AreaViews.json",
 ];
