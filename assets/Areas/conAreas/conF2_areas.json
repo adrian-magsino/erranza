@@ -69,5 +69,53 @@
         "area_name": "Room 216 Laboratory", 
         "building_name": "CON Building", 
         "college_name": "College of Nursing"
+    },
+
+    {
+        "college_id": "CON", "building_id": "B1", "floor_id": "F2", "area_id": "A91",
+        "icon": "assets/images/roomicons/classroom.png", 
+        "area_name": "Room 201", 
+        "building_name": "CON Building", 
+        "college_name": "College of Nursing"
+    },
+
+    {
+        "college_id": "CON", "building_id": "B1", "floor_id": "F2", "area_id": "A92",
+        "icon": "assets/images/roomicons/classroom.png", 
+        "area_name": "Room 203", 
+        "building_name": "CON Building", 
+        "college_name": "College of Nursing"
+    },
+
+    {
+        "college_id": "CON", "building_id": "B1", "floor_id": "F2", "area_id": "A93",
+        "icon": "assets/images/roomicons/dean_office.png", 
+        "area_name": "Room 205 Faculty ", 
+        "building_name": "CON Building", 
+        "college_name": "College of Nursing"
+    },
+
+    {
+        "college_id": "CON", "building_id": "B1", "floor_id": "F2", "area_id": "A94",
+        "icon": "assets/images/roomicons/dean_office.png", 
+        "area_name": "Office of the Department Head", 
+        "building_name": "CON Building", 
+        "college_name": "College of Nursing"
+    },
+
+    {
+        "college_id": "CON", "building_id": "B1", "floor_id": "F2", "area_id": "A95",
+        "icon": "assets/images/roomicons/classroom.png", 
+        "area_name": "Room 212", 
+        "building_name": "CON Building", 
+        "college_name": "College of Nursing"
+    },
+
+    {
+        "college_id": "CON", "building_id": "B1", "floor_id": "F2", "area_id": "A96",
+        "icon": "assets/images/roomicons/classroom.png", 
+        "area_name": "Room 209", 
+        "building_name": "CON Building", 
+        "college_name": "College of Nursing"
     }
 ]
