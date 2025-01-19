@@ -55,6 +55,7 @@ List<String> jsonFiles = [
   
   "assets/AreaViews/cspearAreaViews/cspearF1_AreaViews.json",
   "assets/AreaViews/cspearAreaViews/cspearF2_AreaViews.json",
+  "assets/AreaViews/cspearAreaViews/cspearF3_AreaViews.json",
 ];
 
 List<String> getSceneIds(String locationId) {

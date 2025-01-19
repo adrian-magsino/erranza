@@ -75,7 +75,11 @@
           "initialAngle": [0.0, 0.0],
           "hotspots": [
             {"type": "move", "labelText":null, "width":120.0, "height":120.0, "latitude": -22.0, "longitude": 180.0, "nextView": "CON_B1_F2_A1:AV6", "nextViewAngle":[0.0, 180.0]},
-            {"type": "move", "labelText":null, "width":120.0, "height":120.0, "latitude": -22.0, "longitude": 0.0, "nextView": "CON_B1_F2_A1:AV8", "nextViewAngle":[0.0, 0.0]}
+            {"type": "move", "labelText":null, "width":120.0, "height":120.0, "latitude": -22.0, "longitude": 0.0, "nextView": "CON_B1_F2_A1:AV8", "nextViewAngle":[0.0, 0.0]},
+
+            {"type": "stairs", "labelText":"1st Floor", "width":150.0, "height":150.0, "latitude": -6.0, "longitude": -71.0, "nextView": "CON_B1_F1_A1:AV7", "nextViewAngle":[-7.0, -112.0]},
+            {"type": "stairs", "labelText":"3rd Floor", "width":150.0, "height":150.0, "latitude": -6.0, "longitude": -71.0, "nextView": "CON_B1_F3_A1:AV7", "nextViewAngle":[0.0, -69.0]}
+            
           ]},
 
           {"sceneId": "AV8",
@@ -131,8 +135,8 @@
 
             {"type": "room", "labelText":"Room 211", "width":150.0, "height":150.0, "latitude": -8.0, "longitude": 161.0, "nextView": "CON_B1_F2_A7:AV1", "nextViewAngle":[0.0, 0.0]},
             
-            {"type": "stairs", "labelText":"1st Floor", "width":150.0, "height":150.0, "latitude": -27.0, "longitude": -62.0, "nextView": "CON_B1_F1_A1:AV1", "nextViewAngle":[0.0, 0.0]},
-            {"type": "stairs", "labelText":"3rd Floor", "width":150.0, "height":150.0, "latitude": -6.0, "longitude": -107.0, "nextView": "CON_B1_F3_A1:AV1", "nextViewAngle":[0.0, 0.0]}
+            {"type": "stairs", "labelText":"1st Floor", "width":150.0, "height":150.0, "latitude": -27.0, "longitude": -62.0, "nextView": "CON_B1_F1_A1:AV11", "nextViewAngle":[0.0, 0.0]},
+            {"type": "stairs", "labelText":"3rd Floor", "width":150.0, "height":150.0, "latitude": -6.0, "longitude": -107.0, "nextView": "CON_B1_F3_A1:AV13", "nextViewAngle":[0.0, 0.0]}
           ]}
         ]
       },

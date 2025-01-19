@@ -77,5 +77,53 @@
         "area_name": "CON 109 / BSM1-3", 
         "building_name": "CON Building", 
         "college_name": "College of Nursing"
+    },
+
+    {
+        "college_id": "CON", "building_id": "B1", "floor_id": "F1", "area_id": "A91",
+        "icon": "assets/images/roomicons/classroom.png", 
+        "area_name": "Room 101", 
+        "building_name": "CON Building", 
+        "college_name": "College of Nursing"
+    },
+
+    {
+        "college_id": "CON", "building_id": "B1", "floor_id": "F1", "area_id": "A92",
+        "icon": "assets/images/roomicons/dean_office.png", 
+        "area_name": "Faculty Room", 
+        "building_name": "CON Building", 
+        "college_name": "College of Nursing"
+    },
+
+    {
+        "college_id": "CON", "building_id": "B1", "floor_id": "F1", "area_id": "A93",
+        "icon": "assets/images/roomicons/dean_office.png", 
+        "area_name": "Office of the Registrar", 
+        "building_name": "CON Building", 
+        "college_name": "College of Nursing"
+    },
+
+    {
+        "college_id": "CON", "building_id": "B1", "floor_id": "F1", "area_id": "A94",
+        "icon": "assets/images/roomicons/dean_office.png", 
+        "area_name": "Office of the Department Chair", 
+        "building_name": "CON Building", 
+        "college_name": "College of Nursing"
+    },
+
+    {
+        "college_id": "CON", "building_id": "B1", "floor_id": "F1", "area_id": "A95",
+        "icon": "assets/images/roomicons/laboratory.png", 
+        "area_name": "Midwifery Arts Laboratory", 
+        "building_name": "CON Building", 
+        "college_name": "College of Nursing"
+    },
+
+    {
+        "college_id": "CON", "building_id": "B1", "floor_id": "F1", "area_id": "A96",
+        "icon": "assets/images/roomicons/dean_office.png", 
+        "area_name": "116 Office of the Student Council (CON)", 
+        "building_name": "CON Building", 
+        "college_name": "College of Nursing"
     }
 ]

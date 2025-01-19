@@ -31,7 +31,7 @@ class _SplashScreenState extends State<SplashScreen>
     //controller for loading progress bas
     controller = AnimationController(
       vsync: this,
-      duration: const Duration(seconds: 3),
+      duration: const Duration(seconds: 2),
       )..addListener(() {
         setState(() {});
     });

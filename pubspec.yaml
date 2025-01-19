@@ -65,6 +65,7 @@ flutter:
     - assets/images/
     - assets/images/hotspots/
     - assets/images/roomicons/ 
+    - assets/images/cardChoices/
 
     #Area Views JSON Files
     - assets/AreaViews/ccjAreaViews/
@@ -104,6 +105,12 @@ flutter:
     - assets/images/buildings/cspearAreas/CSPEAR_secondFloor/Main_Lobby_CSPEAR_B1_F2_A2/
     - assets/images/buildings/cspearAreas/CSPEAR_secondFloor/Right_Staircase_CSPEAR_B1_F2_A3/
     - assets/images/buildings/cspearAreas/CSPEAR_secondFloor/Gym_Court_CSPEAR_B1_F2_A4/
+    #360 Images CSPEAR AREAS Third Floor
+    - assets/images/buildings/cspearAreas/CSPEAR_thirdFloor/CSPEAR_B1_F3_A1/
+    - assets/images/buildings/cspearAreas/CSPEAR_thirdFloor/CSPEAR_B1_F3_A2/
+    - assets/images/buildings/cspearAreas/CSPEAR_thirdFloor/CSPEAR_B1_F3_A3/
+    - assets/images/buildings/cspearAreas/CSPEAR_thirdFloor/CSPEAR_B1_F3_A4/
+    - assets/images/buildings/cspearAreas/CSPEAR_thirdFloor/CSPEAR_B1_F3_A5/
 
     #360 Images CCJ AREAS First Floor
     - assets/images/buildings/ccjAreas/CCJ_firstFloor/Left_Entrance_CCJ_B1_F1_A1/ 

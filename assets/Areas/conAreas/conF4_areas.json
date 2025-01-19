@@ -117,5 +117,23 @@
         "area_name": "Room 415", 
         "building_name": "CON Building", 
         "college_name": "College of Nursing"
+    },
+
+    {
+        "college_id": "CON", "building_id": "B1", "floor_id": "F4", "area_id": "A91",
+        "icon": "assets/images/roomicons/classroom.png", 
+        "area_name": "Room 401", 
+        "building_name": "CON Building", 
+        "college_name": "College of Nursing"
+    },
+
+    {
+        "college_id": "CON", "building_id": "B1", "floor_id": "F4", "area_id": "A92",
+        "icon": "assets/images/roomicons/classroom.png", 
+        "area_name": "Room 403", 
+        "building_name": "CON Building", 
+        "college_name": "College of Nursing"
     }
+
+    
 ]

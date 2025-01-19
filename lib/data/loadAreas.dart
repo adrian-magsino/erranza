@@ -16,6 +16,7 @@ Future<void> load_areas_data() async {
 
   String cspearF1_jsonString = await rootBundle.loadString("assets/Areas/cspearAreas/cspearF1_areas.json");
   String cspearF2_jsonString = await rootBundle.loadString("assets/Areas/cspearAreas/cspearF2_areas.json");
+  String cspearF3_jsonString = await rootBundle.loadString("assets/Areas/cspearAreas/cspearF3_areas.json");
 
   //DECODE JSON DATA
   List<dynamic> conF1_jsonList = jsonDecode(conF1_jsonString);
@@ -30,6 +31,7 @@ Future<void> load_areas_data() async {
 
   List<dynamic> cspearF1_jsonList = jsonDecode(cspearF1_jsonString);
   List<dynamic> cspearF2_jsonList = jsonDecode(cspearF2_jsonString);
+  List<dynamic> cspearF3_jsonList = jsonDecode(cspearF3_jsonString);
 
   //CONVERT TO OBJECT AND ADD TO LISTS
   conF1_areas = conF1_jsonList.map((json) => Area.fromJson(json)).toList();
@@ -44,5 +46,6 @@ Future<void> load_areas_data() async {
 
   cspearF1_areas = cspearF1_jsonList.map((json) => Area.fromJson(json)).toList();
   cspearF2_areas = cspearF2_jsonList.map((json) => Area.fromJson(json)).toList();
+  cspearF3_areas = cspearF3_jsonList.map((json) => Area.fromJson(json)).toList();
 
 }

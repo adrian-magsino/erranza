@@ -10,7 +10,7 @@ class HomePage extends StatelessWidget {
     // Define the buildings list as a local variable
     final List<Map<String, dynamic>> buildings = [
       {
-        'image': 'assets/images/temporaryCardpics/bldg1.jpg',
+        'image': 'assets/images/cardChoices/CCJ_cardpic.webp',
         'title': 'CCJ Building',
         'subtitle': 'College of Criminal Justice',
         'areaList': ccjAreas,

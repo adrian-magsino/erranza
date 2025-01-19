@@ -1,0 +1,25 @@
+[
+    {
+        "college_id": "CSPEAR", "building_id": "B1", "floor_id": "F3", "area_id": "A1",
+        "icon": "assets/images/roomicons/work_area.png", 
+        "area_name": "Bleachers", 
+        "building_name": "University Gym", 
+        "college_name": "College of Sports, Physical Education and Recreation"
+    },
+
+    {
+        "college_id": "CSPEAR", "building_id": "B1", "floor_id": "F3", "area_id": "A91",
+        "icon": "assets/images/roomicons/dean_office.png", 
+        "area_name": "Registrar's Office", 
+        "building_name": "University Gym", 
+        "college_name": "College of Sports, Physical Education and Recreation"
+    },
+
+    {
+        "college_id": "CSPEAR", "building_id": "B1", "floor_id": "F3", "area_id": "A92",
+        "icon": "assets/images/roomicons/dean_office.png", 
+        "area_name": "Dean's Office", 
+        "building_name": "University Gym", 
+        "college_name": "College of Sports, Physical Education and Recreation"
+    }
+]

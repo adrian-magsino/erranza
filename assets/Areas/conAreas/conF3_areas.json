@@ -45,5 +45,77 @@
         "area_name": "Accreditation Room", 
         "building_name": "CON Building", 
         "college_name": "College of Nursing"
+    },
+
+    {
+        "college_id": "CON", "building_id": "B1", "floor_id": "F3", "area_id": "A91",
+        "icon": "assets/images/roomicons/classroom.png", 
+        "area_name": "Room 301 (Stock Room)", 
+        "building_name": "CON Building", 
+        "college_name": "College of Nursing"
+    },
+
+    {
+        "college_id": "CON", "building_id": "B1", "floor_id": "F3", "area_id": "A92",
+        "icon": "assets/images/roomicons/dean_office.png", 
+        "area_name": "Office of the Dean (CON)", 
+        "building_name": "CON Building", 
+        "college_name": "College of Nursing"
+    },
+
+    {
+        "college_id": "CON", "building_id": "B1", "floor_id": "F3", "area_id": "A93",
+        "icon": "assets/images/roomicons/dean_office.png", 
+        "area_name": "Faculty Room / Office of the College Secretary", 
+        "building_name": "CON Building", 
+        "college_name": "College of Nursing"
+    },
+
+    {
+        "college_id": "CON", "building_id": "B1", "floor_id": "F3", "area_id": "A94",
+        "icon": "assets/images/roomicons/dean_office.png", 
+        "area_name": "Faculty Room", 
+        "building_name": "CON Building", 
+        "college_name": "College of Nursing"
+    },
+
+    {
+        "college_id": "CON", "building_id": "B1", "floor_id": "F3", "area_id": "A95",
+        "icon": "assets/images/roomicons/classroom.png", 
+        "area_name": "Room 308B", 
+        "building_name": "CON Building", 
+        "college_name": "College of Nursing"
+    },
+
+    {
+        "college_id": "CON", "building_id": "B1", "floor_id": "F3", "area_id": "A96",
+        "icon": "assets/images/roomicons/classroom.png", 
+        "area_name": "Room 310", 
+        "building_name": "CON Building", 
+        "college_name": "College of Nursing"
+    },
+
+    {
+        "college_id": "CON", "building_id": "B1", "floor_id": "F3", "area_id": "A97",
+        "icon": "assets/images/roomicons/classroom.png", 
+        "area_name": "Room 309 (Research and Extension)", 
+        "building_name": "CON Building", 
+        "college_name": "College of Nursing"
+    },
+
+    {
+        "college_id": "CON", "building_id": "B1", "floor_id": "F3", "area_id": "A98",
+        "icon": "assets/images/roomicons/classroom.png", 
+        "area_name": "Room 314", 
+        "building_name": "CON Building", 
+        "college_name": "College of Nursing"
+    },
+
+    {
+        "college_id": "CON", "building_id": "B1", "floor_id": "F3", "area_id": "A99",
+        "icon": "assets/images/roomicons/classroom.png", 
+        "area_name": "Reading Room", 
+        "building_name": "CON Building", 
+        "college_name": "College of Nursing"
     }
 ]
