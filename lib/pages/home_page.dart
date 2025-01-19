@@ -21,13 +21,6 @@ class HomePage extends StatelessWidget {
         'title': 'CON Building',
         'subtitle': 'College of Nursing',
         'areaList': conAreas,
-        'floors': ["1st Floor", "2nd Floor", "3rd Floor", "4th Floor", "5th Floor"],
-      },
-      {
-        'image': 'assets/images/temporaryCardpics/bldg3.jpg',
-        'title': 'Main Library',
-        'subtitle': 'University Library',
-        'areaList': emptyArea,
         'floors': ["1st Floor", "2nd Floor", "3rd Floor", "4th Floor"],
       },
       {
@@ -36,20 +29,6 @@ class HomePage extends StatelessWidget {
         'subtitle': 'College of Sports, Physical Education and Recreation',
         'areaList': cspearAreas,
         'floors': ["1st Floor", "2nd Floor", "3rd Floor"],
-      },
-      {
-        'image': 'assets/images/temporaryCardpics/bldg5.jpg',
-        'title': 'Arts and Communication',
-        'subtitle': 'College of Arts and Communication',
-        'areaList': emptyArea,
-        'floors': ["1st Floor", "2nd Floor", "3rd Floor", "4th Floor"],
-      },
-      {
-        'image': 'assets/images/temporaryCardpics/bldg6.jpg',
-        'title': 'Student Center',
-        'subtitle': 'Campus Hub for Students',
-        'areaList': emptyArea,
-        'floors': ["1st Floor", "2nd Floor", "3rd Floor", "4th Floor"],
       },
     ];
 

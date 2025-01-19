@@ -11,7 +11,7 @@
           {"type": "room", "labelText":"LEA Room", "width":150.0, "height":150.0, "latitude": -6.0, "longitude": 53.0, "nextView": "CCJ_B1_F3_A2:AV1", "nextViewAngle": [0.0, 0.0]},
 
           {"type": "stairs", "labelText":"2nd Floor", "width":120.0, "height":120.0, "latitude": -22.0, "longitude": 9.0, "nextView": "CCJ_B1_F2_A1:AV1", "nextViewAngle": [-6.0, 115.0]},
-          {"type": "stairs", "labelText":"4th Floor", "width":120.0, "height":120.0, "latitude": 0.0, "longitude": -28.0, "nextView": "CCJ_B1_F3_A1:AV1", "nextViewAngle": [-5.0, 82.0]}
+          {"type": "stairs", "labelText":"4th Floor", "width":120.0, "height":120.0, "latitude": 0.0, "longitude": -28.0, "nextView": "CCJ_B1_F4_A1:AV1", "nextViewAngle": [-5.0, 82.0]}
         ]},
 
         {"sceneId": "AV2",
@@ -108,7 +108,7 @@
           {"type": "move", "labelText":null, "width":120.0, "height":120.0, "latitude": -22.0, "longitude": 0.0, "nextView": "CCJ_B1_F3_A1:AV9", "nextViewAngle": [-13.0, 0.0]},
 
           {"type": "stairs", "labelText":"2nd Floor", "width":150.0, "height":150.0, "latitude": -22.0, "longitude": 71.0, "nextView": "CCJ_B1_F2_A1:AV10", "nextViewAngle": [-13.0, 22.0]},
-          {"type": "stairs", "labelText":"4th Floor", "width":150.0, "height":150.0, "latitude": 0.0, "longitude": 106.0, "nextView": "CCJ_B1_F3_A1:AV1", "nextViewAngle": [-5.0, 106.0]}
+          {"type": "stairs", "labelText":"4th Floor", "width":150.0, "height":150.0, "latitude": 0.0, "longitude": 106.0, "nextView": "CCJ_B1_F4_A1:AV5", "nextViewAngle": [-5.0, 106.0]}
         ]}
       ]
     },
