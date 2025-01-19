@@ -20,6 +20,8 @@ class _PanoramaTestsState extends State<PanoramaTests> {
 
   Area? currentArea;
   AreaView? currentScene;
+  String location_id = "CSPEAR_B1_F1_A6"; 
+  String areaView_id = "AV1";
 
   void initState() {
     super.initState();
@@ -27,8 +29,8 @@ class _PanoramaTestsState extends State<PanoramaTests> {
   }
   Future<void> _loadData() async {
     await loadAreaViews();
-    String location_id = "CSPEAR_B1_F2_A2"; 
-    setScene(areaViewsMap[location_id]?["AV4"], location_id);
+    
+    setScene(areaViewsMap[location_id]?[areaView_id], location_id);
   }
 
   void setScene(AreaView? scene, String location_id){
@@ -44,7 +46,9 @@ class _PanoramaTestsState extends State<PanoramaTests> {
   
   Map<String, String> hotspotIcons = {
     "move": "assets/images/hotspots/MoveHotspot.png",
-    "stairs": "assets/images/hotspots/arrow_hotspot.png"
+    "stairs": "assets/images/hotspots/StairsHotspot.png",
+    "room": "assets/images/hotspots/RoomHotspot.png",
+    "N/A": "assets/images/hotspots/arrow_hotspot.png"
   };
   
   @override
@@ -55,7 +59,7 @@ class _PanoramaTestsState extends State<PanoramaTests> {
     
     return Scaffold(
       appBar: AppBar(
-        title: Text("Area"),
+        title: Text("$location_id"+"_$areaView_id"),
         backgroundColor: Colors.green,
       ),
       body: PanoramaViewer(

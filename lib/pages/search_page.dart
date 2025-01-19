@@ -19,7 +19,7 @@ class _SearchPageState extends State<SearchPage> {
 
   List<String> collegeTags = ["All", "CCJ", "CON", "CSPEAR"];
   List<String> buildingTags = ["All", "CCJ Building", "CON Building", "University Gym"];
-  List<String> floorTags = ["All", "1st Floor", "2nd Floor", "3rd Floor", "4th Floor", "5th Floor"];
+  List<String> floorTags = ["All", "1st Floor", "2nd Floor", "3rd Floor", "4th Floor"];
 
   int _selectedCollegeTagIndex = 0;
   int _selectedBuildingTagIndex = 0;
@@ -169,14 +169,14 @@ class _SearchPageState extends State<SearchPage> {
   void searchArea(String query) {
     final suggestions = allAreas.where((area) {
       final collegeId = area.college_id.toLowerCase();
-      final collegeName = area.college_name.toLowerCase();
-      final buildingName = area.building_name.toLowerCase();
+      //final collegeName = area.college_name.toLowerCase();
+      //final buildingName = area.building_name.toLowerCase();
       final areaName = area.area_name.toLowerCase();
       final userInput = query.toLowerCase().trim();
 
       return collegeId.contains(userInput) ||
-      collegeName.contains(userInput) || 
-      buildingName.contains(userInput) ||
+      //collegeName.contains(userInput) || 
+      //buildingName.contains(userInput) ||
       areaName.contains(userInput);
     }).toList();
 

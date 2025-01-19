@@ -85,5 +85,37 @@
         "area_name": "Room 1", 
         "building_name": "University Gym", 
         "college_name": "College of Sports, Physical Education and Recreation"
+    },
+
+    {
+        "college_id": "CSPEAR", "building_id": "B1", "floor_id": "F1", "area_id": "A91",
+        "icon": "assets/images/roomicons/classroom.png", 
+        "area_name": "Room 2", 
+        "building_name": "University Gym", 
+        "college_name": "College of Sports, Physical Education and Recreation"
+    },
+
+    {
+        "college_id": "CSPEAR", "building_id": "B1", "floor_id": "F1", "area_id": "A92",
+        "icon": "assets/images/roomicons/classroom.png", 
+        "area_name": "Room 3", 
+        "building_name": "University Gym", 
+        "college_name": "College of Sports, Physical Education and Recreation"
+    },
+
+    {
+        "college_id": "CSPEAR", "building_id": "B1", "floor_id": "F1", "area_id": "A93",
+        "icon": "assets/images/roomicons/classroom.png", 
+        "area_name": "Room 4", 
+        "building_name": "University Gym", 
+        "college_name": "College of Sports, Physical Education and Recreation"
+    },
+
+    {
+        "college_id": "CSPEAR", "building_id": "B1", "floor_id": "F1", "area_id": "A94",
+        "icon": "assets/images/roomicons/classroom.png", 
+        "area_name": "Room 5", 
+        "building_name": "University Gym", 
+        "college_name": "College of Sports, Physical Education and Recreation"
     }
 ]

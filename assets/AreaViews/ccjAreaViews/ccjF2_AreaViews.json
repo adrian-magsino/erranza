@@ -1,0 +1,269 @@
+[
+    {
+      "location_id": "CCJ_B1_F2_A1",
+      "areaViews": [  
+        {"sceneId": "AV1",
+        "image": "assets/images/buildings/ccjAreas/CCJ_secondFloor/Hallway_CCJ_B1_F2_A1/CCJ_B1_F2_A1_AV1.webp",
+        "initialAngle": [0.0, 0.0],
+        "hotspots": [
+          {"type": "move", "labelText":null, "width":120.0, "height":120.0, "latitude": -22.0, "longitude": 60.0, "nextView": "CCJ_B1_F2_A1:AV2", "nextViewAngle": [-13.0, 87.0]},
+
+          {"type": "room", "labelText":"Questioned Document Room", "width":250.0, "height":250.0, "latitude": 0.0, "longitude": 0.0, "nextView": "CCJ_B1_F2_A2:AV1", "nextViewAngle": [0.0, 0.0]},
+
+          {"type": "stairs", "labelText":"1st Floor", "width":120.0, "height":120.0, "latitude": -22.0, "longitude": -48.0, "nextView": "CCJ_B1_F1_A1:AV1", "nextViewAngle": [-11.0, 153.0]},
+          {"type": "stairs", "labelText":"3rd Floor", "width":120.0, "height":120.0, "latitude": 0.0, "longitude": -71.0, "nextView": "CCJ_B1_F3_A1:AV1", "nextViewAngle": [-5.0, 125.0]}
+        ]},
+
+        {"sceneId": "AV2",
+        "image": "assets/images/buildings/ccjAreas/CCJ_secondFloor/Hallway_CCJ_B1_F2_A1/CCJ_B1_F2_A1_AV2.webp",
+        "initialAngle": [0.0, 0.0],   
+        "hotspots": [
+          {"type": "move", "labelText":null, "width":120.0, "height":120.0, "latitude": -22.0, "longitude": -90.0, "nextView": "CCJ_B1_F2_A1:AV1", "nextViewAngle": [-13.0, -67.0]},
+          {"type": "move", "labelText":null, "width":120.0, "height":120.0, "latitude": -22.0, "longitude": 90.0, "nextView": "CCJ_B1_F2_A1:AV3", "nextViewAngle": [-13.0, 84.0]},
+
+          {"type": "room", "labelText":"Questioned Document Room", "width":250.0, "height":250.0, "latitude": 0.0, "longitude": -34.0, "nextView": "CCJ_B1_F2_A2:AV1", "nextViewAngle": [0.0, 0.0]},
+          {"type": "room", "labelText":"Forensic Ballistic Room", "width":250.0, "height":250.0, "latitude": 0.0, "longitude": 20.0, "nextView": "CCJ_B1_F2_A3:AV1", "nextViewAngle": [0.0, 0.0]}
+        ]},
+
+        {"sceneId": "AV3",
+        "image": "assets/images/buildings/ccjAreas/CCJ_secondFloor/Hallway_CCJ_B1_F2_A1/CCJ_B1_F2_A1_AV3.webp",
+        "initialAngle": [0.0, 0.0],
+        "hotspots": [
+          {"type": "move", "labelText":null, "width":120.0, "height":120.0, "latitude": -22.0, "longitude": -90.0, "nextView": "CCJ_B1_F2_A1:AV2", "nextViewAngle": [-13.0, -91.0]},
+          {"type": "move", "labelText":null, "width":120.0, "height":120.0, "latitude": -22.0, "longitude": 90.0, "nextView": "CCJ_B1_F2_A1:AV4", "nextViewAngle": [-13.0, 170.0]},
+
+          {"type": "room", "labelText":"Forensic Ballistic Room", "width":250.0, "height":250.0, "latitude": 0.0, "longitude": -33.0, "nextView": "CCJ_B1_F2_A3:AV1", "nextViewAngle": [0.0, 0.0]},
+          {"type": "room", "labelText":"Personal Identification Room", "width":250.0, "height":250.0, "latitude": 0.0, "longitude": 39.0, "nextView": "CCJ_B1_F2_A4:AV1", "nextViewAngle": [0.0, 0.0]}
+          
+        ]},
+
+        {"sceneId": "AV4",
+        "image": "assets/images/buildings/ccjAreas/CCJ_secondFloor/Hallway_CCJ_B1_F2_A1/CCJ_B1_F2_A1_AV4.webp",
+        "initialAngle": [0.0, 0.0],
+        "hotspots": [
+          {"type": "move", "labelText":null, "width":120.0, "height":120.0, "latitude": -22.0, "longitude": -5.0, "nextView": "CCJ_B1_F2_A1:AV3", "nextViewAngle": [-13.0, -90.0]},
+          {"type": "move", "labelText":null, "width":120.0, "height":120.0, "latitude": -22.0, "longitude": 170.0, "nextView": "CCJ_B1_F2_A1:AV5", "nextViewAngle": [-13.0, 98.0]},
+
+          {"type": "room", "labelText":"Personal Identification Room", "width":250.0, "height":250.0, "latitude": 0.0, "longitude": 72.0, "nextView": "CCJ_B1_F2_A4:AV1", "nextViewAngle": [-5.0, 82.0]}
+        ]},
+
+        {"sceneId": "AV5",
+        "image": "assets/images/buildings/ccjAreas/CCJ_secondFloor/Hallway_CCJ_B1_F2_A1/CCJ_B1_F2_A1_AV5.webp",
+        "initialAngle": [0.0, 0.0],
+        "hotspots": [
+          {"type": "move", "labelText":null, "width":120.0, "height":120.0, "latitude": -22.0, "longitude": -83.0, "nextView": "CCJ_B1_F2_A1:AV4", "nextViewAngle": [-13.0, -5.0]},
+          {"type": "move", "labelText":null, "width":120.0, "height":120.0, "latitude": -22.0, "longitude": 98.0, "nextView": "CCJ_B1_F2_A1:AV6", "nextViewAngle": [-13.0, -89.0]},
+
+          {"type": "stairs", "labelText":"1st Floor", "width":120.0, "height":120.0, "latitude": -10.0, "longitude": 3.0, "nextView": "CCJ_B1_F1_A2:AV3", "nextViewAngle": [-15.0, 77.0]}
+        ]},
+
+        {"sceneId": "AV6",
+        "image": "assets/images/buildings/ccjAreas/CCJ_secondFloor/Hallway_CCJ_B1_F2_A1/CCJ_B1_F2_A1_AV6.webp",
+        "initialAngle": [0.0, 0.0],
+        "hotspots": [
+          {"type": "move", "labelText":null, "width":120.0, "height":120.0, "latitude": -22.0, "longitude": 91.0, "nextView": "CCJ_B1_F2_A1:AV5", "nextViewAngle": [-13.0, -83.0]},
+          {"type": "move", "labelText":null, "width":120.0, "height":120.0, "latitude": -22.0, "longitude": -89.0, "nextView": "CCJ_B1_F2_A1:AV7", "nextViewAngle": [-13.0, 90.0]},
+
+          {"type": "room", "labelText":"Lie Detection Room", "width":250.0, "height":250.0, "latitude": -5.0, "longitude": -153.0, "nextView": "CCJ_B1_F2_A5:AV1", "nextViewAngle": [0.0, 0.0]}
+        ]},
+
+        {"sceneId": "AV7", 
+        "image": "assets/images/buildings/ccjAreas/CCJ_secondFloor/Hallway_CCJ_B1_F2_A1/CCJ_B1_F2_A1_AV7.webp",
+        "initialAngle": [0.0, 0.0],
+        "hotspots": [
+          {"type": "move", "labelText":null, "width":120.0, "height":120.0, "latitude": -22.0, "longitude": -90.0, "nextView": "CCJ_B1_F2_A1:AV6", "nextViewAngle": [-13.0, 91.0]},
+          {"type": "move", "labelText":null, "width":120.0, "height":120.0, "latitude": -22.0, "longitude": 90.0, "nextView": "CCJ_B1_F2_A1:AV8", "nextViewAngle": [-13.0, 90.0]},
+
+          {"type": "room", "labelText":"Lie Detection Room", "width":250.0, "height":250.0, "latitude": -5.0, "longitude": -23.0, "nextView": "CCJ_B1_F2_A5:AV1", "nextViewAngle": [0.0, 0.0]},
+          {"type": "room", "labelText":"Police Photography Room", "width":250.0, "height":250.0, "latitude": -5.0, "longitude": 23.0, "nextView": "CCJ_B1_F2_A6:AV1", "nextViewAngle": [0.0, 0.0]}
+        ]},
+
+        {"sceneId": "AV8",
+        "image": "assets/images/buildings/ccjAreas/CCJ_secondFloor/Hallway_CCJ_B1_F2_A1/CCJ_B1_F2_A1_AV8.webp",
+        "initialAngle": [0.0, 0.0],
+        "hotspots": [
+          {"type": "move", "labelText":null, "width":120.0, "height":120.0, "latitude": -22.0, "longitude": -90.0, "nextView": "CCJ_B1_F2_A1:AV7", "nextViewAngle": [-13.0, -90.0]},
+          {"type": "move", "labelText":null, "width":120.0, "height":120.0, "latitude": -22.0, "longitude": 90.0, "nextView": "CCJ_B1_F2_A1:AV9", "nextViewAngle": [-13.0, 0.0]},
+
+          {"type": "room", "labelText":"Police Photography Room", "width":250.0, "height":250.0, "latitude": -5.0, "longitude": -24.0, "nextView": "CCJ_B1_F2_A6:AV1", "nextViewAngle": [0.0, 0.0]},
+          {"type": "N/A", "labelText":"Crime Scene Room", "width":250.0, "height":250.0, "latitude": -5.0, "longitude": 24.0, "nextView": null, "nextViewAngle": [0.0, 0.0]}
+        ]},
+
+        {"sceneId": "AV9",
+        "image": "assets/images/buildings/ccjAreas/CCJ_secondFloor/Hallway_CCJ_B1_F2_A1/CCJ_B1_F2_A1_AV9.webp",
+        "initialAngle": [0.0, 0.0],
+        "hotspots": [
+          {"type": "move", "labelText":null, "width":120.0, "height":120.0, "latitude": -22.0, "longitude": 179.0, "nextView": "CCJ_B1_F2_A1:AV8", "nextViewAngle": [-13.0, -90.0]},
+          {"type": "move", "labelText":null, "width":120.0, "height":120.0, "latitude": -22.0, "longitude": 0.0, "nextView": "CCJ_B1_F2_A1:AV10", "nextViewAngle": [-13.0, -152.0]},
+
+          {"type": "N/A", "labelText":"Investigation Room", "width":250.0, "height":250.0, "latitude": -5.0, "longitude": -90.0, "nextView": null, "nextViewAngle": [0.0, 0.0]}
+        ]},
+
+        {"sceneId": "AV10",
+        "image": "assets/images/buildings/ccjAreas/CCJ_secondFloor/Hallway_CCJ_B1_F2_A1/CCJ_B1_F2_A1_AV10.webp",
+        "initialAngle": [0.0, 0.0],
+        "hotspots": [
+          {"type": "move", "labelText":null, "width":120.0, "height":120.0, "latitude": -22.0, "longitude": 44.0, "nextView": "CCJ_B1_F2_A1:AV9", "nextViewAngle": [-13.0, 179.0]},
+
+          {"type": "stairs", "labelText":"1st Floor", "width":150.0, "height":150.0, "latitude": -22.0, "longitude": 121.0, "nextView": "CCJ_B1_F1_A4:AV1", "nextViewAngle": [-9.0, 171.0]},
+          {"type": "stairs", "labelText":"3rd Floor", "width":150.0, "height":150.0, "latitude": 0.0, "longitude": 154.0, "nextView": "CCJ_B1_F3_A1:AV10", "nextViewAngle": [-5.0, -19.0]}
+        ]}
+      ]
+    },
+
+    {
+      "location_id": "CCJ_B1_F2_A2",
+      "areaViews": [  
+        {"sceneId": "AV0",
+        "image": "assets/images/buildings/ccjAreas/CCJ_secondFloor/Hallway_CCJ_B1_F2_A1/CCJ_B1_F2_A1_AV2.webp",
+        "initialAngle": [-6.0, -32.0],   
+        "hotspots": [
+          {"type": "move", "labelText":null, "width":120.0, "height":120.0, "latitude": -22.0, "longitude": -90.0, "nextView": "CCJ_B1_F2_A1:AV1", "nextViewAngle": [-13.0, -67.0]},
+          {"type": "move", "labelText":null, "width":120.0, "height":120.0, "latitude": -22.0, "longitude": 90.0, "nextView": "CCJ_B1_F2_A1:AV3", "nextViewAngle": [-13.0, 84.0]},
+
+          {"type": "room", "labelText":"Questioned Document Room", "width":250.0, "height":250.0, "latitude": 0.0, "longitude": -34.0, "nextView": "CCJ_B1_F2_A2:AV1", "nextViewAngle": [0.0, 0.0]},
+          {"type": "room", "labelText":"Forensic Ballistic Room", "width":250.0, "height":250.0, "latitude": 0.0, "longitude": 20.0, "nextView": "CCJ_B1_F2_A3:AV1", "nextViewAngle": [0.0, 0.0]}
+        ]},
+
+        {"sceneId": "AV1",
+        "image": "assets/images/buildings/ccjAreas/CCJ_secondFloor/Questioned_Document_Room__CCJ_B1_F2_A2/CCJ_B1_F2_A2_AV1.webp",
+        "initialAngle": [0.0, 0.0],
+        "hotspots": [
+          {"type": "room", "labelText":null, "width":100.0, "height":100.0, "latitude": 0.0, "longitude": 120.0, "nextView": "CCJ_B1_F2_A1:AV1", "nextViewAngle": [0.0, 0.0]},
+          {"type": "room", "labelText":null, "width":100.0, "height":100.0, "latitude": 0.0, "longitude": 58.0, "nextView": "CCJ_B1_F2_A1:AV2", "nextViewAngle": [-6.0, -32.0]}
+        ]}         
+      ]
+    },
+
+    {
+      "location_id": "CCJ_B1_F2_A3",
+      "areaViews": [  
+        {"sceneId": "AV0",
+        "image": "assets/images/buildings/ccjAreas/CCJ_secondFloor/Hallway_CCJ_B1_F2_A1/CCJ_B1_F2_A1_AV3.webp",
+        "initialAngle": [-6.0, -32.0],
+        "hotspots": [
+          {"type": "move", "labelText":null, "width":120.0, "height":120.0, "latitude": -22.0, "longitude": -90.0, "nextView": "CCJ_B1_F2_A1:AV2", "nextViewAngle": [-13.0, -91.0]},
+          {"type": "move", "labelText":null, "width":120.0, "height":120.0, "latitude": -22.0, "longitude": 90.0, "nextView": "CCJ_B1_F2_A1:AV4", "nextViewAngle": [-13.0, 170.0]},
+
+          {"type": "room", "labelText":"Forensic Ballistic Room", "width":250.0, "height":250.0, "latitude": 0.0, "longitude": -33.0, "nextView": "CCJ_B1_F2_A3:AV1", "nextViewAngle": [0.0, 0.0]},
+          {"type": "room", "labelText":"Personal Identification Room", "width":250.0, "height":250.0, "latitude": 0.0, "longitude": 39.0, "nextView": "CCJ_B1_F2_A4:AV1", "nextViewAngle": [0.0, 0.0]}
+          
+        ]},
+
+        {"sceneId": "AV1",
+        "image": "assets/images/buildings/ccjAreas/CCJ_secondFloor/Forensic_Ballistics_Room__CCJ_B1_F2_A3/CCJ_B1_F2_A3_AV1.webp",
+        "initialAngle": [0.0, 0.0],
+        "hotspots": [
+          {"type": "room", "labelText":null, "width":100.0, "height":100.0, "latitude": 0.0, "longitude": -19.0, "nextView": "CCJ_B1_F2_A1:AV2", "nextViewAngle": [-8.0, 20.0]},
+          {"type": "room", "labelText":null, "width":100.0, "height":100.0, "latitude": 0.0, "longitude": -78.0, "nextView": "CCJ_B1_F2_A1:AV3", "nextViewAngle": [-6.0, -32.0]}
+        ]}         
+      ]
+    },
+
+    {
+      "location_id": "CCJ_B1_F2_A4",
+      "areaViews": [  
+        {"sceneId": "AV0",
+        "image": "assets/images/buildings/ccjAreas/CCJ_secondFloor/Hallway_CCJ_B1_F2_A1/CCJ_B1_F2_A1_AV4.webp",
+        "initialAngle": [0.0, 70.0],
+        "hotspots": [
+          {"type": "move", "labelText":null, "width":120.0, "height":120.0, "latitude": -22.0, "longitude": -5.0, "nextView": "CCJ_B1_F2_A1:AV3", "nextViewAngle": [-13.0, -90.0]},
+          {"type": "move", "labelText":null, "width":120.0, "height":120.0, "latitude": -22.0, "longitude": 170.0, "nextView": "CCJ_B1_F2_A1:AV5", "nextViewAngle": [-13.0, 98.0]},
+
+          {"type": "room", "labelText":"Personal Identification Room", "width":250.0, "height":250.0, "latitude": 0.0, "longitude": 72.0, "nextView": "CCJ_B1_F2_A4:AV1", "nextViewAngle": [-5.0, 82.0]}
+        ]},
+
+        {"sceneId": "AV1",
+        "image": "assets/images/buildings/ccjAreas/CCJ_secondFloor/Personal_Identification_Room__CCJ_B1_F2_A4/CCJ_B1_F2_A4_AV1.webp",
+        "initialAngle": [0.0, 0.0],
+        "hotspots": [
+          {"type": "room", "labelText":null, "width":120.0, "height":120.0, "latitude": 0.0, "longitude": -77.0, "nextView": "CCJ_B1_F2_A1:AV3", "nextViewAngle": [-6.0, 39.0]},
+          {"type": "room", "labelText":null, "width":120.0, "height":120.0, "latitude": 0.0, "longitude": -126.0, "nextView": "CCJ_B1_F2_A1:AV4", "nextViewAngle": [0.0, 70.0]}
+        ]}         
+      ]
+    },
+
+    {
+      "location_id": "CCJ_B1_F2_A5",
+      "areaViews": [  
+        {"sceneId": "AV0", 
+        "image": "assets/images/buildings/ccjAreas/CCJ_secondFloor/Hallway_CCJ_B1_F2_A1/CCJ_B1_F2_A1_AV7.webp",
+        "initialAngle": [0.0, -23.0],
+        "hotspots": [
+          {"type": "move", "labelText":null, "width":120.0, "height":120.0, "latitude": -22.0, "longitude": -90.0, "nextView": "CCJ_B1_F2_A1:AV6", "nextViewAngle": [-13.0, 91.0]},
+          {"type": "move", "labelText":null, "width":120.0, "height":120.0, "latitude": -22.0, "longitude": 90.0, "nextView": "CCJ_B1_F2_A1:AV8", "nextViewAngle": [-13.0, 90.0]},
+
+          {"type": "room", "labelText":"Lie Detection Room", "width":250.0, "height":250.0, "latitude": -5.0, "longitude": -23.0, "nextView": "CCJ_B1_F2_A5:AV1", "nextViewAngle": [0.0, 0.0]},
+          {"type": "room", "labelText":"Police Photography Room", "width":250.0, "height":250.0, "latitude": -5.0, "longitude": 23.0, "nextView": "CCJ_B1_F2_A6:AV1", "nextViewAngle": [0.0, 0.0]}
+        ]},
+
+        {"sceneId": "AV1",
+        "image": "assets/images/buildings/ccjAreas/CCJ_secondFloor/Lie_Detection_Room__CCJ_B1_F2_A5/CCJ_B1_F2_A5_AV1.webp",
+        "initialAngle": [0.0, 0.0],
+        "hotspots": [
+          {"type": "room", "labelText":null, "width":120.0, "height":120.0, "latitude": 0.0, "longitude": -162.0, "nextView": "CCJ_B1_F2_A1:AV6", "nextViewAngle": [-6.0, -152.0]},
+          {"type": "room", "labelText":null, "width":120.0, "height":120.0, "latitude": 0.0, "longitude": 133.0, "nextView": "CCJ_B1_F2_A1:AV7", "nextViewAngle": [-6.0, -23.0]}
+        ]}         
+      ]
+    },
+
+    {
+      "location_id": "CCJ_B1_F2_A6",
+      "areaViews": [  
+        {"sceneId": "AV0",
+        "image": "assets/images/buildings/ccjAreas/CCJ_secondFloor/Hallway_CCJ_B1_F2_A1/CCJ_B1_F2_A1_AV8.webp",
+        "initialAngle": [-7.0, -23.0],
+        "hotspots": [
+          {"type": "move", "labelText":null, "width":120.0, "height":120.0, "latitude": -22.0, "longitude": -90.0, "nextView": "CCJ_B1_F2_A1:AV7", "nextViewAngle": [-13.0, -90.0]},
+          {"type": "move", "labelText":null, "width":120.0, "height":120.0, "latitude": -22.0, "longitude": 90.0, "nextView": "CCJ_B1_F2_A1:AV9", "nextViewAngle": [-13.0, 0.0]},
+
+          {"type": "room", "labelText":"Police Photography Room", "width":250.0, "height":250.0, "latitude": -5.0, "longitude": -24.0, "nextView": "CCJ_B1_F2_A6:AV1", "nextViewAngle": [0.0, 0.0]},
+          {"type": "N/A", "labelText":"Crime Scene Room", "width":250.0, "height":250.0, "latitude": -5.0, "longitude": 24.0, "nextView": null, "nextViewAngle": [0.0, 0.0]}
+        ]},
+
+        {"sceneId": "AV1",
+        "image": "assets/images/buildings/ccjAreas/CCJ_secondFloor/Police_Photography_Room__CCJ_B1_F2_A6/CCJ_B1_F2_A6_AV1.webp",
+        "initialAngle": [0.0, 0.0],
+        "hotspots": [
+          {"type": "room", "labelText":null, "width":120.0, "height":120.0, "latitude": 0.0, "longitude": -51.0, "nextView": "CCJ_B1_F2_A1:AV7", "nextViewAngle": [-6.0, 22.0]},
+          {"type": "room", "labelText":null, "width":120.0, "height":120.0, "latitude": 0.0, "longitude": -133.0, "nextView": "CCJ_B1_F2_A1:AV8", "nextViewAngle": [-6.0, -23.0]}
+        ]}         
+      ]
+    },
+
+
+
+
+
+    {
+      "location_id": "CCJ_B1_F2_A91",
+      "areaViews": [  
+        {"sceneId": "AV0",
+        "image": "assets/images/buildings/ccjAreas/CCJ_secondFloor/Hallway_CCJ_B1_F2_A1/CCJ_B1_F2_A1_AV8.webp",
+        "initialAngle": [-7.0, 22.0],
+        "hotspots": [
+          {"type": "move", "labelText":null, "width":120.0, "height":120.0, "latitude": -22.0, "longitude": -90.0, "nextView": "CCJ_B1_F2_A1:AV7", "nextViewAngle": [-13.0, -90.0]},
+          {"type": "move", "labelText":null, "width":120.0, "height":120.0, "latitude": -22.0, "longitude": 90.0, "nextView": "CCJ_B1_F2_A1:AV9", "nextViewAngle": [-13.0, 0.0]},
+
+          {"type": "room", "labelText":"Police Photography Room", "width":250.0, "height":250.0, "latitude": -5.0, "longitude": -24.0, "nextView": "CCJ_B1_F2_A6:AV1", "nextViewAngle": [0.0, 0.0]},
+          {"type": "N/A", "labelText":"Crime Scene Room", "width":250.0, "height":250.0, "latitude": -5.0, "longitude": 24.0, "nextView": null, "nextViewAngle": [0.0, 0.0]}
+        ]}        
+      ]
+    },
+
+    {
+      "location_id": "CCJ_B1_F2_A92",
+      "areaViews": [  
+        {"sceneId": "AV9",
+        "image": "assets/images/buildings/ccjAreas/CCJ_secondFloor/Hallway_CCJ_B1_F2_A1/CCJ_B1_F2_A1_AV9.webp",
+        "initialAngle": [0.0, -90.0],
+        "hotspots": [
+          {"type": "move", "labelText":null, "width":120.0, "height":120.0, "latitude": -22.0, "longitude": 179.0, "nextView": "CCJ_B1_F2_A1:AV8", "nextViewAngle": [-13.0, -90.0]},
+          {"type": "move", "labelText":null, "width":120.0, "height":120.0, "latitude": -22.0, "longitude": 0.0, "nextView": "CCJ_B1_F2_A1:AV10", "nextViewAngle": [-13.0, -152.0]},
+
+          {"type": "N/A", "labelText":"Investigation Room", "width":250.0, "height":250.0, "latitude": -5.0, "longitude": -90.0, "nextView": null, "nextViewAngle": [0.0, 0.0]}
+        ]}     
+      ]
+    }
+
+]

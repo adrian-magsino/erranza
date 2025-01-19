@@ -28,7 +28,7 @@ class AboutAppPage extends StatelessWidget {
                   color: Colors.black,
                   fontWeight: FontWeight.bold,
                 ),),
-              subtitle: const Text("Debug 123.456.78"),
+              subtitle: const Text("1.0.0+1"),
             ),
           ],
         ),

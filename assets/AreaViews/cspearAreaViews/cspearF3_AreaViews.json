@@ -1,0 +1,81 @@
+[
+    {
+        "location_id": "CSPEAR_B1_F3_A1",
+        "areaViews": [  
+            {"sceneId": "AV1",
+            "image": "assets/images/buildings/cspearAreas/CSPEAR_thirdFloor/CSPEAR_B1_F3_A1/CSPEAR_B1_F3_A1_AV1.webp",
+            "initialAngle": [0.0, 0.0],
+            "hotspots": [
+            {"type": "stairs", "labelText":null, "width":150.0, "height":150.0, "latitude": -24.0, "longitude": -13.0, "nextView": "CSPEAR_B1_F2_A2:AV3", "nextViewAngle": [0.0, 0.0]},
+
+            {"type": "move", "labelText":null, "width":150.0, "height":150.0, "latitude": -22.0, "longitude": 90.0, "nextView": "CSPEAR_B1_F3_A1:AV2", "nextViewAngle": [0.0, -90.0]},
+
+            {"type": "stairs", "labelText":null, "width":150.0, "height":150.0, "latitude": -22.0, "longitude": 170.0, "nextView": "CSPEAR_B1_F2_A4:AV1", "nextViewAngle": [0.0, 0.0]},
+
+            {"type": "N/A", "labelText":"Registrar's Office", "width":150.0, "height":150.0, "latitude": -2.0, "longitude": -97.0, "nextView": null, "nextViewAngle": [0.0, 0.0]}
+            
+            ]},
+            
+            {"sceneId": "AV2",
+            "image": "assets/images/buildings/cspearAreas/CSPEAR_thirdFloor/CSPEAR_B1_F3_A1/CSPEAR_B1_F3_A1_AV2.webp",
+            "initialAngle": [0.0, 0.0],
+            "hotspots": [
+            {"type": "move", "labelText":null, "width":150.0, "height":150.0, "latitude": -22.0, "longitude": 90.0, "nextView": "CSPEAR_B1_F3_A1:AV1", "nextViewAngle": [0.0, -90.0]},   
+            {"type": "move", "labelText":null, "width":150.0, "height":150.0, "latitude": -22.0, "longitude": -90.0, "nextView": "CSPEAR_B1_F3_A1:AV3", "nextViewAngle": [0.0, 0.0]}
+            
+            ]},
+
+            {"sceneId": "AV3",
+            "image": "assets/images/buildings/cspearAreas/CSPEAR_thirdFloor/CSPEAR_B1_F3_A1/CSPEAR_B1_F3_A1_AV3.webp",
+            "initialAngle": [0.0, 0.0],
+            "hotspots": [
+            {"type": "stairs", "labelText":null, "width":150.0, "height":150.0, "latitude": -22.0, "longitude": 0.0, "nextView": "CSPEAR_B1_F2_A2:AV1", "nextViewAngle": [0.0, 0.0]},
+
+            {"type": "move", "labelText":null, "width":150.0, "height":150.0, "latitude": -22.0, "longitude": -90.0, "nextView": "CSPEAR_B1_F3_A1:AV2", "nextViewAngle": [0.0, 90.0]},
+
+            {"type": "stairs", "labelText":null, "width":150.0, "height":150.0, "latitude": -22.0, "longitude": -163.0, "nextView": "CSPEAR_B1_F2_A4:AV1", "nextViewAngle": [0.0, 0.0]},
+
+            {"type": "N/A", "labelText":"Dean's Office", "width":150.0, "height":150.0, "latitude": -2.0, "longitude": 92.0, "nextView": null, "nextViewAngle": [0.0, 0.0]}
+            
+            ]} 
+        ]
+    },
+
+    {
+        "location_id": "CSPEAR_B1_F3_A91",
+        "areaViews": [  
+            {"sceneId": "AV1",
+            "image": "assets/images/buildings/cspearAreas/CSPEAR_thirdFloor/CSPEAR_B1_F3_A1/CSPEAR_B1_F3_A1_AV1.webp",
+            "initialAngle": [0.0, -97.0],
+            "hotspots": [
+            {"type": "stairs", "labelText":null, "width":150.0, "height":150.0, "latitude": -24.0, "longitude": -13.0, "nextView": "CSPEAR_B1_F2_A2:AV3", "nextViewAngle": [0.0, 0.0]},
+
+            {"type": "move", "labelText":null, "width":150.0, "height":150.0, "latitude": -22.0, "longitude": 90.0, "nextView": "CSPEAR_B1_F3_A1:AV2", "nextViewAngle": [0.0, -90.0]},
+
+            {"type": "stairs", "labelText":null, "width":150.0, "height":150.0, "latitude": -22.0, "longitude": 170.0, "nextView": "CSPEAR_B1_F2_A4:AV1", "nextViewAngle": [0.0, 0.0]},
+
+            {"type": "N/A", "labelText":"Registrar's Office", "width":150.0, "height":150.0, "latitude": -2.0, "longitude": -97.0, "nextView": null, "nextViewAngle": [0.0, 0.0]}
+            
+            ]}
+        ]
+    },
+
+    {
+        "location_id": "CSPEAR_B1_F3_A92",
+        "areaViews": [  
+            {"sceneId": "AV1",
+            "image": "assets/images/buildings/cspearAreas/CSPEAR_thirdFloor/CSPEAR_B1_F3_A1/CSPEAR_B1_F3_A1_AV3.webp",
+            "initialAngle": [0.0, 92.0],
+            "hotspots": [
+            {"type": "stairs", "labelText":null, "width":150.0, "height":150.0, "latitude": -22.0, "longitude": 0.0, "nextView": "CSPEAR_B1_F2_A2:AV1", "nextViewAngle": [0.0, 0.0]},
+
+            {"type": "move", "labelText":null, "width":150.0, "height":150.0, "latitude": -22.0, "longitude": -90.0, "nextView": "CSPEAR_B1_F3_A1:AV2", "nextViewAngle": [0.0, 90.0]},
+
+            {"type": "stairs", "labelText":null, "width":150.0, "height":150.0, "latitude": -22.0, "longitude": -163.0, "nextView": "CSPEAR_B1_F2_A4:AV1", "nextViewAngle": [0.0, 0.0]},
+
+            {"type": "N/A", "labelText":"Dean's Office", "width":150.0, "height":150.0, "latitude": -2.0, "longitude": 92.0, "nextView": null, "nextViewAngle": [0.0, 0.0]}
+            
+            ]} 
+        ]
+    }
+]

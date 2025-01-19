@@ -3,6 +3,7 @@ import 'package:erranza/data/appSettings.dart';
 import 'package:erranza/data/load_areaViews.dart';
 import 'package:erranza/data/areas.dart';
 import 'package:erranza/widgets/hotspot_button.dart';
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:panorama_viewer/panorama_viewer.dart';
 
@@ -25,6 +26,7 @@ class _PanoramaViewState extends State<PanoramaViewPage> {
   
   late String initialLocationId;
   late Area initialArea;
+  late AreaView? initialScene;
 
   late double sceneLatitude;
   late double sceneLongitude;
@@ -36,7 +38,9 @@ class _PanoramaViewState extends State<PanoramaViewPage> {
 
   Map<String, String> hotspotIcons = {
     "move": "assets/images/hotspots/MoveHotspot.png",
-    "stairs": "assets/images/hotspots/arrow_hotspot.png"
+    "stairs": "assets/images/hotspots/StairsHotspot.png",
+    "room": "assets/images/hotspots/RoomHotspot.png",
+    "N/A": "assets/images/roomicons/DNDHotspot.png"
   };
 
   @override
@@ -45,15 +49,24 @@ class _PanoramaViewState extends State<PanoramaViewPage> {
     _loadData();
   }
 
+
   //Load the data from load_areaView.dart
   Future<void> _loadData() async {
     await loadAreaViews();
-
+    
     //set initial scene
     initialArea = widget.initialArea;
     initialLocationId = "${initialArea.college_id}_${initialArea.building_id}_${initialArea.floor_id}_${initialArea.area_id}";
-  
-    setCurrentScene(areaViewsMap[initialLocationId]?["AV1"]!, initialLocationId, [0, 0]);
+    List<String> sceneList = getSceneIds(initialLocationId);
+
+    initialScene = areaViewsMap[initialLocationId]?[sceneList[0]]!;
+    
+    setCurrentScene(initialScene, initialLocationId, initialScene!.initialAngle);
+
+    print("Initial Scene: ${initialLocationId}_${sceneList[0]} ");
+    print("Initial Scene Angle: ${initialScene!.initialAngle}");
+    print("Scene IDs: $sceneList");
+    print("Initial area view: ${sceneList[0]}");
 
   }
   
@@ -82,7 +95,23 @@ class _PanoramaViewState extends State<PanoramaViewPage> {
     });
 
     _preLoadNextImage(scene.image);
+    }else{
+      showCupertinoDialog(
+        context: context, 
+        builder: (BuildContext context) => CupertinoAlertDialog(
+          title: const Text("Area View not available for this area"),
+          actions: [
+            CupertinoDialogAction(
+              child: const Text("close"),
+              onPressed: () {
+                Navigator.pop(context);
+              },
+            )
+          ],
+        )
+      );
     }
+    
   }
 
   void _preLoadNextImage(String imagePath) async {
@@ -111,22 +140,25 @@ class _PanoramaViewState extends State<PanoramaViewPage> {
        
       setCurrentScene(nextAreaView, newLocationId, nextSceneAngle);
 
-      print("Current Scene Latitude $sceneLatitude");
-      print("Current Scene Longitude $sceneLongitude");
+      print("Current Scene Angle (Latitude) $sceneLatitude");
+      print("Current Scene Angle (Longitude) $sceneLongitude");
     }
   }
 
   void getNextImages(AreaView? currentScene) {
     List<String> imageList = [];
     for (var hotspot in currentScene!.areaHotspots){
-      var getNewIDs = hotspot.nextView.split(":");
-      String newLocationId = getNewIDs[0];
-      String newSceneId = getNewIDs[1];
+      if (hotspot.nextView != null) {
+         var getNewIDs = hotspot.nextView!.split(":");
+        String newLocationId = getNewIDs[0];
+        String newSceneId = getNewIDs[1];
 
-      AreaView? nextAreaView = areaViewsMap[newLocationId]?[newSceneId];
-      if (nextAreaView != null){
-        imageList.add(nextAreaView.image);    
+        AreaView? nextAreaView = areaViewsMap[newLocationId]?[newSceneId];
+        if (nextAreaView != null){
+          imageList.add(nextAreaView.image);    
+        }
       }
+      
     }
     setState(() {
       preLoadImageList = imageList;
@@ -142,16 +174,13 @@ class _PanoramaViewState extends State<PanoramaViewPage> {
  
   @override
   Widget build(BuildContext context) {
-    if (currentScene == null) {
-    return const Center(child: CircularProgressIndicator());
-  }
-    
+
     return Scaffold(
       appBar: AppBar(
-        title: Text(currentArea!.area_name),
+        title: currentScene == null ? Text("Area View not available") : Text(currentArea!.area_name),
         backgroundColor: Colors.green[800],
       ),
-      body: Stack(
+      body: currentScene == null ? Center(child: CircularProgressIndicator()):Stack(
         children: [
           if(currentScene != null)
             PanoramaViewer(
@@ -161,6 +190,10 @@ class _PanoramaViewState extends State<PanoramaViewPage> {
             latitude: sceneLatitude, //Initial Viewing Angle (Latitude)
             longitude: sceneLongitude, //Initial Viewing Angle (Longitude)
             child: Image.asset(currentScene!.image), 
+            onViewChanged: (longitude, latitude, tilt) {
+              print("Latitude: $latitude");
+              print("Longitude: $longitude");
+            },
             hotspots: [
               for (var areaHotspot in currentScene!.areaHotspots)
               Hotspot(
@@ -179,7 +212,24 @@ class _PanoramaViewState extends State<PanoramaViewPage> {
                     
                     iconImage: hotspotIcons[areaHotspot.type]!, //Hotspot Icon/Image
                     onPressed: () {
-                    switchNextScene(areaHotspot.nextView, areaHotspot.nextViewAngle);
+                      if (areaHotspot.nextView != null) {switchNextScene(areaHotspot.nextView!, areaHotspot.nextViewAngle);}
+                      else {
+                        showCupertinoDialog(
+                          context: context, 
+                          builder: (BuildContext context) => CupertinoAlertDialog(
+                            title: const Text("Area View not available for this area"),
+                            actions: [
+                              CupertinoDialogAction(
+                                child: const Text("close"),
+                                onPressed: () {
+                                  Navigator.pop(context);
+                                },
+                              )
+                            ],
+                          )
+                        );
+                      }
+                    
                   }),
                 ),
               ),

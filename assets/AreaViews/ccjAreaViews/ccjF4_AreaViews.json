@@ -1,0 +1,50 @@
+[
+    {
+      "location_id": "CCJ_B1_F4_A1",
+      "areaViews": [  
+        {"sceneId": "AV1",
+        "image": "assets/images/buildings/ccjAreas/CCJ_fourthFloor/Contact_Sports_Area_CCJ_B1_F4_A1/CCJ_B1_F4_A1_AV1.webp",
+        "initialAngle": [0.0, 0.0],
+        "hotspots": [
+          {"type": "stairs", "labelText":"3rd Floor", "width":100.0, "height":100.0, "latitude": -22.0, "longitude": -75.0, "nextView": "CCJ_B1_F3_A1:AV1", "nextViewAngle": [-8.0, 109.0]},
+          {"type": "move", "labelText":null, "width":100.0, "height":100.0, "latitude": -22.0, "longitude": 1.0, "nextView": "CCJ_B1_F4_A1:AV2", "nextViewAngle": [-8.0, 176.0]}
+        ]},
+        
+        {"sceneId": "AV2",
+        "image": "assets/images/buildings/ccjAreas/CCJ_fourthFloor/Contact_Sports_Area_CCJ_B1_F4_A1/CCJ_B1_F4_A1_AV2.webp",
+        "initialAngle": [0.0, 0.0],
+        "hotspots": [
+          {"type": "move", "labelText":null, "width":100.0, "height":100.0, "latitude": -22.0, "longitude": -32.0, "nextView": "CCJ_B1_F4_A1:AV1", "nextViewAngle": [-8.0, -80.0]},
+          {"type": "move", "labelText":null, "width":100.0, "height":100.0, "latitude": -22.0, "longitude": -178.0, "nextView": "CCJ_B1_F4_A1:AV3", "nextViewAngle": [-8.0, 87.0]}
+        ]},
+
+        {"sceneId": "AV3",
+        "image": "assets/images/buildings/ccjAreas/CCJ_fourthFloor/Contact_Sports_Area_CCJ_B1_F4_A1/CCJ_B1_F4_A1_AV3.webp",
+        "initialAngle": [0.0, 0.0],
+        "hotspots": [
+          {"type": "move", "labelText":null, "width":100.0, "height":100.0, "latitude": -22.0, "longitude": -108.0, "nextView": "CCJ_B1_F4_A1:AV2", "nextViewAngle": [-8.0, -32.0]},
+          {"type": "move", "labelText":null, "width":100.0, "height":100.0, "latitude": -22.0, "longitude": 87.0, "nextView": "CCJ_B1_F4_A1:AV4", "nextViewAngle": [-8.0, 113.0]}
+        ]},
+
+        {"sceneId": "AV4",
+        "image": "assets/images/buildings/ccjAreas/CCJ_fourthFloor/Contact_Sports_Area_CCJ_B1_F4_A1/CCJ_B1_F4_A1_AV4.webp",
+        "initialAngle": [0.0, 0.0],
+        "hotspots": [
+          {"type": "move", "labelText":null, "width":100.0, "height":100.0, "latitude": -22.0, "longitude": -88.0, "nextView": "CCJ_B1_F4_A1:AV3", "nextViewAngle": [-8.0, -108.0]},
+          {"type": "move", "labelText":null, "width":100.0, "height":100.0, "latitude": -22.0, "longitude": 113.0, "nextView": "CCJ_B1_F4_A1:AV5", "nextViewAngle": [-8.0, 85.0]}
+        ]},
+
+        {"sceneId": "AV5",
+        "image": "assets/images/buildings/ccjAreas/CCJ_fourthFloor/Contact_Sports_Area_CCJ_B1_F4_A1/CCJ_B1_F4_A1_AV5.webp",
+        "initialAngle": [0.0, 0.0],
+        "hotspots": [
+          {"type": "move", "labelText":null, "width":100.0, "height":100.0, "latitude": -22.0, "longitude": -77.0, "nextView": "CCJ_B1_F4_A1:AV4", "nextViewAngle": [-8.0, -78.0]},
+          {"type": "stairs", "labelText":"3rd Floor", "width":100.0, "height":100.0, "latitude": -22.0, "longitude": 0.0, "nextView": "CCJ_B1_F3_A1:AV10", "nextViewAngle": [-8.0, 0.0]}
+        ]} 
+
+      ]
+    }
+
+
+
+]

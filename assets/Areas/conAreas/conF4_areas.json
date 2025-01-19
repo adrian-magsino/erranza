@@ -1,0 +1,139 @@
+[
+    {
+        "college_id": "CON", "building_id": "B1", "floor_id": "F4", "area_id": "A1",
+        "icon": "assets/images/roomicons/hallway.png", 
+        "area_name": "4th Floor Hallway", 
+        "building_name": "CON Building", 
+        "college_name": "College of Nursing"
+    },
+
+    {
+        "college_id": "CON", "building_id": "B1", "floor_id": "F4", "area_id": "A2",
+        "icon": "assets/images/roomicons/classroom.png", 
+        "area_name": "Room 402", 
+        "building_name": "CON Building", 
+        "college_name": "College of Nursing"
+    },
+    
+    {
+        "college_id": "CON", "building_id": "B1", "floor_id": "F4", "area_id": "A3",
+        "icon": "assets/images/roomicons/classroom.png", 
+        "area_name": "Room 404", 
+        "building_name": "CON Building", 
+        "college_name": "College of Nursing"
+    },
+    
+    {
+        "college_id": "CON", "building_id": "B1", "floor_id": "F4", "area_id": "A4",
+        "icon": "assets/images/roomicons/classroom.png", 
+        "area_name": "Room 405", 
+        "building_name": "CON Building", 
+        "college_name": "College of Nursing"
+    },
+
+    {
+        "college_id": "CON", "building_id": "B1", "floor_id": "F4", "area_id": "A5",
+        "icon": "assets/images/roomicons/classroom.png", 
+        "area_name": "Room 406", 
+        "building_name": "CON Building", 
+        "college_name": "College of Nursing"
+    },
+
+    {
+        "college_id": "CON", "building_id": "B1", "floor_id": "F4", "area_id": "A6",
+        "icon": "assets/images/roomicons/classroom.png", 
+        "area_name": "Room 408", 
+        "building_name": "CON Building", 
+        "college_name": "College of Nursing"
+    },
+
+    {
+        "college_id": "CON", "building_id": "B1", "floor_id": "F4", "area_id": "A7",
+        "icon": "assets/images/roomicons/classroom.png", 
+        "area_name": "Room 409", 
+        "building_name": "CON Building", 
+        "college_name": "College of Nursing"
+    },
+
+    {
+        "college_id": "CON", "building_id": "B1", "floor_id": "F4", "area_id": "A8",
+        "icon": "assets/images/roomicons/classroom.png", 
+        "area_name": "Room 407", 
+        "building_name": "CON Building", 
+        "college_name": "College of Nursing"
+    },
+
+    {
+        "college_id": "CON", "building_id": "B1", "floor_id": "F4", "area_id": "A9",
+        "icon": "assets/images/roomicons/classroom.png", 
+        "area_name": "Room 410", 
+        "building_name": "CON Building", 
+        "college_name": "College of Nursing"
+    },
+
+    {
+        "college_id": "CON", "building_id": "B1", "floor_id": "F4", "area_id": "A10",
+        "icon": "assets/images/roomicons/classroom.png", 
+        "area_name": "Room 412", 
+        "building_name": "CON Building", 
+        "college_name": "College of Nursing"
+    },
+
+    {
+        "college_id": "CON", "building_id": "B1", "floor_id": "F4", "area_id": "A11",
+        "icon": "assets/images/roomicons/classroom.png", 
+        "area_name": "Room 411", 
+        "building_name": "CON Building", 
+        "college_name": "College of Nursing"
+    },
+
+    {
+        "college_id": "CON", "building_id": "B1", "floor_id": "F4", "area_id": "A12",
+        "icon": "assets/images/roomicons/classroom.png", 
+        "area_name": "Room 414", 
+        "building_name": "CON Building", 
+        "college_name": "College of Nursing"
+    },
+
+    {
+        "college_id": "CON", "building_id": "B1", "floor_id": "F4", "area_id": "A13",
+        "icon": "assets/images/roomicons/classroom.png", 
+        "area_name": "Room 416", 
+        "building_name": "CON Building", 
+        "college_name": "College of Nursing"
+    },
+
+    {
+        "college_id": "CON", "building_id": "B1", "floor_id": "F4", "area_id": "A14",
+        "icon": "assets/images/roomicons/classroom.png", 
+        "area_name": "Room 413", 
+        "building_name": "CON Building", 
+        "college_name": "College of Nursing"
+    },
+
+    {
+        "college_id": "CON", "building_id": "B1", "floor_id": "F4", "area_id": "A15",
+        "icon": "assets/images/roomicons/classroom.png", 
+        "area_name": "Room 415", 
+        "building_name": "CON Building", 
+        "college_name": "College of Nursing"
+    },
+
+    {
+        "college_id": "CON", "building_id": "B1", "floor_id": "F4", "area_id": "A91",
+        "icon": "assets/images/roomicons/classroom.png", 
+        "area_name": "Room 401", 
+        "building_name": "CON Building", 
+        "college_name": "College of Nursing"
+    },
+
+    {
+        "college_id": "CON", "building_id": "B1", "floor_id": "F4", "area_id": "A92",
+        "icon": "assets/images/roomicons/classroom.png", 
+        "area_name": "Room 403", 
+        "building_name": "CON Building", 
+        "college_name": "College of Nursing"
+    }
+
+    
+]

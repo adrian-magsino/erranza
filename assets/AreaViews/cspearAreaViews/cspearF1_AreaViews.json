@@ -4,9 +4,12 @@
       "areaViews": [  
         {"sceneId": "AV1",
         "image": "assets/images/buildings/cspearAreas/CSPEAR_firstFloor/Main_Entrance_CSPEAR_B1_F1_A1/CSPEAR_B1_F1_A1_AV1.webp",
+        "initialAngle": [0.0, 0.0],
         "hotspots": [
-          {"type": "move", "labelText":null, "width":150.0, "height":150.0, "latitude": -20.0, "longitude": 85.0, "nextView": "CSPEAR_B1_F1_A2:AV1", "nextViewAngle": [0.0, 45.0]},
-          {"type": "move", "labelText":null, "width":150.0, "height":150.0, "latitude": -20.0, "longitude": -85.0, "nextView": "CSPEAR_B1_F1_A6:AV2", "nextViewAngle": [0.0, 10.0]}
+          {"type": "move", "labelText":null,"width": 120.0, "height": 120.0, "latitude": -20.0, "longitude": 85.0, "nextView": "CSPEAR_B1_F1_A2:AV1", "nextViewAngle": [0.0, 45.0]},
+          {"type": "move", "labelText":null,"width": 120.0, "height": 120.0, "latitude": -20.0, "longitude": -85.0, "nextView": "CSPEAR_B1_F1_A6:AV2", "nextViewAngle": [0.0, 10.0]},
+
+          {"type": "room", "labelText":"Main Lobby", "width":150.0, "height":150.0, "latitude": 0.0, "longitude": 0.0, "nextView": "CSPEAR_B1_F2_A2:AV2", "nextViewAngle": [-12.0, 0.0]}
         ]}         
       ]
   },
@@ -16,18 +19,22 @@
       "areaViews": [  
         {"sceneId": "AV1",
         "image": "assets/images/buildings/cspearAreas/CSPEAR_firstFloor/Right_Corner_Pathway_CSPEAR_B1_F1_A2/CSPEAR_B1_F1_A2_AV1.webp",
+        "initialAngle": [0.0, 0.0],
         "hotspots": [
-          {"type": "move", "labelText":null, "width":150.0, "height":150.0, "latitude": -25.0, "longitude": 0.0, "nextView": "CSPEAR_B1_F1_A2:AV2", "nextViewAngle": [0.0, 0.0]}, 
-          {"type": "move", "labelText":null, "width":150.0, "height":150.0,"latitude": -25.0, "longitude": -90.0, "nextView": "CSPEAR_B1_F1_A1:AV1", "nextViewAngle": [0.0, -80.0]} 
+          {"type": "move", "labelText":null,"width": 120.0, "height": 120.0, "latitude": -25.0, "longitude": 0.0, "nextView": "CSPEAR_B1_F1_A2:AV2", "nextViewAngle": [0.0, 0.0]}, 
+          {"type": "move", "labelText":null,"width": 120.0, "height": 120.0,"latitude": -25.0, "longitude": -90.0, "nextView": "CSPEAR_B1_F1_A1:AV1", "nextViewAngle": [0.0, -80.0]} 
         ]},
         
         {"sceneId": "AV2",
         "image": "assets/images/buildings/cspearAreas/CSPEAR_firstFloor/Right_Corner_Pathway_CSPEAR_B1_F1_A2/CSPEAR_B1_F1_A2_AV2.webp",
+        "initialAngle": [0.0, 0.0],
         "hotspots": [
-          {"type": "move", "labelText":null, "width":150.0, "height":150.0, "latitude": -25.0, "longitude": 39.0, "nextView": "CSPEAR_B1_F1_A3:AV1", "nextViewAngle": [0.0, 40.0]}, 
-          {"type": "move", "labelText":null, "width":150.0, "height":150.0, "latitude": -25.0, "longitude": 139.0, "nextView": "CSPEAR_B1_F1_A2:AV1", "nextViewAngle": [0.0, 180.0]},
+          {"type": "move", "labelText":null,"width": 120.0, "height": 120.0, "latitude": -25.0, "longitude": 39.0, "nextView": "CSPEAR_B1_F1_A3:AV1", "nextViewAngle": [0.0, 40.0]}, 
+          {"type": "move", "labelText":null,"width": 120.0, "height": 120.0, "latitude": -25.0, "longitude": 139.0, "nextView": "CSPEAR_B1_F1_A2:AV1", "nextViewAngle": [0.0, 180.0]},
 
-          {"type": "move", "labelText":null, "width":150.0, "height":150.0, "latitude": -25.0, "longitude": -46.0, "nextView": "CSPEAR_B1_F1_A8:AV1", "nextViewAngle": [0.0, 0.0]} 
+          {"type": "move", "labelText":null,"width": 120.0, "height": 120.0, "latitude": -25.0, "longitude": -46.0, "nextView": "CSPEAR_B1_F1_A8:AV1", "nextViewAngle": [0.0, 0.0]},
+
+          {"type": "stairs", "labelText":"Main Lobby","width": 150.0, "height": 150.0, "latitude": 0.0, "longitude": -133.0, "nextView": "CSPEAR_B1_F2_A2:AV3", "nextViewAngle": [-10.0, 174.0]} 
         ]}
       ]
   },
@@ -37,48 +44,66 @@
       "areaViews": [
         {"sceneId": "AV1",
         "image": "assets/images/buildings/cspearAreas/CSPEAR_firstFloor/Right_Pathway_CSPEAR_B1_F1_A3/CSPEAR_B1_F1_A3_AV1.webp",
+        "initialAngle": [0.0, 0.0],
         "hotspots": [
-          {"type": "move", "labelText":null, "width":150.0, "height":150.0, "latitude": -20.0, "longitude": -12.0, "nextView": "CSPEAR_B1_F1_A3:AV2", "nextViewAngle": [0.0, -100.0]},
-          {"type": "move", "labelText":null, "width":150.0, "height":150.0, "latitude": -20.0, "longitude": -90.0, "nextView": "CSPEAR_B1_F1_A2:AV2", "nextViewAngle": [0.0, -150.0]},
+          {"type": "move", "labelText":null,"width": 120.0, "height": 120.0, "latitude": -20.0, "longitude": -12.0, "nextView": "CSPEAR_B1_F1_A3:AV2", "nextViewAngle": [0.0, -100.0]},
+          {"type": "move", "labelText":null,"width": 120.0, "height": 120.0, "latitude": -20.0, "longitude": -90.0, "nextView": "CSPEAR_B1_F1_A2:AV2", "nextViewAngle": [0.0, -150.0]},
 
-          {"type": "move", "labelText":"Room 101", "width":150.0, "height":150.0, "latitude": -20.0, "longitude": -41.0, "nextView": "CSPEAR_B1_F1_A11:AV1", "nextViewAngle": [0.0, -0.0]}
+          {"type": "room", "labelText":"Room 1","width": 150.0, "height": 150.0, "latitude": 0.0, "longitude": -41.0, "nextView": "CSPEAR_B1_F1_A11:AV1", "nextViewAngle": [0.0, -0.0]}
         ]},
 
         {"sceneId": "AV2",
         "image": "assets/images/buildings/cspearAreas/CSPEAR_firstFloor/Right_Pathway_CSPEAR_B1_F1_A3/CSPEAR_B1_F1_A3_AV2.webp",
+        "initialAngle": [0.0, 0.0],
         "hotspots": [
-          {"type": "move", "labelText":null, "width":150.0, "height":150.0, "latitude": -20.0, "longitude": -95.0, "nextView": "CSPEAR_B1_F1_A3:AV3", "nextViewAngle": [0.0, -116.0]},
-          {"type": "move", "labelText":null, "width":150.0, "height":150.0, "latitude": -20.0, "longitude": 85.0, "nextView": "CSPEAR_B1_F1_A3:AV1", "nextViewAngle": [0.0, -120.0]},
+          {"type": "move", "labelText":null,"width": 120.0, "height": 120.0, "latitude": -20.0, "longitude": -95.0, "nextView": "CSPEAR_B1_F1_A3:AV3", "nextViewAngle": [0.0, -116.0]},
+          {"type": "move", "labelText":null,"width": 120.0, "height": 120.0, "latitude": -20.0, "longitude": 85.0, "nextView": "CSPEAR_B1_F1_A3:AV1", "nextViewAngle": [0.0, -120.0]},
 
-          {"type": "move", "labelText":null, "width":150.0, "height":150.0, "latitude": -20.0, "longitude": 142.0, "nextView": "CSPEAR_B1_F1_A11:AV1", "nextViewAngle": [0.0, -0.0]}
+          {"type": "room", "labelText":"Room 1","width": 150.0, "height": 150.0, "latitude": 0.0, "longitude": 142.0, "nextView": "CSPEAR_B1_F1_A11:AV1", "nextViewAngle": [0.0, -0.0]},
+          {"type": "N/A", "labelText":"Room 2","width": 150.0, "height": 150.0, "latitude": 0.0, "longitude": -168.0, "nextView": null, "nextViewAngle": [0.0, -0.0]}
         ]},
 
         {"sceneId": "AV3",
         "image": "assets/images/buildings/cspearAreas/CSPEAR_firstFloor/Right_Pathway_CSPEAR_B1_F1_A3/CSPEAR_B1_F1_A3_AV3.webp",
+        "initialAngle": [0.0, 0.0],
         "hotspots": [
-          {"type": "move", "labelText":null, "width":150.0, "height":150.0, "latitude": -20.0, "longitude": -120.0, "nextView": "CSPEAR_B1_F1_A3:AV4", "nextViewAngle": [0.0, -70.0]},
-          {"type": "move", "labelText":null, "width":150.0, "height":150.0, "latitude": -20.0, "longitude": 65.0, "nextView": "CSPEAR_B1_F1_A3:AV2", "nextViewAngle": [0.0, 80.0]}
+          {"type": "move", "labelText":null,"width": 120.0, "height": 120.0, "latitude": -20.0, "longitude": -120.0, "nextView": "CSPEAR_B1_F1_A3:AV4", "nextViewAngle": [0.0, -70.0]},
+          {"type": "move", "labelText":null,"width": 120.0, "height": 120.0, "latitude": -20.0, "longitude": 65.0, "nextView": "CSPEAR_B1_F1_A3:AV2", "nextViewAngle": [0.0, 80.0]},
+
+          {"type": "N/A", "labelText":"Room 2","width": 150.0, "height": 150.0, "latitude": 0.0, "longitude": 126.0, "nextView": null, "nextViewAngle": [0.0, -0.0]},
+          {"type": "N/A", "labelText":"Room 3","width": 150.0, "height": 150.0, "latitude": 0.0, "longitude": 169.0, "nextView": null, "nextViewAngle": [0.0, -0.0]}
         ]},
 
         {"sceneId": "AV4",
         "image": "assets/images/buildings/cspearAreas/CSPEAR_firstFloor/Right_Pathway_CSPEAR_B1_F1_A3/CSPEAR_B1_F1_A3_AV4.webp",
+        "initialAngle": [0.0, 0.0],
         "hotspots": [
-          {"type": "move", "labelText":null, "width":150.0, "height":150.0, "latitude": -20.0, "longitude": -75.0, "nextView": "CSPEAR_B1_F1_A3:AV5", "nextViewAngle": [0.0, -90.0]},
-          {"type": "move", "labelText":null, "width":150.0, "height":150.0, "latitude": -20.0, "longitude": 110.0, "nextView": "CSPEAR_B1_F1_A3:AV3", "nextViewAngle": [0.0, 62.0]}
+          {"type": "move", "labelText":null,"width": 120.0, "height": 120.0, "latitude": -20.0, "longitude": -75.0, "nextView": "CSPEAR_B1_F1_A3:AV5", "nextViewAngle": [0.0, -90.0]},
+          {"type": "move", "labelText":null,"width": 120.0, "height": 120.0, "latitude": -20.0, "longitude": 110.0, "nextView": "CSPEAR_B1_F1_A3:AV3", "nextViewAngle": [0.0, 62.0]},
+
+          {"type": "N/A", "labelText":"Room 3","width": 150.0, "height": 150.0, "latitude": 0.0, "longitude": -178.0, "nextView": null, "nextViewAngle": [0.0, -0.0]},
+          {"type": "N/A", "labelText":"Room 4","width": 150.0, "height": 150.0, "latitude": 0.0, "longitude": -139.0, "nextView": null, "nextViewAngle": [0.0, -0.0]}
         ]},
 
         {"sceneId": "AV5",
         "image": "assets/images/buildings/cspearAreas/CSPEAR_firstFloor/Right_Pathway_CSPEAR_B1_F1_A3/CSPEAR_B1_F1_A3_AV5.webp",
+        "initialAngle": [0.0, 0.0],
         "hotspots": [
-          {"type": "move", "labelText":null, "width":150.0, "height":150.0, "latitude": -20.0, "longitude": -85.0, "nextView": "CSPEAR_B1_F1_A3:AV6", "nextViewAngle": [0.0, 117.0]},
-          {"type": "move", "labelText":null, "width":150.0, "height":150.0, "latitude": -20.0, "longitude": 95.0, "nextView": "CSPEAR_B1_F1_A3:AV4", "nextViewAngle": [0.0, 113.0]}
+          {"type": "move", "labelText":null,"width": 120.0, "height": 120.0, "latitude": -20.0, "longitude": -85.0, "nextView": "CSPEAR_B1_F1_A3:AV6", "nextViewAngle": [0.0, 117.0]},
+          {"type": "move", "labelText":null,"width": 120.0, "height": 120.0, "latitude": -20.0, "longitude": 95.0, "nextView": "CSPEAR_B1_F1_A3:AV4", "nextViewAngle": [0.0, 113.0]},
+
+          {"type": "N/A", "labelText":"Room 4","width": 150.0, "height": 150.0, "latitude": 0.0, "longitude": 167.0, "nextView": null, "nextViewAngle": [0.0, -0.0]},
+          {"type": "N/A", "labelText":"Room 5","width": 150.0, "height": 150.0, "latitude": 0.0, "longitude": -151.0, "nextView": null, "nextViewAngle": [0.0, -0.0]}
         ]},
 
         {"sceneId": "AV6",
         "image": "assets/images/buildings/cspearAreas/CSPEAR_firstFloor/Right_Pathway_CSPEAR_B1_F1_A3/CSPEAR_B1_F1_A3_AV6.webp",
+        "initialAngle": [0.0, 0.0],
         "hotspots": [
-          {"type": "move", "labelText":null, "width":150.0, "height":150.0, "latitude": -20.0, "longitude": 100.0, "nextView": "CSPEAR_B1_F1_A4:AV1", "nextViewAngle": [0.0, 112.0]},
-          {"type": "move", "labelText":null, "width":150.0, "height":150.0, "latitude": -20.0, "longitude": 10.0, "nextView": "CSPEAR_B1_F1_A3:AV5", "nextViewAngle": [0.0, 95.0]}
+          {"type": "move", "labelText":null,"width": 120.0, "height": 120.0, "latitude": -20.0, "longitude": 100.0, "nextView": "CSPEAR_B1_F1_A4:AV1", "nextViewAngle": [0.0, 112.0]},
+          {"type": "move", "labelText":null,"width": 120.0, "height": 120.0, "latitude": -20.0, "longitude": 10.0, "nextView": "CSPEAR_B1_F1_A3:AV5", "nextViewAngle": [0.0, 95.0]},
+
+          {"type": "N/A", "labelText":"Room 5","width": 150.0, "height": 150.0, "latitude": 0.0, "longitude": 34.0, "nextView": null, "nextViewAngle": [0.0, -0.0]}
         ]}
       ]
   },
@@ -88,34 +113,38 @@
       "areaViews": [
         {"sceneId": "AV1",
         "image": "assets/images/buildings/cspearAreas/CSPEAR_firstFloor/Back_Pathway_CSPEAR_B1_F1_A4/CSPEAR_B1_F1_A4_AV1.webp",
+        "initialAngle": [0.0, 0.0],
         "hotspots": [
-          {"type": "move", "labelText":null, "width":150.0, "height":150.0, "latitude": -20.0, "longitude": 110.0, "nextView": "CSPEAR_B1_F1_A4:AV2", "nextViewAngle": [0.0, -155.0]},
-          {"type": "move", "labelText":null, "width":150.0, "height":150.0, "latitude": -20.0, "longitude": -75.0, "nextView": "CSPEAR_B1_F1_A3:AV6", "nextViewAngle": [0.0, -10.0]},
+          {"type": "move", "labelText":null,"width": 120.0, "height": 120.0, "latitude": -20.0, "longitude": 110.0, "nextView": "CSPEAR_B1_F1_A4:AV2", "nextViewAngle": [0.0, -155.0]},
+          {"type": "move", "labelText":null,"width": 120.0, "height": 120.0, "latitude": -20.0, "longitude": -75.0, "nextView": "CSPEAR_B1_F1_A3:AV6", "nextViewAngle": [0.0, -10.0]},
 
-          {"type": "move", "labelText":null, "width":150.0, "height":150.0, "latitude": -20.0, "longitude": 13.0, "nextView": "CSPEAR_B1_F1_A9:AV1", "nextViewAngle": [0.0, -86.0]}
+          {"type": "move", "labelText":null,"width": 120.0, "height": 120.0, "latitude": -20.0, "longitude": 13.0, "nextView": "CSPEAR_B1_F1_A9:AV1", "nextViewAngle": [0.0, -86.0]}
         ]},
 
         {"sceneId": "AV2",
         "image": "assets/images/buildings/cspearAreas/CSPEAR_firstFloor/Back_Pathway_CSPEAR_B1_F1_A4/CSPEAR_B1_F1_A4_AV2.webp",
+        "initialAngle": [0.0, 0.0],
         "hotspots": [
-          {"type": "move", "labelText":null, "width":150.0, "height":150.0, "latitude": -20.0, "longitude": 200.0, "nextView": "CSPEAR_B1_F1_A4:AV3", "nextViewAngle": [0.0, 100.0]},
-          {"type": "move", "labelText":null, "width":150.0, "height":150.0, "latitude": -20.0, "longitude": 25.0, "nextView": "CSPEAR_B1_F1_A4:AV1", "nextViewAngle": [0.0, -70.0]}
+          {"type": "move", "labelText":null,"width": 120.0, "height": 120.0, "latitude": -20.0, "longitude": 200.0, "nextView": "CSPEAR_B1_F1_A4:AV3", "nextViewAngle": [0.0, 100.0]},
+          {"type": "move", "labelText":null,"width": 120.0, "height": 120.0, "latitude": -20.0, "longitude": 25.0, "nextView": "CSPEAR_B1_F1_A4:AV1", "nextViewAngle": [0.0, -70.0]}
         ]},
 
         {"sceneId": "AV3",
         "image": "assets/images/buildings/cspearAreas/CSPEAR_firstFloor/Back_Pathway_CSPEAR_B1_F1_A4/CSPEAR_B1_F1_A4_AV3.webp",
+        "initialAngle": [0.0, 0.0],
         "hotspots": [
-          {"type": "move", "labelText":null, "width":150.0, "height":150.0, "latitude": -20.0, "longitude": 100.0, "nextView": "CSPEAR_B1_F1_A4:AV4", "nextViewAngle": [0.0, 32.0]},
-          {"type": "move", "labelText":null, "width":150.0, "height":150.0, "latitude": -20.0, "longitude": -85.0, "nextView": "CSPEAR_B1_F1_A4:AV2", "nextViewAngle": [0.0, 20.0]}
+          {"type": "move", "labelText":null,"width": 120.0, "height": 120.0, "latitude": -20.0, "longitude": 100.0, "nextView": "CSPEAR_B1_F1_A4:AV4", "nextViewAngle": [0.0, 32.0]},
+          {"type": "move", "labelText":null,"width": 120.0, "height": 120.0, "latitude": -20.0, "longitude": -85.0, "nextView": "CSPEAR_B1_F1_A4:AV2", "nextViewAngle": [0.0, 20.0]}
         ]},
 
         {"sceneId": "AV4",
         "image": "assets/images/buildings/cspearAreas/CSPEAR_firstFloor/Back_Pathway_CSPEAR_B1_F1_A4/CSPEAR_B1_F1_A4_AV4.webp",
+        "initialAngle": [0.0, 0.0],
         "hotspots": [
-          {"type": "move", "labelText":null, "width":150.0, "height":150.0, "latitude": -20.0, "longitude": 35.0, "nextView": "CSPEAR_B1_F1_A5:AV1", "nextViewAngle": [0.0, 120.0]},
-          {"type": "move", "labelText":null, "width":150.0, "height":150.0, "latitude": -20.0, "longitude": 215.0, "nextView": "CSPEAR_B1_F1_A4:AV3", "nextViewAngle": [0.0, -85.0]},
+          {"type": "move", "labelText":null,"width": 120.0, "height": 120.0, "latitude": -20.0, "longitude": 35.0, "nextView": "CSPEAR_B1_F1_A5:AV1", "nextViewAngle": [0.0, 120.0]},
+          {"type": "move", "labelText":null,"width": 120.0, "height": 120.0, "latitude": -20.0, "longitude": 215.0, "nextView": "CSPEAR_B1_F1_A4:AV3", "nextViewAngle": [0.0, -85.0]},
 
-          {"type": "move", "labelText":null, "width":150.0, "height":150.0, "latitude": -20.0, "longitude": -52.0, "nextView": "CSPEAR_B1_F1_A10:AV1", "nextViewAngle": [0.0, 0.0]}
+          {"type": "move", "labelText":null,"width": 120.0, "height": 120.0, "latitude": -20.0, "longitude": -52.0, "nextView": "CSPEAR_B1_F1_A10:AV1", "nextViewAngle": [0.0, 0.0]}
         ]}
       ]
   },
@@ -125,30 +154,34 @@
       "areaViews": [
         {"sceneId": "AV1",
         "image": "assets/images/buildings/cspearAreas/CSPEAR_firstFloor/Left_Pathway_CSPEAR_B1_F1_A5/CSPEAR_B1_F1_A5_AV1.webp",
+        "initialAngle": [0.0, 0.0],
         "hotspots": [
-          {"type": "move", "labelText":null, "width":150.0, "height":150.0, "latitude": -20.0, "longitude": 100.0, "nextView": "CSPEAR_B1_F1_A5:AV2", "nextViewAngle": [0.0, 100.0]},
-          {"type": "move", "labelText":null, "width":150.0, "height":150.0, "latitude": -20.0, "longitude": -10.0, "nextView": "CSPEAR_B1_F1_A4:AV4", "nextViewAngle": [0.0, -145.0]}
+          {"type": "move", "labelText":null,"width": 120.0, "height": 120.0, "latitude": -20.0, "longitude": 100.0, "nextView": "CSPEAR_B1_F1_A5:AV2", "nextViewAngle": [0.0, 100.0]},
+          {"type": "move", "labelText":null,"width": 120.0, "height": 120.0, "latitude": -20.0, "longitude": -10.0, "nextView": "CSPEAR_B1_F1_A4:AV4", "nextViewAngle": [0.0, -145.0]}
         ]},
 
         {"sceneId": "AV2",
         "image": "assets/images/buildings/cspearAreas/CSPEAR_firstFloor/Left_Pathway_CSPEAR_B1_F1_A5/CSPEAR_B1_F1_A5_AV2.webp",
+        "initialAngle": [0.0, 0.0],
         "hotspots": [
-          {"type": "move", "labelText":null, "width":150.0, "height":150.0, "latitude": -20.0, "longitude": 100.0, "nextView": "CSPEAR_B1_F1_A5:AV3", "nextViewAngle": [0.0, 90.0]},
-          {"type": "move", "labelText":null, "width":150.0, "height":150.0, "latitude": -20.0, "longitude": -85.0, "nextView": "CSPEAR_B1_F1_A5:AV1", "nextViewAngle": [0.0, -29.0]}
+          {"type": "move", "labelText":null,"width": 120.0, "height": 120.0, "latitude": -20.0, "longitude": 100.0, "nextView": "CSPEAR_B1_F1_A5:AV3", "nextViewAngle": [0.0, 90.0]},
+          {"type": "move", "labelText":null,"width": 120.0, "height": 120.0, "latitude": -20.0, "longitude": -85.0, "nextView": "CSPEAR_B1_F1_A5:AV1", "nextViewAngle": [0.0, -29.0]}
         ]},
 
         {"sceneId": "AV3",
         "image": "assets/images/buildings/cspearAreas/CSPEAR_firstFloor/Left_Pathway_CSPEAR_B1_F1_A5/CSPEAR_B1_F1_A5_AV3.webp",
+        "initialAngle": [0.0, 0.0],
         "hotspots": [
-          {"type": "move", "labelText":null, "width":150.0, "height":150.0, "latitude": -20.0, "longitude": 90.0, "nextView": "CSPEAR_B1_F1_A5:AV4", "nextViewAngle": [0.0, -22.0]},
-          {"type": "move", "labelText":null, "width":150.0, "height":150.0, "latitude": -20.0, "longitude": -85.0, "nextView": "CSPEAR_B1_F1_A5:AV2", "nextViewAngle": [0.0, -85.0]}
+          {"type": "move", "labelText":null,"width": 120.0, "height": 120.0, "latitude": -20.0, "longitude": 90.0, "nextView": "CSPEAR_B1_F1_A5:AV4", "nextViewAngle": [0.0, -22.0]},
+          {"type": "move", "labelText":null,"width": 120.0, "height": 120.0, "latitude": -20.0, "longitude": -85.0, "nextView": "CSPEAR_B1_F1_A5:AV2", "nextViewAngle": [0.0, -85.0]}
         ]},
 
         {"sceneId": "AV4",
         "image": "assets/images/buildings/cspearAreas/CSPEAR_firstFloor/Left_Pathway_CSPEAR_B1_F1_A5/CSPEAR_B1_F1_A5_AV4.webp",
+        "initialAngle": [0.0, 0.0],
         "hotspots": [
-          {"type": "move", "labelText":null, "width":150.0, "height":150.0, "latitude": -20.0, "longitude": -40.0, "nextView": "CSPEAR_B1_F1_A6:AV1", "nextViewAngle": [0.0, 0.0]},
-          {"type": "move", "labelText":null, "width":150.0, "height":150.0, "latitude": -20.0, "longitude": 225.0, "nextView": "CSPEAR_B1_F1_A5:AV3", "nextViewAngle": [0.0, -90.0]}
+          {"type": "move", "labelText":null,"width": 120.0, "height": 120.0, "latitude": -20.0, "longitude": -40.0, "nextView": "CSPEAR_B1_F1_A6:AV1", "nextViewAngle": [0.0, 0.0]},
+          {"type": "move", "labelText":null,"width": 120.0, "height": 120.0, "latitude": -20.0, "longitude": 225.0, "nextView": "CSPEAR_B1_F1_A5:AV3", "nextViewAngle": [0.0, -90.0]}
         ]}
       ]
   },
@@ -158,18 +191,22 @@
       "areaViews": [  
         {"sceneId": "AV1",
         "image": "assets/images/buildings/cspearAreas/CSPEAR_firstFloor/Left_Corner_Pathway_CSPEAR_B1_F1_A6/CSPEAR_B1_F1_A6_AV1.webp",
+        "initialAngle": [0.0, 0.0],
         "hotspots": [
-          {"type": "move", "labelText":null, "width":150.0, "height":150.0, "latitude": -25.0, "longitude": 100.0, "nextView": "CSPEAR_B1_F1_A6:AV2", "nextViewAngle": [0.0, -150.0]},
-          {"type": "move", "labelText":null, "width":150.0, "height":150.0, "latitude": -25.0, "longitude": 190.0, "nextView": "CSPEAR_B1_F1_A5:AV4", "nextViewAngle": [0.0, -180.0]},
+          {"type": "move", "labelText":null,"width": 120.0, "height": 120.0, "latitude": -25.0, "longitude": 100.0, "nextView": "CSPEAR_B1_F1_A6:AV2", "nextViewAngle": [0.0, -150.0]},
+          {"type": "move", "labelText":null,"width": 120.0, "height": 120.0, "latitude": -25.0, "longitude": 190.0, "nextView": "CSPEAR_B1_F1_A5:AV4", "nextViewAngle": [0.0, -180.0]},
 
-          {"type": "move", "labelText":null, "width":150.0, "height":150.0, "latitude": -25.0, "longitude": -75.0, "nextView": "CSPEAR_B1_F1_A7:AV1", "nextViewAngle": [0.0, -150.0]}
+          {"type": "move", "labelText":null,"width": 120.0, "height": 120.0, "latitude": -25.0, "longitude": -75.0, "nextView": "CSPEAR_B1_F1_A7:AV1", "nextViewAngle": [0.0, -150.0]},
+
+          {"type": "stairs", "labelText":"Main Lobby","width": 150.0, "height": 150.0, "latitude": -20.0, "longitude": -9.0, "nextView": "CSPEAR_B1_F2_A2:AV1", "nextViewAngle": [-8.0, -91.0]}
         ]},
 
         {"sceneId": "AV2",
         "image": "assets/images/buildings/cspearAreas/CSPEAR_firstFloor/Left_Corner_Pathway_CSPEAR_B1_F1_A6/CSPEAR_B1_F1_A6_AV2.webp",
+        "initialAngle": [0.0, 0.0],
         "hotspots": [
-          {"type": "move", "labelText":null, "width":150.0, "height":150.0, "latitude": -20.0, "longitude": -170.0, "nextView": "CSPEAR_B1_F1_A1:AV1", "nextViewAngle": [0.0, 80.0]}, 
-          {"type": "move", "labelText":null, "width":150.0, "height":150.0, "latitude": -20.0, "longitude": 80.0, "nextView": "CSPEAR_B1_F1_A6:AV1", "nextViewAngle": [0.0, -90.0]} 
+          {"type": "move", "labelText":null,"width": 120.0, "height": 120.0, "latitude": -20.0, "longitude": -170.0, "nextView": "CSPEAR_B1_F1_A1:AV1", "nextViewAngle": [0.0, 80.0]}, 
+          {"type": "move", "labelText":null,"width": 120.0, "height": 120.0, "latitude": -20.0, "longitude": 80.0, "nextView": "CSPEAR_B1_F1_A6:AV1", "nextViewAngle": [0.0, -90.0]} 
         ]}
       ]
   },
@@ -179,8 +216,11 @@
       "areaViews": [  
         {"sceneId": "AV1",
         "image": "assets/images/buildings/cspearAreas/CSPEAR_firstFloor/Front_Left_Entrance_CSPEAR_B1_F1_A7/CSPEAR_B1_F1_A7_AV1.webp",
+        "initialAngle": [0.0, 0.0],
         "hotspots": [
-          {"type": "move", "labelText":null, "width":150.0, "height":150.0, "latitude": -25.0, "longitude": 30.0, "nextView": "CSPEAR_B1_F1_A6:AV1", "nextViewAngle": [0.0, 97.0]}
+          {"type": "move", "labelText":null,"width": 120.0, "height": 120.0, "latitude": -25.0, "longitude": 30.0, "nextView": "CSPEAR_B1_F1_A6:AV1", "nextViewAngle": [0.0, 97.0]},
+
+          {"type": "move", "labelText":"Gym Court","width": 120.0, "height": 120.0, "latitude": -22.0, "longitude": -149.0, "nextView": "CSPEAR_B1_F2_A4:AV1", "nextViewAngle": [0.0, 0.0]}
         ]}
       ]
   },
@@ -190,8 +230,11 @@
       "areaViews": [  
         {"sceneId": "AV1",
         "image": "assets/images/buildings/cspearAreas/CSPEAR_firstFloor/Front_Right_Entrance_CSPEAR_B1_F1_A8/CSPEAR_B1_F1_A8_AV1.webp",
+        "initialAngle": [0.0, 0.0],
         "hotspots": [
-          {"type": "move", "labelText":null, "width":150.0, "height":150.0, "latitude": -25.0, "longitude": -177.0, "nextView": "CSPEAR_B1_F1_A2:AV2", "nextViewAngle": [0.0, 135.0]}
+          {"type": "move", "labelText":null,"width": 120.0, "height": 120.0, "latitude": -25.0, "longitude": -177.0, "nextView": "CSPEAR_B1_F1_A2:AV2", "nextViewAngle": [0.0, 135.0]},
+
+          {"type": "move", "labelText":"Gym Court","width": 120.0, "height": 120.0, "latitude": -22.0, "longitude": 0.0, "nextView": "CSPEAR_B1_F2_A4:AV1", "nextViewAngle": [0.0, 0.0]}
         ]}
       ]
   },
@@ -201,8 +244,11 @@
       "areaViews": [  
         {"sceneId": "AV1",
         "image": "assets/images/buildings/cspearAreas/CSPEAR_firstFloor/Back_Right_Entrance_CSPEAR_B1_F1_A9/CSPEAR_B1_F1_A9_AV1.webp",
+        "initialAngle": [0.0, 0.0],
         "hotspots": [
-          {"type": "move", "labelText":null, "width":150.0, "height":150.0, "latitude": -25.0, "longitude": 94.0, "nextView": "CSPEAR_B1_F1_A4:AV1", "nextViewAngle": [0.0, -165.0]}
+          {"type": "move", "labelText":null,"width": 120.0, "height": 120.0, "latitude": -25.0, "longitude": 94.0, "nextView": "CSPEAR_B1_F1_A4:AV1", "nextViewAngle": [0.0, -165.0]},
+
+          {"type": "move", "labelText":"Gym Court","width": 120.0, "height": 120.0, "latitude": -22.0, "longitude": -89.0, "nextView": "CSPEAR_B1_F2_A4:AV1", "nextViewAngle": [0.0, 0.0]}
         ]}
       ]
   },
@@ -212,8 +258,11 @@
       "areaViews": [  
         {"sceneId": "AV1",
         "image": "assets/images/buildings/cspearAreas/CSPEAR_firstFloor/Back_Left_Entrance_CSPEAR_B1_F1_A10/CSPEAR_B1_F1_A10_AV1.webp",
+        "initialAngle": [0.0, 0.0],
         "hotspots": [
-          {"type": "move", "labelText":null, "width":150.0, "height":150.0, "latitude": -25.0, "longitude": -177.0, "nextView": "CSPEAR_B1_F1_A4:AV4", "nextViewAngle": [0.0, 119.0]}
+          {"type": "move", "labelText":null,"width": 120.0, "height": 120.0, "latitude": -25.0, "longitude": -177.0, "nextView": "CSPEAR_B1_F1_A4:AV4", "nextViewAngle": [0.0, 119.0]},
+
+          {"type": "move", "labelText":"Gym Court","width": 120.0, "height": 120.0, "latitude": -22.0, "longitude": 0.0, "nextView": "CSPEAR_B1_F2_A4:AV1", "nextViewAngle": [0.0, 0.0]}
         ]}
       ]
   },
@@ -221,13 +270,88 @@
   {
       "location_id": "CSPEAR_B1_F1_A11",
       "areaViews": [  
+        {"sceneId": "AV0",
+        "image": "assets/images/buildings/cspearAreas/CSPEAR_firstFloor/Right_Pathway_CSPEAR_B1_F1_A3/CSPEAR_B1_F1_A3_AV1.webp",
+        "initialAngle": [0.0, -41.0],
+        "hotspots": [
+          {"type": "move", "labelText":null,"width": 120.0, "height": 120.0, "latitude": -20.0, "longitude": -12.0, "nextView": "CSPEAR_B1_F1_A3:AV2", "nextViewAngle": [0.0, -100.0]},
+          {"type": "move", "labelText":null,"width": 120.0, "height": 120.0, "latitude": -20.0, "longitude": -90.0, "nextView": "CSPEAR_B1_F1_A2:AV2", "nextViewAngle": [0.0, -150.0]},
+
+          {"type": "room", "labelText":"Room 1","width": 150.0, "height": 150.0, "latitude": 0.0, "longitude": -41.0, "nextView": "CSPEAR_B1_F1_A11:AV1", "nextViewAngle": [0.0, -0.0]}
+        ]},
+
         {"sceneId": "AV1",
         "image": "assets/images/buildings/cspearAreas/CSPEAR_firstFloor/Room1_CSPEAR_B1_F1_A11/CSPEAR_B1_F1_A11_AV1.webp",
+        "initialAngle": [0.0, 0.0],
         "hotspots": [
-          {"type": "move", "labelText":null, "width":150.0, "height":150.0, "latitude": -15.0, "longitude": 17.0, "nextView": "CSPEAR_B1_F1_A3:AV1", "nextViewAngle": [0.0, 82.0]},
-          {"type": "move", "labelText":null, "width":150.0, "height":150.0, "latitude": -15.0, "longitude": -22.0, "nextView": "CSPEAR_B1_F1_A3:AV2", "nextViewAngle": [0.0, 0.0]}
+          {"type": "room", "labelText":null,"width": 120.0, "height": 120.0, "latitude": -15.0, "longitude": 17.0, "nextView": "CSPEAR_B1_F1_A3:AV1", "nextViewAngle": [0.0, 82.0]},
+          {"type": "room", "labelText":null,"width": 120.0, "height": 120.0, "latitude": -15.0, "longitude": -22.0, "nextView": "CSPEAR_B1_F1_A3:AV2", "nextViewAngle": [0.0, 0.0]}
         ]}
       ]
+  },
+
+  {
+      "location_id": "CSPEAR_B1_F1_A91",
+      "areaViews": [  
+        {"sceneId": "AV2",
+        "image": "assets/images/buildings/cspearAreas/CSPEAR_firstFloor/Right_Pathway_CSPEAR_B1_F1_A3/CSPEAR_B1_F1_A3_AV2.webp",
+        "initialAngle": [0.0, -168.0],
+        "hotspots": [
+          {"type": "move", "labelText":null,"width": 120.0, "height": 120.0, "latitude": -20.0, "longitude": -95.0, "nextView": "CSPEAR_B1_F1_A3:AV3", "nextViewAngle": [0.0, -116.0]},
+          {"type": "move", "labelText":null,"width": 120.0, "height": 120.0, "latitude": -20.0, "longitude": 85.0, "nextView": "CSPEAR_B1_F1_A3:AV1", "nextViewAngle": [0.0, -120.0]},
+
+          {"type": "room", "labelText":"Room 1","width": 150.0, "height": 150.0, "latitude": 0.0, "longitude": 142.0, "nextView": "CSPEAR_B1_F1_A11:AV1", "nextViewAngle": [0.0, -0.0]},
+          {"type": "N/A", "labelText":"Room 2","width": 150.0, "height": 150.0, "latitude": 0.0, "longitude": -168.0, "nextView": null, "nextViewAngle": [0.0, -0.0]}
+        ]}
+      ]
+  },
+
+  {
+      "location_id": "CSPEAR_B1_F1_A92",
+      "areaViews": [  
+        {"sceneId": "AV3",
+        "image": "assets/images/buildings/cspearAreas/CSPEAR_firstFloor/Right_Pathway_CSPEAR_B1_F1_A3/CSPEAR_B1_F1_A3_AV3.webp",
+        "initialAngle": [0.0, 169.0],
+        "hotspots": [
+          {"type": "move", "labelText":null,"width": 120.0, "height": 120.0, "latitude": -20.0, "longitude": -120.0, "nextView": "CSPEAR_B1_F1_A3:AV4", "nextViewAngle": [0.0, -70.0]},
+          {"type": "move", "labelText":null,"width": 120.0, "height": 120.0, "latitude": -20.0, "longitude": 65.0, "nextView": "CSPEAR_B1_F1_A3:AV2", "nextViewAngle": [0.0, 80.0]},
+
+          {"type": "N/A", "labelText":"Room 2","width": 150.0, "height": 150.0, "latitude": 0.0, "longitude": 126.0, "nextView": null, "nextViewAngle": [0.0, -0.0]},
+          {"type": "N/A", "labelText":"Room 3","width": 150.0, "height": 150.0, "latitude": 0.0, "longitude": 169.0, "nextView": null, "nextViewAngle": [0.0, -0.0]}
+        ]}
+      ]
+  },
+
+  {
+    "location_id": "CSPEAR_B1_F1_A93",
+    "areaViews": [  
+      {"sceneId": "AV4",
+        "image": "assets/images/buildings/cspearAreas/CSPEAR_firstFloor/Right_Pathway_CSPEAR_B1_F1_A3/CSPEAR_B1_F1_A3_AV4.webp",
+        "initialAngle": [0.0, -139.0],
+        "hotspots": [
+          {"type": "move", "labelText":null,"width": 120.0, "height": 120.0, "latitude": -20.0, "longitude": -75.0, "nextView": "CSPEAR_B1_F1_A3:AV5", "nextViewAngle": [0.0, -90.0]},
+          {"type": "move", "labelText":null,"width": 120.0, "height": 120.0, "latitude": -20.0, "longitude": 110.0, "nextView": "CSPEAR_B1_F1_A3:AV3", "nextViewAngle": [0.0, 62.0]},
+
+          {"type": "N/A", "labelText":"Room 3","width": 150.0, "height": 150.0, "latitude": 0.0, "longitude": -178.0, "nextView": null, "nextViewAngle": [0.0, -0.0]},
+          {"type": "N/A", "labelText":"Room 4","width": 150.0, "height": 150.0, "latitude": 0.0, "longitude": -139.0, "nextView": null, "nextViewAngle": [0.0, -0.0]}
+        ]}
+    ]
+  },
+
+  {
+    "location_id": "CSPEAR_B1_F1_A94",
+    "areaViews": [  
+      {"sceneId": "AV5",
+        "image": "assets/images/buildings/cspearAreas/CSPEAR_firstFloor/Right_Pathway_CSPEAR_B1_F1_A3/CSPEAR_B1_F1_A3_AV5.webp",
+        "initialAngle": [0.0, -151.0],
+        "hotspots": [
+          {"type": "move", "labelText":null,"width": 120.0, "height": 120.0, "latitude": -20.0, "longitude": -85.0, "nextView": "CSPEAR_B1_F1_A3:AV6", "nextViewAngle": [0.0, 117.0]},
+          {"type": "move", "labelText":null,"width": 120.0, "height": 120.0, "latitude": -20.0, "longitude": 95.0, "nextView": "CSPEAR_B1_F1_A3:AV4", "nextViewAngle": [0.0, 113.0]},
+
+          {"type": "N/A", "labelText":"Room 4","width": 150.0, "height": 150.0, "latitude": 0.0, "longitude": 167.0, "nextView": null, "nextViewAngle": [0.0, -0.0]},
+          {"type": "N/A", "labelText":"Room 5","width": 150.0, "height": 150.0, "latitude": 0.0, "longitude": -151.0, "nextView": null, "nextViewAngle": [0.0, -0.0]}
+        ]}
+    ]
   }
 
 

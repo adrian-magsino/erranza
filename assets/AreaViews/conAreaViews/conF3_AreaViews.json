@@ -1,0 +1,434 @@
+[
+    {
+      "location_id": "CON_B1_F3_A1",
+      "areaViews": [  
+        {"sceneId": "AV1",
+        "image": "assets/images/buildings/conAreas/CON_thirdFloor/Hallway_CON_B1_F3_A1/CON_B1_F3_A1_AV1.webp",
+        "initialAngle": [0.0, 0.0],
+        "hotspots": [
+          {"type": "stairs", "labelText":"2nd Floor", "width":150.0, "height":150.0, "latitude": -27.0, "longitude": -120.0, "nextView": "CON_B1_F2_A1:AV1", "nextViewAngle":[0.0, 0.0]},
+          {"type": "stairs", "labelText":"4th Floor", "width":150.0, "height":150.0, "latitude": -6.0, "longitude": -71.0, "nextView": "CON_B1_F4_A1:AV1", "nextViewAngle":[0.0, 0.0]},
+
+          {"type": "move", "labelText":null, "width":120.0, "height":120.0, "latitude": -22.0, "longitude": 0.0, "nextView": "CON_B1_F3_A1:AV2", "nextViewAngle":[0.0, 0.0]}
+        ]},
+        
+        {"sceneId": "AV2",
+        "image": "assets/images/buildings/conAreas/CON_thirdFloor/Hallway_CON_B1_F3_A1/CON_B1_F3_A1_AV2.webp",
+        "initialAngle": [0.0, 0.0],
+        "hotspots": [
+          {"type": "move", "labelText":null, "width":120.0, "height":120.0, "latitude": -22.0, "longitude": 180.0, "nextView": "CON_B1_F3_A1:AV1", "nextViewAngle":[0.0, 180.0]},
+          {"type": "move", "labelText":null, "width":120.0, "height":120.0, "latitude": -22.0, "longitude": 0.0, "nextView": "CON_B1_F3_A1:AV3", "nextViewAngle":[0.0, 0.0]},
+
+          {"type": "N/A", "labelText":"Room 301 \n (Stock Room)", "width":150.0, "height":150.0, "latitude": 0.0, "longitude": 125.0, "nextView": null, "nextViewAngle":[0.0, 0.0]}
+        ]},
+
+        {"sceneId": "AV3",
+        "image": "assets/images/buildings/conAreas/CON_thirdFloor/Hallway_CON_B1_F3_A1/CON_B1_F3_A1_AV3.webp",
+        "initialAngle": [0.0, 0.0],
+        "hotspots": [
+          {"type": "move", "labelText":null, "width":120.0, "height":120.0, "latitude": -22.0, "longitude": 180.0, "nextView": "CON_B1_F3_A1:AV2", "nextViewAngle":[0.0, 180.0]},
+          {"type": "move", "labelText":null, "width":120.0, "height":120.0, "latitude": -22.0, "longitude": 0.0, "nextView": "CON_B1_F3_A1:AV4", "nextViewAngle":[0.0, 0.0]},
+
+          {"type": "room", "labelText":"Nursing Arts\nLaboratory 1", "width":200.0, "height":200.0, "latitude": 0.0, "longitude": -62.0, "nextView": "CON_B1_F3_A2:AV1", "nextViewAngle":[0.0, 0.0]},
+          {"type": "N/A", "labelText":"Office of the\nDean (CON)", "width":150.0, "height":150.0, "latitude": 0.0, "longitude": 124.0, "nextView": null, "nextViewAngle":[0.0, 0.0]},
+          {"type": "N/A", "labelText":"Faculty Room\nOffice of the\nCollege Secretary", "width":200.0, "height":200.0, "latitude": 0.0, "longitude": 55.0, "nextView": null, "nextViewAngle":[0.0, 0.0]}
+        ]},
+
+        {"sceneId": "AV4",
+        "image": "assets/images/buildings/conAreas/CON_thirdFloor/Hallway_CON_B1_F3_A1/CON_B1_F3_A1_AV4.webp",
+        "initialAngle": [0.0, 0.0],
+        "hotspots": [
+          {"type": "move", "labelText":null, "width":120.0, "height":120.0, "latitude": -22.0, "longitude": 180.0, "nextView": "CON_B1_F3_A1:AV3", "nextViewAngle":[0.0, 180.0]},
+          {"type": "move", "labelText":null, "width":120.0, "height":120.0, "latitude": -22.0, "longitude": 0.0, "nextView": "CON_B1_F3_A1:AV5", "nextViewAngle":[0.0, 0.0]},
+
+          {"type": "room", "labelText":"Nursing Arts\nLaboratory 1", "width":200.0, "height":200.0, "latitude": 0.0, "longitude": -120.0, "nextView": "CON_B1_F3_A2:AV2", "nextViewAngle":[0.0, 0.0]},
+          {"type": "room", "labelText":"Nursing Arts\nLaboratory 2", "width":200.0, "height":200.0, "latitude": 0.0, "longitude": -55.0, "nextView": "CON_B1_F3_A3:AV1", "nextViewAngle":[0.0, 0.0]}
+        ]},
+
+        {"sceneId": "AV5",
+        "image": "assets/images/buildings/conAreas/CON_thirdFloor/Hallway_CON_B1_F3_A1/CON_B1_F3_A1_AV5.webp",
+        "initialAngle": [0.0, 0.0],
+        "hotspots": [
+          {"type": "move", "labelText":null, "width":120.0, "height":120.0, "latitude": -22.0, "longitude": 180.0, "nextView": "CON_B1_F3_A1:AV4", "nextViewAngle":[0.0, 180.0]},
+          {"type": "move", "labelText":null, "width":120.0, "height":120.0, "latitude": -22.0, "longitude": 0.0, "nextView": "CON_B1_F3_A1:AV6", "nextViewAngle":[0.0, 0.0]},
+
+          {"type": "room", "labelText":"Nursing Arts\nLaboratory 2", "width":200.0, "height":200.0, "latitude": 0.0, "longitude": -123.0, "nextView": "CON_B1_F3_A3:AV1", "nextViewAngle":[0.0, 0.0]},
+          {"type": "room", "labelText":"Room 308A", "width":150.0, "height":150.0, "latitude": 0.0, "longitude": -52.0, "nextView": "CON_B1_F3_A4:AV1", "nextViewAngle":[0.0, 0.0]},
+          {"type": "N/A", "labelText":"Faculty Room (CON)", "width":200.0, "height":200.0, "latitude": 0.0, "longitude": 123.0, "nextView": null, "nextViewAngle":[0.0, 0.0]}
+        ]},
+
+        {"sceneId": "AV6",
+        "image": "assets/images/buildings/conAreas/CON_thirdFloor/Hallway_CON_B1_F3_A1/CON_B1_F3_A1_AV6.webp",
+        "initialAngle": [0.0, 0.0],
+        "hotspots": [
+          {"type": "move", "labelText":null, "width":120.0, "height":120.0, "latitude": -22.0, "longitude": 180.0, "nextView": "CON_B1_F3_A1:AV5", "nextViewAngle":[0.0, 180.0]},
+          {"type": "move", "labelText":null, "width":120.0, "height":120.0, "latitude": -22.0, "longitude": 0.0, "nextView": "CON_B1_F3_A1:AV7", "nextViewAngle":[0.0, 0.0]},
+
+          {"type": "N/A", "labelText":"Room 308B", "width":150.0, "height":150.0, "latitude": 0.0, "longitude": -92.0, "nextView": null, "nextViewAngle":[0.0, 0.0]}
+        ]},
+
+        {"sceneId": "AV7",
+        "image": "assets/images/buildings/conAreas/CON_thirdFloor/Hallway_CON_B1_F3_A1/CON_B1_F3_A1_AV7.webp",
+        "initialAngle": [0.0, 0.0],
+        "hotspots": [
+          {"type": "move", "labelText":null, "width":120.0, "height":120.0, "latitude": -22.0, "longitude": 180.0, "nextView": "CON_B1_F3_A1:AV6", "nextViewAngle":[0.0, 180.0]},
+          {"type": "move", "labelText":null, "width":120.0, "height":120.0, "latitude": -22.0, "longitude": 0.0, "nextView": "CON_B1_F3_A1:AV8", "nextViewAngle":[0.0, 0.0]},
+
+          {"type": "stairs", "labelText":"2nd Floor", "width":150.0, "height":150.0, "latitude": -6.0, "longitude": -71.0, "nextView": "CON_B1_F2_A1:AV7", "nextViewAngle":[-7.0, -112.0]},
+            {"type": "stairs", "labelText":"4th Floor", "width":150.0, "height":150.0, "latitude": -6.0, "longitude": -71.0, "nextView": "CON_B1_F4_A1:AV7", "nextViewAngle":[0.0, -69.0]}
+        ]},
+
+        {"sceneId": "AV8",
+        "image": "assets/images/buildings/conAreas/CON_thirdFloor/Hallway_CON_B1_F3_A1/CON_B1_F3_A1_AV8.webp",
+        "initialAngle": [0.0, 0.0],
+        "hotspots": [
+          {"type": "move", "labelText":null, "width":120.0, "height":120.0, "latitude": -22.0, "longitude": 180.0, "nextView": "CON_B1_F3_A1:AV7", "nextViewAngle":[0.0, 180.0]},
+          {"type": "move", "labelText":null, "width":120.0, "height":120.0, "latitude": -22.0, "longitude": 0.0, "nextView": "CON_B1_F3_A1:AV9", "nextViewAngle":[0.0, 0.0]},
+
+          {"type": "N/A", "labelText":"Room 310", "width":150.0, "height":150.0, "latitude": 0.0, "longitude": -92.0, "nextView": null, "nextViewAngle":[0.0, 0.0]}
+        ]},
+
+        {"sceneId": "AV9",
+        "image": "assets/images/buildings/conAreas/CON_thirdFloor/Hallway_CON_B1_F3_A1/CON_B1_F3_A1_AV9.webp",
+        "initialAngle": [0.0, 0.0],
+        "hotspots": [
+          {"type": "move", "labelText":null, "width":120.0, "height":120.0, "latitude": -22.0, "longitude": 180.0, "nextView": "CON_B1_F3_A1:AV8", "nextViewAngle":[0.0, 180.0]},
+          {"type": "move", "labelText":null, "width":120.0, "height":120.0, "latitude": -22.0, "longitude": 0.0, "nextView": "CON_B1_F3_A1:AV10", "nextViewAngle":[0.0, 0.0]},
+
+          {"type": "N/A", "labelText":"Room 310", "width":150.0, "height":150.0, "latitude": 0.0, "longitude": -119.0, "nextView": null, "nextViewAngle":[0.0, 0.0]},
+          {"type": "room", "labelText":"Room 312", "width":150.0, "height":150.0, "latitude": 0.0, "longitude": -47.0, "nextView": "CON_B1_F3_A5:AV1", "nextViewAngle":[0.0, 0.0]}
+        ]},
+        
+        {"sceneId": "AV10",
+        "image": "assets/images/buildings/conAreas/CON_thirdFloor/Hallway_CON_B1_F3_A1/CON_B1_F3_A1_AV10.webp",
+        "initialAngle": [0.0, 0.0],
+        "hotspots": [
+          {"type": "move", "labelText":null, "width":120.0, "height":120.0, "latitude": -22.0, "longitude": 180.0, "nextView": "CON_B1_F3_A1:AV9", "nextViewAngle":[0.0, 180.0]},
+          {"type": "move", "labelText":null, "width":120.0, "height":120.0, "latitude": -22.0, "longitude": 0.0, "nextView": "CON_B1_F3_A1:AV11", "nextViewAngle":[0.0, 0.0]},
+
+          {"type": "room", "labelText":"Room 312", "width":150.0, "height":150.0, "latitude": 0.0, "longitude": -119.0, "nextView": "CON_B1_F3_A5:AV1", "nextViewAngle":[0.0, 0.0]},
+          {"type": "N/A", "labelText":"Room 314", "width":150.0, "height":150.0, "latitude": 0.0, "longitude": -54.0, "nextView": null, "nextViewAngle":[0.0, 0.0]},
+          {"type": "N/A", "labelText":"Room 309\n(Research and Extension)", "width":150.0, "height":150.0, "latitude": 0.0, "longitude": 122.0, "nextView": null, "nextViewAngle":[0.0, 0.0]}
+        ]},
+
+        {"sceneId": "AV11",
+        "image": "assets/images/buildings/conAreas/CON_thirdFloor/Hallway_CON_B1_F3_A1/CON_B1_F3_A1_AV11.webp",
+        "initialAngle": [0.0, 0.0],
+        "hotspots": [
+          {"type": "move", "labelText":null, "width":120.0, "height":120.0, "latitude": -22.0, "longitude": 180.0, "nextView": "CON_B1_F3_A1:AV10", "nextViewAngle":[0.0, 180.0]},
+          {"type": "move", "labelText":null, "width":120.0, "height":120.0, "latitude": -22.0, "longitude": 0.0, "nextView": "CON_B1_F3_A1:AV12", "nextViewAngle":[0.0, 0.0]},
+
+          {"type": "N/A", "labelText":"Room 314", "width":150.0, "height":150.0, "latitude": 0.0, "longitude": -116.0, "nextView": null, "nextViewAngle":[0.0, 0.0]},
+          {"type": "N/A", "labelText":"Reading Room", "width":150.0, "height":150.0, "latitude": 0.0, "longitude": -52.0, "nextView": null, "nextViewAngle":[0.0, 0.0]},
+          {"type": "room", "labelText":"Accreditation Room", "width":200.0, "height":200.0, "latitude": 0.0, "longitude": 128.0, "nextView": "CON_B1_F3_A6:AV1", "nextViewAngle":[0.0, 0.0]}
+        ]},
+
+        {"sceneId": "AV12",
+        "image": "assets/images/buildings/conAreas/CON_thirdFloor/Hallway_CON_B1_F3_A1/CON_B1_F3_A1_AV12.webp",
+        "initialAngle": [0.0, 0.0],
+        "hotspots": [
+          {"type": "move", "labelText":null, "width":120.0, "height":120.0, "latitude": -22.0, "longitude": 180.0, "nextView": "CON_B1_F3_A1:AV11", "nextViewAngle":[0.0, 180.0]},
+          {"type": "move", "labelText":null, "width":120.0, "height":120.0, "latitude": -22.0, "longitude": 0.0, "nextView": "CON_B1_F3_A1:AV13", "nextViewAngle":[0.0, 0.0]}
+          
+        ]},
+
+        {"sceneId": "AV13",
+        "image": "assets/images/buildings/conAreas/CON_thirdFloor/Hallway_CON_B1_F3_A1/CON_B1_F3_A1_AV13.webp",
+        "initialAngle": [0.0, 0.0],
+        "hotspots": [
+          {"type": "move", "labelText":null, "width":120.0, "height":120.0, "latitude": -22.0, "longitude": 180.0, "nextView": "CON_B1_F3_A1:AV12", "nextViewAngle":[0.0, 180.0]},
+
+          {"type": "room", "labelText":"Room 211", "width":150.0, "height":150.0, "latitude": -8.0, "longitude": 161.0, "nextView": "CON_B1_F3_A7:AV1", "nextViewAngle":[0.0, 0.0]},
+          
+          {"type": "stairs", "labelText":"2nd Floor", "width":150.0, "height":150.0, "latitude": -27.0, "longitude": -62.0, "nextView": "CON_B1_F2_A1:AV12", "nextViewAngle":[0.0, 0.0]},
+          {"type": "stairs", "labelText":"4th Floor", "width":150.0, "height":150.0, "latitude": -6.0, "longitude": -107.0, "nextView": "CON_B1_F4_A1:AV13", "nextViewAngle":[0.0, 0.0]}
+        ]}
+      ]
+    },
+
+      {
+        "location_id": "CON_B1_F3_A2",
+        "areaViews": [  
+          {"sceneId": "AV0",
+          "image": "assets/images/buildings/conAreas/CON_thirdFloor/Hallway_CON_B1_F3_A1/CON_B1_F3_A1_AV3.webp",
+          "initialAngle": [0.0, -62.0],
+          "hotspots": [
+            {"type": "move", "labelText":null, "width":120.0, "height":120.0, "latitude": -22.0, "longitude": 180.0, "nextView": "CON_B1_F3_A1:AV2", "nextViewAngle":[0.0, 180.0]},
+            {"type": "move", "labelText":null, "width":120.0, "height":120.0, "latitude": -22.0, "longitude": 0.0, "nextView": "CON_B1_F3_A1:AV4", "nextViewAngle":[0.0, 0.0]},
+
+            {"type": "room", "labelText":"Nursing Arts\nLaboratory 1", "width":200.0, "height":200.0, "latitude": 0.0, "longitude": -62.0, "nextView": "CON_B1_F3_A2:AV1", "nextViewAngle":[0.0, 0.0]},
+            {"type": "N/A", "labelText":"Office of the\nDean (CON)", "width":150.0, "height":150.0, "latitude": 0.0, "longitude": 124.0, "nextView": null, "nextViewAngle":[0.0, 0.0]},
+            {"type": "N/A", "labelText":"Faculty Room\nOffice of the\nCollege Secretary", "width":200.0, "height":200.0, "latitude": 0.0, "longitude": 55.0, "nextView": null, "nextViewAngle":[0.0, 0.0]}
+          ]},
+
+          {"sceneId": "AV1",
+          "image": "assets/images/buildings/conAreas/CON_thirdFloor/Nursing_Arts_Laboratory_1_CON_B1_F3_A2/CON_B1_F3_A2_AV1.webp",
+          "initialAngle": [0.0, 0.0],
+          "hotspots": [
+            {"type": "room", "labelText":null, "width":100.0, "height":100.0, "latitude": 0.0, "longitude": -146.0, "nextView": "CON_B1_F3_A2:AV0", "nextViewAngle": [-5.0, -62.0]},
+
+            {"type": "move", "labelText":null, "width":100.0, "height":100.0, "latitude": -22.0, "longitude": 119.0, "nextView": "CON_B1_F3_A2:AV2", "nextViewAngle": [-5.0, 53.0]}
+          ]},
+          
+          {"sceneId": "AV2",
+          "image": "assets/images/buildings/conAreas/CON_thirdFloor/Nursing_Arts_Laboratory_1_CON_B1_F3_A2/CON_B1_F3_A2_AV2.webp",
+          "initialAngle": [0.0, 0.0],
+          "hotspots": [
+            {"type": "room", "labelText":null, "width":120.0, "height":120.0, "latitude": 0.0, "longitude": 116.0, "nextView": "CON_B1_F3_A1:AV4", "nextViewAngle": [-5.0, -118.0]},
+
+            {"type": "move", "labelText":null, "width":120.0, "height":120.0, "latitude": -22.0, "longitude": -129.0, "nextView": "CON_B1_F3_A2:AV1", "nextViewAngle": [-5.0, -56.0]},
+
+            {"type": "move", "labelText":"Nursing Arts Laboratory 2", "width":200.0, "height":200.0, "latitude": -22.0, "longitude": 53.0, "nextView": "CON_B1_F3_A3:AV1", "nextViewAngle": [-5.0, 0.0]}
+          ]}     
+        ]
+      },
+
+      {
+        "location_id": "CON_B1_F3_A3",
+        "areaViews": [  
+          {"sceneId": "AV0",
+          "image": "assets/images/buildings/conAreas/CON_thirdFloor/Hallway_CON_B1_F3_A1/CON_B1_F3_A1_AV4.webp",
+          "initialAngle": [0.0, -55.0],
+          "hotspots": [
+            {"type": "move", "labelText":null, "width":120.0, "height":120.0, "latitude": -22.0, "longitude": 180.0, "nextView": "CON_B1_F3_A1:AV3", "nextViewAngle":[0.0, 180.0]},
+            {"type": "move", "labelText":null, "width":120.0, "height":120.0, "latitude": -22.0, "longitude": 0.0, "nextView": "CON_B1_F3_A1:AV5", "nextViewAngle":[0.0, 0.0]},
+
+            {"type": "room", "labelText":"Nursing Arts\nLaboratory 1", "width":200.0, "height":200.0, "latitude": 0.0, "longitude": -120.0, "nextView": "CON_B1_F3_A2:AV1", "nextViewAngle":[0.0, 0.0]},
+            {"type": "room", "labelText":"Nursing Arts\nLaboratory 2", "width":200.0, "height":200.0, "latitude": 0.0, "longitude": -55.0, "nextView": "CON_B1_F3_A3:AV1", "nextViewAngle":[0.0, 0.0]}
+          ]},
+
+          {"sceneId": "AV1",
+          "image": "assets/images/buildings/conAreas/CON_thirdFloor/Nursing_Arts_Laboratory_2_CON_B1_F3_A3/CON_B1_F3_A3_AV1.webp",
+          "initialAngle": [0.0, 0.0],
+          "hotspots": [
+            {"type": "room", "labelText":null, "width":100.0, "height":100.0, "latitude": 0.0, "longitude": 100.0, "nextView": "CON_B1_F3_A3:AV0", "nextViewAngle": [-5.0, -50.0]},
+            {"type": "room", "labelText":null, "width":100.0, "height":100.0, "latitude": 0.0, "longitude": 33.0, "nextView": "CON_B1_F3_A1:AV5", "nextViewAngle": [-5.0, -129.0]},
+
+            {"type": "move", "labelText":"Nursing Arts Laboratory 1", "width":200.0, "height":200.0, "latitude": -22.0, "longitude": 155.0, "nextView": "CON_B1_F3_A2:AV2", "nextViewAngle": [-5.0, -126.0]},
+            {"type": "room", "labelText":"Room 308A", "width":150.0, "height":150.0, "latitude": 0.0, "longitude": 0.0, "nextView": "CON_B1_F3_A4:AV1", "nextViewAngle": [-5.0, -126.0]}
+          ]}         
+        ]
+      },
+
+      {
+        "location_id": "CON_B1_F3_A4",
+        "areaViews": [  
+          {"sceneId": "AV0",
+          "image": "assets/images/buildings/conAreas/CON_thirdFloor/Hallway_CON_B1_F3_A1/CON_B1_F3_A1_AV5.webp",
+          "initialAngle": [0.0, -52.0],
+          "hotspots": [
+            {"type": "move", "labelText":null, "width":120.0, "height":120.0, "latitude": -22.0, "longitude": 180.0, "nextView": "CON_B1_F3_A1:AV4", "nextViewAngle":[0.0, 180.0]},
+            {"type": "move", "labelText":null, "width":120.0, "height":120.0, "latitude": -22.0, "longitude": 0.0, "nextView": "CON_B1_F3_A1:AV6", "nextViewAngle":[0.0, 0.0]},
+
+            {"type": "room", "labelText":"Nursing Arts\nLaboratory 2", "width":200.0, "height":200.0, "latitude": 0.0, "longitude": -123.0, "nextView": "CON_B1_F3_A3:AV1", "nextViewAngle":[0.0, 0.0]},
+            {"type": "room", "labelText":"Room 308A", "width":150.0, "height":150.0, "latitude": 0.0, "longitude": -52.0, "nextView": "CON_B1_F3_A4:AV1", "nextViewAngle":[0.0, 0.0]},
+            {"type": "N/A", "labelText":"Faculty Room (CON)", "width":200.0, "height":200.0, "latitude": 0.0, "longitude": 123.0, "nextView": null, "nextViewAngle":[0.0, 0.0]}
+          ]},
+
+          {"sceneId": "AV1",
+          "image": "assets/images/buildings/conAreas/CON_thirdFloor/Room_308A_CON_B1_F3_A4/CON_B1_F3_A4_AV1.webp",
+          "initialAngle": [0.0, 0.0],
+          "hotspots": [
+            {"type": "room", "labelText":null, "width":120.0, "height":120.0, "latitude": 0.0, "longitude": 38.0, "nextView": "CON_B1_F3_A4:AV0", "nextViewAngle": [-5.0, -52.0]},
+            {"type": "room", "labelText":"Nursing Arts Laboratory 2", "width":200.0, "height":200.0, "latitude": -10.0, "longitude": 97.0, "nextView": "CON_B1_F3_A3:AV1", "nextViewAngle": [-5.0, 154.0]}
+          ]}         
+        ]
+      },
+
+      {
+        "location_id": "CON_B1_F3_A5",
+        "areaViews": [  
+          {"sceneId": "AV0",
+          "image": "assets/images/buildings/conAreas/CON_thirdFloor/Hallway_CON_B1_F3_A1/CON_B1_F3_A1_AV9.webp",
+          "initialAngle": [0.0, -47.0],
+          "hotspots": [
+            {"type": "move", "labelText":null, "width":120.0, "height":120.0, "latitude": -22.0, "longitude": 180.0, "nextView": "CON_B1_F3_A1:AV8", "nextViewAngle":[0.0, 180.0]},
+            {"type": "move", "labelText":null, "width":120.0, "height":120.0, "latitude": -22.0, "longitude": 0.0, "nextView": "CON_B1_F3_A1:AV10", "nextViewAngle":[0.0, 0.0]},
+
+            {"type": "N/A", "labelText":"Room 310", "width":150.0, "height":150.0, "latitude": 0.0, "longitude": -119.0, "nextView": null, "nextViewAngle":[0.0, 0.0]},
+            {"type": "room", "labelText":"Room 312", "width":150.0, "height":150.0, "latitude": 0.0, "longitude": -47.0, "nextView": "CON_B1_F3_A5:AV1", "nextViewAngle":[0.0, 0.0]}
+          ]},
+
+          {"sceneId": "AV1",
+          "image": "assets/images/buildings/conAreas/CON_thirdFloor/Room_312_Nursing_Arts_Laboratory_Extension_CON_B1_F3_A5/CON_B1_F3_A5_AV1.webp",
+          "initialAngle": [0.0, 0.0],
+          "hotspots": [
+            {"type": "room", "labelText":null, "width":100.0, "height":100.0, "latitude": 0.0, "longitude": 119.0, "nextView": "CON_B1_F3_A5:AV0", "nextViewAngle": [-5.0, -47.0]},
+            {"type": "room", "labelText":null, "width":100.0, "height":100.0, "latitude": 0.0, "longitude": 57.0, "nextView": "CON_B1_F3_A1:AV10", "nextViewAngle": [-5.0, -119.0]}
+          ]}         
+        ]
+      },
+
+      {
+        "location_id": "CON_B1_F3_A6",
+        "areaViews": [  
+          {"sceneId": "AV0",
+          "image": "assets/images/buildings/conAreas/CON_thirdFloor/Hallway_CON_B1_F3_A1/CON_B1_F3_A1_AV11.webp",
+          "initialAngle": [0.0, 128.0],
+          "hotspots": [
+            {"type": "move", "labelText":null, "width":120.0, "height":120.0, "latitude": -22.0, "longitude": 180.0, "nextView": "CON_B1_F3_A1:AV10", "nextViewAngle":[0.0, 180.0]},
+            {"type": "move", "labelText":null, "width":120.0, "height":120.0, "latitude": -22.0, "longitude": 0.0, "nextView": "CON_B1_F3_A1:AV12", "nextViewAngle":[0.0, 0.0]},
+
+            {"type": "N/A", "labelText":"Room 314", "width":150.0, "height":150.0, "latitude": 0.0, "longitude": -54.0, "nextView": null, "nextViewAngle":[0.0, 0.0]},
+            {"type": "N/A", "labelText":"Reading Room", "width":150.0, "height":150.0, "latitude": 0.0, "longitude": -52.0, "nextView": null, "nextViewAngle":[0.0, 0.0]},
+            {"type": "room", "labelText":"Accreditation Room", "width":200.0, "height":200.0, "latitude": 0.0, "longitude": 128.0, "nextView": "CON_B1_F3_A6:AV1", "nextViewAngle":[0.0, 0.0]}
+          ]},
+
+          {"sceneId": "AV1",
+          "image": "assets/images/buildings/conAreas/CON_thirdFloor/Accreditation_Room_CON_B1_F3_A6/CON_B1_F3_A6_AV1.webp",
+          "initialAngle": [0.0, 0.0],
+          "hotspots": [
+            {"type": "room", "labelText":null, "width":120.0, "height":120.0, "latitude": 0.0, "longitude": 90.0, "nextView": "CON_B1_F3_A6:AV0", "nextViewAngle": [-5.0, 128.0]}
+          ]}         
+        ]
+      },
+
+      {
+        "location_id": "CON_B1_F3_A91",
+        "areaViews": [  
+          {"sceneId": "AV0",
+        "image": "assets/images/buildings/conAreas/CON_thirdFloor/Hallway_CON_B1_F3_A1/CON_B1_F3_A1_AV2.webp",
+        "initialAngle": [0.0, 125.0],
+        "hotspots": [
+          {"type": "move", "labelText":null, "width":120.0, "height":120.0, "latitude": -22.0, "longitude": 180.0, "nextView": "CON_B1_F3_A1:AV1", "nextViewAngle":[0.0, 180.0]},
+          {"type": "move", "labelText":null, "width":120.0, "height":120.0, "latitude": -22.0, "longitude": 0.0, "nextView": "CON_B1_F3_A1:AV3", "nextViewAngle":[0.0, 0.0]},
+
+          {"type": "N/A", "labelText":"Room 301 \n (Stock Room)", "width":150.0, "height":150.0, "latitude": 0.0, "longitude": 125.0, "nextView": null, "nextViewAngle":[0.0, 0.0]}
+        ]}      
+        ]
+      },
+
+      {
+        "location_id": "CON_B1_F3_A92",
+        "areaViews": [  
+          {"sceneId": "AV0",
+        "image": "assets/images/buildings/conAreas/CON_thirdFloor/Hallway_CON_B1_F3_A1/CON_B1_F3_A1_AV3.webp",
+        "initialAngle": [0.0, 124.0],
+        "hotspots": [
+          {"type": "move", "labelText":null, "width":120.0, "height":120.0, "latitude": -22.0, "longitude": 180.0, "nextView": "CON_B1_F3_A1:AV2", "nextViewAngle":[0.0, 180.0]},
+          {"type": "move", "labelText":null, "width":120.0, "height":120.0, "latitude": -22.0, "longitude": 0.0, "nextView": "CON_B1_F3_A1:AV4", "nextViewAngle":[0.0, 0.0]},
+
+          {"type": "room", "labelText":"Nursing Arts\nLaboratory 1", "width":200.0, "height":200.0, "latitude": 0.0, "longitude": -62.0, "nextView": "CON_B1_F3_A2:AV1", "nextViewAngle":[0.0, 0.0]},
+          {"type": "N/A", "labelText":"Office of the\nDean (CON)", "width":150.0, "height":150.0, "latitude": 0.0, "longitude": 124.0, "nextView": null, "nextViewAngle":[0.0, 0.0]},
+          {"type": "N/A", "labelText":"Faculty Room\nOffice of the\nCollege Secretary", "width":200.0, "height":200.0, "latitude": 0.0, "longitude": 55.0, "nextView": null, "nextViewAngle":[0.0, 0.0]}
+        ]}    
+        ]
+      },
+
+      {
+        "location_id": "CON_B1_F3_A93",
+        "areaViews": [  
+          {"sceneId": "AV0",
+        "image": "assets/images/buildings/conAreas/CON_thirdFloor/Hallway_CON_B1_F3_A1/CON_B1_F3_A1_AV3.webp",
+        "initialAngle": [0.0, 55.0],
+        "hotspots": [
+          {"type": "move", "labelText":null, "width":120.0, "height":120.0, "latitude": -22.0, "longitude": 180.0, "nextView": "CON_B1_F3_A1:AV2", "nextViewAngle":[0.0, 180.0]},
+          {"type": "move", "labelText":null, "width":120.0, "height":120.0, "latitude": -22.0, "longitude": 0.0, "nextView": "CON_B1_F3_A1:AV4", "nextViewAngle":[0.0, 0.0]},
+
+          {"type": "room", "labelText":"Nursing Arts\nLaboratory 1", "width":200.0, "height":200.0, "latitude": 0.0, "longitude": -62.0, "nextView": "CON_B1_F3_A2:AV1", "nextViewAngle":[0.0, 0.0]},
+          {"type": "N/A", "labelText":"Office of the\nDean (CON)", "width":150.0, "height":150.0, "latitude": 0.0, "longitude": 124.0, "nextView": null, "nextViewAngle":[0.0, 0.0]},
+          {"type": "N/A", "labelText":"Faculty Room\nOffice of the\nCollege Secretary", "width":200.0, "height":200.0, "latitude": 0.0, "longitude": 55.0, "nextView": null, "nextViewAngle":[0.0, 0.0]}
+        ]}    
+        ]
+      },
+
+      {
+        "location_id": "CON_B1_F3_A94",
+        "areaViews": [  
+          {"sceneId": "AV0",
+        "image": "assets/images/buildings/conAreas/CON_thirdFloor/Hallway_CON_B1_F3_A1/CON_B1_F3_A1_AV5.webp",
+        "initialAngle": [0.0, 123.0],
+        "hotspots": [
+          {"type": "move", "labelText":null, "width":120.0, "height":120.0, "latitude": -22.0, "longitude": 180.0, "nextView": "CON_B1_F3_A1:AV4", "nextViewAngle":[0.0, 180.0]},
+          {"type": "move", "labelText":null, "width":120.0, "height":120.0, "latitude": -22.0, "longitude": 0.0, "nextView": "CON_B1_F3_A1:AV6", "nextViewAngle":[0.0, 0.0]},
+
+          {"type": "room", "labelText":"Nursing Arts\nLaboratory 2", "width":200.0, "height":200.0, "latitude": 0.0, "longitude": -123.0, "nextView": "CON_B1_F3_A3:AV1", "nextViewAngle":[0.0, 0.0]},
+          {"type": "room", "labelText":"Room 308A", "width":150.0, "height":150.0, "latitude": 0.0, "longitude": -52.0, "nextView": "CON_B1_F3_A4:AV1", "nextViewAngle":[0.0, 0.0]},
+          {"type": "N/A", "labelText":"Faculty Room (CON)", "width":200.0, "height":200.0, "latitude": 0.0, "longitude": 123.0, "nextView": null, "nextViewAngle":[0.0, 0.0]}
+        ]} 
+        ]
+      },
+
+      {
+        "location_id": "CON_B1_F3_A95",
+        "areaViews": [  
+          {"sceneId": "AV0",
+        "image": "assets/images/buildings/conAreas/CON_thirdFloor/Hallway_CON_B1_F3_A1/CON_B1_F3_A1_AV6.webp",
+        "initialAngle": [0.0, -92.0],
+        "hotspots": [
+          {"type": "move", "labelText":null, "width":120.0, "height":120.0, "latitude": -22.0, "longitude": 180.0, "nextView": "CON_B1_F3_A1:AV5", "nextViewAngle":[0.0, 180.0]},
+          {"type": "move", "labelText":null, "width":120.0, "height":120.0, "latitude": -22.0, "longitude": 0.0, "nextView": "CON_B1_F3_A1:AV7", "nextViewAngle":[0.0, 0.0]},
+
+          {"type": "N/A", "labelText":"Room 308B", "width":150.0, "height":150.0, "latitude": 0.0, "longitude": -92.0, "nextView": null, "nextViewAngle":[0.0, 0.0]}
+        ]}
+        ]
+      },
+
+      {
+        "location_id": "CON_B1_F3_A96",
+        "areaViews": [  
+          {"sceneId": "AV0",
+        "image": "assets/images/buildings/conAreas/CON_thirdFloor/Hallway_CON_B1_F3_A1/CON_B1_F3_A1_AV8.webp",
+        "initialAngle": [0.0, -92.0],
+        "hotspots": [
+          {"type": "move", "labelText":null, "width":120.0, "height":120.0, "latitude": -22.0, "longitude": 180.0, "nextView": "CON_B1_F3_A1:AV7", "nextViewAngle":[0.0, 180.0]},
+          {"type": "move", "labelText":null, "width":120.0, "height":120.0, "latitude": -22.0, "longitude": 0.0, "nextView": "CON_B1_F3_A1:AV9", "nextViewAngle":[0.0, 0.0]},
+
+          {"type": "N/A", "labelText":"Room 310", "width":150.0, "height":150.0, "latitude": 0.0, "longitude": -92.0, "nextView": null, "nextViewAngle":[0.0, 0.0]}
+        ]}
+        ]
+      },
+
+      {
+        "location_id": "CON_B1_F3_A97",
+        "areaViews": [  
+          {"sceneId": "AV0",
+        "image": "assets/images/buildings/conAreas/CON_thirdFloor/Hallway_CON_B1_F3_A1/CON_B1_F3_A1_AV10.webp",
+        "initialAngle": [0.0, 122.0],
+        "hotspots": [
+          {"type": "move", "labelText":null, "width":120.0, "height":120.0, "latitude": -22.0, "longitude": 180.0, "nextView": "CON_B1_F3_A1:AV9", "nextViewAngle":[0.0, 180.0]},
+          {"type": "move", "labelText":null, "width":120.0, "height":120.0, "latitude": -22.0, "longitude": 0.0, "nextView": "CON_B1_F3_A1:AV11", "nextViewAngle":[0.0, 0.0]},
+
+          {"type": "room", "labelText":"Room 312", "width":150.0, "height":150.0, "latitude": 0.0, "longitude": -119.0, "nextView": "CON_B1_F3_A5:AV1", "nextViewAngle":[0.0, 0.0]},
+          {"type": "N/A", "labelText":"Room 314", "width":150.0, "height":150.0, "latitude": 0.0, "longitude": -54.0, "nextView": null, "nextViewAngle":[0.0, 0.0]},
+          {"type": "N/A", "labelText":"Room 309\n(Research and Extension)", "width":150.0, "height":150.0, "latitude": 0.0, "longitude": 122.0, "nextView": null, "nextViewAngle":[0.0, 0.0]}
+        ]}
+        ]
+      },
+
+      {
+        "location_id": "CON_B1_F3_A98",
+        "areaViews": [  
+          {"sceneId": "AV0",
+        "image": "assets/images/buildings/conAreas/CON_thirdFloor/Hallway_CON_B1_F3_A1/CON_B1_F3_A1_AV10.webp",
+        "initialAngle": [0.0, -54.0],
+        "hotspots": [
+          {"type": "move", "labelText":null, "width":120.0, "height":120.0, "latitude": -22.0, "longitude": 180.0, "nextView": "CON_B1_F3_A1:AV9", "nextViewAngle":[0.0, 180.0]},
+          {"type": "move", "labelText":null, "width":120.0, "height":120.0, "latitude": -22.0, "longitude": 0.0, "nextView": "CON_B1_F3_A1:AV11", "nextViewAngle":[0.0, 0.0]},
+
+          {"type": "room", "labelText":"Room 312", "width":150.0, "height":150.0, "latitude": 0.0, "longitude": -119.0, "nextView": "CON_B1_F3_A5:AV1", "nextViewAngle":[0.0, 0.0]},
+          {"type": "N/A", "labelText":"Room 314", "width":150.0, "height":150.0, "latitude": 0.0, "longitude": -54.0, "nextView": null, "nextViewAngle":[0.0, 0.0]},
+          {"type": "N/A", "labelText":"Room 309\n(Research and Extension)", "width":150.0, "height":150.0, "latitude": 0.0, "longitude": 122.0, "nextView": null, "nextViewAngle":[0.0, 0.0]}
+        ]}
+        ]
+      },
+
+      {
+        "location_id": "CON_B1_F3_A99",
+        "areaViews": [  
+          {"sceneId": "AV11",
+        "image": "assets/images/buildings/conAreas/CON_thirdFloor/Hallway_CON_B1_F3_A1/CON_B1_F3_A1_AV11.webp",
+        "initialAngle": [0.0, -52.0],
+        "hotspots": [
+          {"type": "move", "labelText":null, "width":120.0, "height":120.0, "latitude": -22.0, "longitude": 180.0, "nextView": "CON_B1_F3_A1:AV10", "nextViewAngle":[0.0, 180.0]},
+          {"type": "move", "labelText":null, "width":120.0, "height":120.0, "latitude": -22.0, "longitude": 0.0, "nextView": "CON_B1_F3_A1:AV12", "nextViewAngle":[0.0, 0.0]},
+
+          {"type": "N/A", "labelText":"Room 314", "width":150.0, "height":150.0, "latitude": 0.0, "longitude": -116.0, "nextView": null, "nextViewAngle":[0.0, 0.0]},
+          {"type": "N/A", "labelText":"Reading Room", "width":150.0, "height":150.0, "latitude": 0.0, "longitude": -52.0, "nextView": null, "nextViewAngle":[0.0, 0.0]},
+          {"type": "room", "labelText":"Accreditation Room", "width":200.0, "height":200.0, "latitude": 0.0, "longitude": 128.0, "nextView": "CON_B1_F3_A6:AV1", "nextViewAngle":[0.0, 0.0]}
+        ]}
+        ]
+      }
+
+
+]

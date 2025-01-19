@@ -123,11 +123,14 @@ class _SettingsPageState extends State<SettingsPage> {
 
             ListTile(
               leading: Icon(Icons.feedback),
-              title: const Text("Send Feedback Online"),
+              title: const Text("Feedback"),
               trailing: Icon(Icons.arrow_forward_ios),
-              onTap: () {
-                Navigator.push(context, MaterialPageRoute(builder: (context) => FeedbackPage()));
-              }
+              onTap: () async {
+                  final url = 'https://youtu.be/dQw4w9WgXcQ?si=kLEdVSwuT0LCuezx';
+                  if (!await launchUrl(Uri.parse(url), mode: LaunchMode.externalApplication)) {
+                    throw Exception("Could not launch $url");
+                  }
+                }, 
             ),
 
             ListTile(
