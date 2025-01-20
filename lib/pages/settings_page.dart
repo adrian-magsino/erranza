@@ -126,7 +126,7 @@ class _SettingsPageState extends State<SettingsPage> {
               title: const Text("Feedback"),
               trailing: Icon(Icons.arrow_forward_ios),
               onTap: () async {
-                  final url = 'https://youtu.be/dQw4w9WgXcQ?si=kLEdVSwuT0LCuezx';
+                  final url = 'https://forms.gle/NL9ne16fxWPxFd4y5';
                   if (!await launchUrl(Uri.parse(url), mode: LaunchMode.externalApplication)) {
                     throw Exception("Could not launch $url");
                   }

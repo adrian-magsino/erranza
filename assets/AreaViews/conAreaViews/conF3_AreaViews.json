@@ -74,7 +74,7 @@
           {"type": "move", "labelText":null, "width":120.0, "height":120.0, "latitude": -22.0, "longitude": 180.0, "nextView": "CON_B1_F3_A1:AV6", "nextViewAngle":[0.0, 180.0]},
           {"type": "move", "labelText":null, "width":120.0, "height":120.0, "latitude": -22.0, "longitude": 0.0, "nextView": "CON_B1_F3_A1:AV8", "nextViewAngle":[0.0, 0.0]},
 
-          {"type": "stairs", "labelText":"2nd Floor", "width":150.0, "height":150.0, "latitude": -6.0, "longitude": -71.0, "nextView": "CON_B1_F2_A1:AV7", "nextViewAngle":[-7.0, -112.0]},
+          {"type": "stairs", "labelText":"2nd Floor", "width":150.0, "height":150.0, "latitude": -10.0, "longitude": -114.0, "nextView": "CON_B1_F2_A1:AV7", "nextViewAngle":[-7.0, -112.0]},
             {"type": "stairs", "labelText":"4th Floor", "width":150.0, "height":150.0, "latitude": -6.0, "longitude": -71.0, "nextView": "CON_B1_F4_A1:AV7", "nextViewAngle":[0.0, -69.0]}
         ]},
 
