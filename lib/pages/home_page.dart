@@ -17,14 +17,14 @@ class HomePage extends StatelessWidget {
         'floors': ["1st Floor", "2nd Floor", "3rd Floor", "4th Floor"],
       },
       {
-        'image': 'assets/images/temporaryCardpics/bldg2.jpg',
+        'image': 'assets/images/cardChoices/CON_cardpic2.jpg',
         'title': 'CON Building',
         'subtitle': 'College of Nursing',
         'areaList': conAreas,
         'floors': ["1st Floor", "2nd Floor", "3rd Floor", "4th Floor"],
       },
       {
-        'image': 'assets/images/temporaryCardpics/bldg4.jpg',
+        'image': 'assets/images/cardChoices/CSPEAR_cardpic1.jpg',
         'title': 'University Gym',
         'subtitle': 'College of Sports, Physical Education and Recreation',
         'areaList': cspearAreas,

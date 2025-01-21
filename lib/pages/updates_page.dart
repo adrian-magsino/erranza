@@ -11,7 +11,29 @@ class UpdatesPage extends StatelessWidget {
         backgroundColor: Colors.green[800],
       ),
       body: Center(
-        child: Text("No Available Updates"),
+        child: Column(
+            children: [
+              Padding(
+                padding: const EdgeInsets.symmetric(vertical: 30.0),
+                child: Align(
+                  alignment: Alignment.center,
+                  child: Image.asset('assets/images/erranzaLogo.png', width: 100, height: 100,)
+                ),
+              ),
+              Divider(
+                color: Colors.grey,
+                thickness: 1,
+              ),
+              Spacer(),
+              Center(
+                child: const Text("No Available Updates", style: TextStyle(
+                      color: Colors.black,
+                      fontWeight: FontWeight.bold,
+                    ),),
+              ),
+              Spacer(),
+            ],
+          ),
       ),
     );
   }
