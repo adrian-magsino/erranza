@@ -42,7 +42,7 @@
             "hotspots": [
             {"type": "move", "labelText":null, "width":120.0, "height":120.0, "latitude": -22.0, "longitude": 176.0, "nextView": "CSPEAR_B1_F2_A2:AV2", "nextViewAngle": [-14.0, -86.0]},
 
-            {"type": "stairs", "labelText":null, "width":120.0, "height":120.0, "latitude": -22.0, "longitude": -3.0, "nextView": "CSPEAR_B1_F3_A1:AV1", "nextViewAngle": [-13.0, 49.0]},
+            {"type": "stairs", "labelText":null, "width":120.0, "height":120.0, "latitude": -12.0, "longitude": 79.0, "nextView": "CSPEAR_B1_F3_A1:AV1", "nextViewAngle": [-13.0, 49.0]},
 
             {"type": "stairs", "labelText":null, "width":120.0, "height":120.0, "latitude": -22.0, "longitude": -3.0, "nextView": "CSPEAR_B1_F1_A2:AV2", "nextViewAngle": [-13.0, 49.0]}
            
@@ -63,12 +63,16 @@
         "location_id": "CSPEAR_B1_F2_A3",
         "areaViews": [  
             {"sceneId": "AV1",
-            "image": "assets/images/buildings/ccjAreas/CCJ_firstFloor/CCJ_B1_F1_A1/360img.jpeg",
-            "initialAngle": [0.0, 0.0],
+            "image": "assets/images/buildings/cspearAreas/CSPEAR_secondFloor/Main_Lobby_CSPEAR_B1_F2_A2/CSPEAR_B1_F2_A2_AV3.webp",
+            "initialAngle": [-13.0, 77.0],
             "hotspots": [
-            {"type": "move", "labelText":null, "width":150.0, "height":150.0, "latitude": 0.0, "longitude": 0.0, "nextView": "CSPEAR_B1_F2_A3:AV1", "nextViewAngle": [0.0, 0.0]},
-            {"type": "move", "labelText":null, "width":150.0, "height":150.0, "latitude": 0.0, "longitude": 0.0, "nextView": "CSPEAR_B1_F2_A3:AV1", "nextViewAngle": [0.0, 0.0]}
-            ]}         
+            {"type": "move", "labelText":null, "width":120.0, "height":120.0, "latitude": -22.0, "longitude": 176.0, "nextView": "CSPEAR_B1_F2_A2:AV2", "nextViewAngle": [-14.0, -86.0]},
+
+            {"type": "stairs", "labelText":null, "width":120.0, "height":120.0, "latitude": -12.0, "longitude": 79.0, "nextView": "CSPEAR_B1_F3_A1:AV1", "nextViewAngle": [-13.0, 49.0]},
+
+            {"type": "stairs", "labelText":null, "width":120.0, "height":120.0, "latitude": -22.0, "longitude": -3.0, "nextView": "CSPEAR_B1_F1_A2:AV2", "nextViewAngle": [-13.0, 49.0]}
+           
+            ]}
         ]
     },
 
