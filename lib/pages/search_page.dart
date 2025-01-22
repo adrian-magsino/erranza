@@ -93,6 +93,7 @@ class _SearchPageState extends State<SearchPage> {
             SizedBox(height: 40.0),
             Divider(color: Colors.grey, thickness: 1,),
 
+            /*
             const Text("Buildings"),
             CustomFilterTags(
             tagsCollection: buildingTags, 
@@ -101,6 +102,7 @@ class _SearchPageState extends State<SearchPage> {
             tagSelectedCallback: buildingTagSelected,),
             SizedBox(height: 40.0),
             Divider(color: Colors.grey, thickness: 1,),
+            */
 
             const Text("Floors"),
             CustomFilterTags(

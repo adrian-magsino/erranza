@@ -132,7 +132,7 @@ class _SettingsPageState extends State<SettingsPage> {
                   }
                 }, 
             ),
-
+            /*
             ListTile(
               leading: Icon(Icons.update),
               title: const Text("Check for Updates"),
@@ -141,6 +141,7 @@ class _SettingsPageState extends State<SettingsPage> {
                 Navigator.push(context, MaterialPageRoute(builder: (context) => UpdatesPage()));
               },
             ),
+            */
 
             ListTile(
               leading: Icon(Icons.info),
